@@ -117,7 +117,7 @@ const Career = () => {
                     </div>
                     <div class="col-xxl-12">
                       <div class="job__list">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">01</p>
                             <h3 class="job__title">UI/UX Designer</h3>
@@ -125,7 +125,7 @@ const Career = () => {
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </a>
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">02</p>
                             <h3 class="job__title">Frontend Developer</h3>
@@ -133,7 +133,7 @@ const Career = () => {
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </a>
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">03</p>
                             <h3 class="job__title">Product Manager</h3>
@@ -141,7 +141,7 @@ const Career = () => {
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </a>
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">04</p>
                             <h3 class="job__title">JavaScript Engineer</h3>
@@ -149,7 +149,7 @@ const Career = () => {
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </a>
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">05</p>
                             <h3 class="job__title">Joomla Developer</h3>

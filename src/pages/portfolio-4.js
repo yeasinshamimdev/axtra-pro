@@ -57,7 +57,7 @@ const PortfolioFour = () => {
                                                 <div class="swiper-wrapper">
                                                     <div class="swiper-slide">
                                                         <div class="portfolio__slide-3">
-                                                            <a href="service-details.html">
+                                                            <a href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/1.jpg" alt="Portfolio Image" />
                                                             </a>
@@ -65,7 +65,7 @@ const PortfolioFour = () => {
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="portfolio__slide-3">
-                                                            <a href="service-details.html">
+                                                            <a href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/2.jpg" alt="Portfolio Image" />
                                                             </a>
@@ -73,7 +73,7 @@ const PortfolioFour = () => {
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="portfolio__slide-3">
-                                                            <a href="service-details.html">
+                                                            <a href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/3.jpg" alt="Portfolio Image" />
                                                             </a>
@@ -81,7 +81,7 @@ const PortfolioFour = () => {
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="portfolio__slide-3">
-                                                            <a href="service-details.html">
+                                                            <a href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/4.jpg" alt="Portfolio Image" />
                                                             </a>
@@ -105,10 +105,10 @@ const PortfolioFour = () => {
                             <CTAArea />
                             {/* CTA area end   */}
 
-                        </main> 
+                        </main>
                         {/* Footer area start   */}
                         <Footer />
-                        {/* Footer area end  */} 
+                        {/* Footer area end  */}
                     </div>
                 </div>
             </body>

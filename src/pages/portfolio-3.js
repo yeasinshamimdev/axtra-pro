@@ -46,16 +46,16 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <a href="portfolio-details.html"><img src="assets/imgs/portfolio/2/1.jpg" alt="Portfolio Image" /></a>
+                                                    <a href="/portfolio-details"><img src="assets/imgs/portfolio/2/1.jpg" alt="Portfolio Image" /></a>
                                                 </div>
                                                 <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <a href="portfolio-details.html">Lionpro <span>Agency</span></a>
+                                                    <h2 class="sec-title title-anim"> <a href="/portfolio-details">Lionpro <span>Agency</span></a>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
-                                                        <a href="portfolio-details.html" class="btn-common">View details <i
+                                                        <a href="/portfolio-details" class="btn-common">View details <i
                                                             class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -65,16 +65,16 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <a href="portfolio-details.html"><img src="assets/imgs/portfolio/2/2.jpg" alt="Portfolio Image" /></a>
+                                                    <a href="/portfolio-details"><img src="assets/imgs/portfolio/2/2.jpg" alt="Portfolio Image" /></a>
                                                 </div>
                                                 <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"><a href="portfolio-details.html">crodyflw <span>Website</span></a>
+                                                    <h2 class="sec-title title-anim"><a href="/portfolio-details">crodyflw <span>Website</span></a>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
-                                                        <a href="portfolio-details.html" class="btn-common">View details <i
+                                                        <a href="/portfolio-details" class="btn-common">View details <i
                                                             class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -84,16 +84,16 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <a href="portfolio-details.html"><img src="assets/imgs/portfolio/2/3.jpg" alt="Portfolio Image" /></a>
+                                                    <a href="/portfolio-details"><img src="assets/imgs/portfolio/2/3.jpg" alt="Portfolio Image" /></a>
                                                 </div>
                                                 <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <a href="portfolio-details.html">developers
+                                                    <h2 class="sec-title title-anim"> <a href="/portfolio-details">developers
                                                         <span>digital</span></a></h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
-                                                        <a href="portfolio-details.html" class="btn-common">View details <i
+                                                        <a href="/portfolio-details" class="btn-common">View details <i
                                                             class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -103,16 +103,16 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <a href="portfolio-details.html"><img src="assets/imgs/portfolio/2/4.jpg" alt="Portfolio Image" /></a>
+                                                    <a href="/portfolio-details"><img src="assets/imgs/portfolio/2/4.jpg" alt="Portfolio Image" /></a>
                                                 </div>
                                                 <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <a href="portfolio-details.html">Lionpro
+                                                    <h2 class="sec-title title-anim"> <a href="/portfolio-details">Lionpro
                                                         <span>marketeers</span></a></h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
-                                                        <a href="portfolio-details.html" class="btn-common">View details <i
+                                                        <a href="/portfolio-details" class="btn-common">View details <i
                                                             class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -122,16 +122,16 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <a href="portfolio-details.html"><img src="assets/imgs/portfolio/2/5.jpg" alt="Portfolio Image" /></a>
+                                                    <a href="/portfolio-details"><img src="assets/imgs/portfolio/2/5.jpg" alt="Portfolio Image" /></a>
                                                 </div>
                                                 <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <a href="portfolio-details.html">Lionpro <span>Agency</span></a>
+                                                    <h2 class="sec-title title-anim"> <a href="/portfolio-details">Lionpro <span>Agency</span></a>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
-                                                        <a href="portfolio-details.html" class="btn-common">View details <i
+                                                        <a href="/portfolio-details" class="btn-common">View details <i
                                                             class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                 </div>

@@ -84,7 +84,7 @@ const BlogSecond = () => {
                 <header class="header__area">
                     <div class="header__inner">
                         <div class="header__logo">
-                            <a href="index.html">
+                            <a href="/index">
                                 <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
                                 <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </a>
@@ -105,7 +105,7 @@ const BlogSecond = () => {
                     <div class="offcanvas__body">
                         <div class="offcanvas__left">
                             <div class="offcanvas__logo">
-                                <a href="index.html"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></a>
+                                <a href="/index"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></a>
                             </div>
                             <div class="offcanvas__social">
                                 <h3 class="social-title">Follow Us</h3>
@@ -120,9 +120,9 @@ const BlogSecond = () => {
                             </div>
                             <div class="offcanvas__links">
                                 <ul>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="contact.html">contact</a></li>
-                                    <li><a href="career.html">Career</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/contact">contact</a></li>
+                                    <li><a href="/career">Career</a></li>
                                     <li><Link href="/blog">blog</Link></li>
                                 </ul>
                             </div>
@@ -133,26 +133,26 @@ const BlogSecond = () => {
                                     <ul class="menu-anim">
                                         <li><a>home</a>
                                             <ul>
-                                                <li><a href="index.html">Digital Maketing</a></li>
-                                                <li><a href="index-dark.html">Digital Maketing dark</a></li>
-                                                <li><a href="index-2.html">Design Studio </a></li>
-                                                <li><a href="index-2-dark.html">Design Studio dark</a></li>
-                                                <li><a href="index-3.html">Digital Agency</a></li>
-                                                <li><a href="index-3-dark.html">Digital Agency dark</a></li>
-                                                <li><a href="index-4.html">personal Portfolio</a></li>
-                                                <li><a href="index-4-dark.html">personal Portfolio dark</a></li>
-                                                <li><a href="index-5.html">portfolio showcase</a></li>
-                                                <li><a href="index-5-dark.html">portfolio showcase dark</a></li>
-                                                <li><a href="index-6.html">Startup Agency</a></li>
-                                                <li><a href="index-6-dark.html">Startup Agency dark</a></li>
-                                                <li><a href="index-7.html">creative Agency</a></li>
-                                                <li><a href="index-7-dark.html">creative Agency dark</a></li>
+                                                <li><a href="/index">Digital Maketing</a></li>
+                                                <li><a href="/index-dark">Digital Maketing dark</a></li>
+                                                <li><a href="/index-2">Design Studio </a></li>
+                                                <li><a href="/index-2-dark">Design Studio dark</a></li>
+                                                <li><a href="/index-3">Digital Agency</a></li>
+                                                <li><a href="/index-3-dark">Digital Agency dark</a></li>
+                                                <li><a href="/index-4">personal Portfolio</a></li>
+                                                <li><a href="/index-4-dark">personal Portfolio dark</a></li>
+                                                <li><a href="/index-5">portfolio showcase</a></li>
+                                                <li><a href="/index-5-dark">portfolio showcase dark</a></li>
+                                                <li><a href="/index-6">Startup Agency</a></li>
+                                                <li><a href="/index-6-dark">Startup Agency dark</a></li>
+                                                <li><a href="/index-7">creative Agency</a></li>
+                                                <li><a href="/index-7-dark">creative Agency dark</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">about</a></li>
+                                        <li><a href="/about">about</a></li>
                                         <li>
                                             <a>Service</a>
-                                            <ul> 
+                                            <ul>
                                                 <li><Link href="/service">service</Link></li>
                                                 <li><Link href="/service-dark">service dark</Link></li>
                                                 <li><Link href="/service-2">service V.2</Link></li>
@@ -166,7 +166,7 @@ const BlogSecond = () => {
                                                 <li><Link href="/service-6">service V.6</Link></li>
                                                 <li><Link href="/service-6-dark">service V.6 dark</Link></li>
                                                 <li><Link href="/service-details">service details</Link></li>
-                                                <li><Link href="/service-details-dark">service details dark</Link></li> 
+                                                <li><Link href="/service-details-dark">service details dark</Link></li>
                                             </ul>
                                         </li>
                                         <li><a>pages</a>
@@ -174,25 +174,25 @@ const BlogSecond = () => {
                                                 <li>
                                                     <a>Home</a>
                                                     <ul>
-                                                        <li><a href="index.html">Digital Maketing</a></li>
-                                                        <li><a href="index-dark.html">Digital Maketing dark</a></li>
-                                                        <li><a href="index-2.html">Design Studio </a></li>
-                                                        <li><a href="index-2-dark.html">Design Studio dark</a></li>
-                                                        <li><a href="index-3.html">Digital Agency</a></li>
-                                                        <li><a href="index-3-dark.html">Digital Agency dark</a></li>
-                                                        <li><a href="index-4.html">personal Portfolio</a></li>
-                                                        <li><a href="index-4-dark.html">personal Portfolio dark</a></li>
-                                                        <li><a href="index-5.html">portfolio showcase</a></li>
-                                                        <li><a href="index-5-dark.html">portfolio showcase dark</a></li>
-                                                        <li><a href="index-6.html">Startup Agency</a></li>
-                                                        <li><a href="index-6-dark.html">Startup Agency dark</a></li>
-                                                        <li><a href="index-7.html">creative Agency</a></li>
-                                                        <li><a href="index-7-dark.html">creative Agency dark</a></li>
+                                                        <li><a href="/index">Digital Maketing</a></li>
+                                                        <li><a href="/index-dark">Digital Maketing dark</a></li>
+                                                        <li><a href="/index-2">Design Studio </a></li>
+                                                        <li><a href="/index-2-dark">Design Studio dark</a></li>
+                                                        <li><a href="/index-3">Digital Agency</a></li>
+                                                        <li><a href="/index-3-dark">Digital Agency dark</a></li>
+                                                        <li><a href="/index-4">personal Portfolio</a></li>
+                                                        <li><a href="/index-4-dark">personal Portfolio dark</a></li>
+                                                        <li><a href="/index-5">portfolio showcase</a></li>
+                                                        <li><a href="/index-5-dark">portfolio showcase dark</a></li>
+                                                        <li><a href="/index-6">Startup Agency</a></li>
+                                                        <li><a href="/index-6-dark">Startup Agency dark</a></li>
+                                                        <li><a href="/index-7">creative Agency</a></li>
+                                                        <li><a href="/index-7-dark">creative Agency dark</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>Service</a>
-                                                    <ul> 
+                                                    <ul>
                                                         <li><Link href="/service">service</Link></li>
                                                         <li><Link href="/service-dark">service dark</Link></li>
                                                         <li><Link href="/service-2">service V.2</Link></li>
@@ -206,37 +206,37 @@ const BlogSecond = () => {
                                                         <li><Link href="/service-6">service V.6</Link></li>
                                                         <li><Link href="/service-6-dark">service V.6 dark</Link></li>
                                                         <li><Link href="/service-details">service details</Link></li>
-                                                        <li><Link href="/service-details-dark">service details dark</Link></li> 
+                                                        <li><Link href="/service-details-dark">service details dark</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>portfolio</a>
                                                     <ul>
-                                                        <li><a href="portfolio.html">portfolio</a></li>
-                                                        <li><a href="portfolio-dark.html">portfolio dark</a></li>
-                                                        <li><a href="portfolio-2.html">portfolio v.2</a></li>
-                                                        <li><a href="portfolio-2-dark.html">portfolio v.2 dark</a></li>
-                                                        <li><a href="portfolio-3.html">portfolio v.3</a></li>
-                                                        <li><a href="portfolio-3-dark.html">portfolio v.3 dark</a></li>
-                                                        <li><a href="portfolio-4.html">portfolio v.4</a></li>
-                                                        <li><a href="portfolio-4-dark.html">portfolio v.4 dark</a></li>
-                                                        <li><a href="portfolio-5.html">portfolio v.5</a></li>
-                                                        <li><a href="portfolio-5-dark.html">portfolio v.5 dark</a></li>
-                                                        <li><a href="portfolio-details.html">portfolio details</a></li>
-                                                        <li><a href="portfolio-details-dark.html">portfolio details dark</a></li>
+                                                        <li><a href="/portfolio">portfolio</a></li>
+                                                        <li><a href="/portfolio-dark">portfolio dark</a></li>
+                                                        <li><a href="/portfolio-2">portfolio v.2</a></li>
+                                                        <li><a href="/portfolio-2-dark">portfolio v.2 dark</a></li>
+                                                        <li><a href="/portfolio-3">portfolio v.3</a></li>
+                                                        <li><a href="/portfolio-3-dark">portfolio v.3 dark</a></li>
+                                                        <li><a href="/portfolio-4">portfolio v.4</a></li>
+                                                        <li><a href="/portfolio-4-dark">portfolio v.4 dark</a></li>
+                                                        <li><a href="/portfolio-5">portfolio v.5</a></li>
+                                                        <li><a href="/portfolio-5-dark">portfolio v.5 dark</a></li>
+                                                        <li><a href="/portfolio-details">portfolio details</a></li>
+                                                        <li><a href="/portfolio-details-dark">portfolio details dark</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>team</a>
-                                                    <ul> 
+                                                    <ul>
                                                         <li><Link href="/team">Team</Link></li>
                                                         <li><Link href="/team-dark">Team dark</Link></li>
                                                         <li><Link href="/team-details">Team Details</Link></li>
-                                                        <li><Link href="/team-details-dark">Team Details dark</Link ></li> 
-                                                        <li><a href="career.html">career</a></li>
-                                                        <li><a href="career-dark.html">career dark</a></li>
-                                                        <li><a href="job-details.html">job details</a></li>
-                                                        <li><a href="job-details-dark.html">job details dark</a></li>
+                                                        <li><Link href="/team-details-dark">Team Details dark</Link ></li>
+                                                        <li><a href="/career">career</a></li>
+                                                        <li><a href="/career-dark">career dark</a></li>
+                                                        <li><a href="/job-details">job details</a></li>
+                                                        <li><a href="/job-details-dark">job details dark</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
@@ -247,20 +247,20 @@ const BlogSecond = () => {
                                                         <li><Link href="/blog-2">blog v.2</Link></li>
                                                         <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
                                                         <li><Link href="/category">category</Link></li>
-                                                        <li><Link href="category-dark">category dark</Link></li> 
-                                                        <li><Link href="/blog-details">blog details</Link></li> 
+                                                        <li><Link href="category-dark">category dark</Link></li>
+                                                        <li><Link href="/blog-details">blog details</Link></li>
                                                         <li><Link href="blog-details-dark">blog details dark</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>Others</a>
                                                     <ul>
-                                                        <li><a href="faq.html">FAQs</a></li>
-                                                        <li><a href="faq-dark.html">FAQs dark</a></li>
-                                                        <li><a href="contact.html">contact</a></li> 
-                                                        <li><Link href="/contact-dark">contact dark</Link ></li> 
-                                                        <li><a href="404.html">404</a></li>
-                                                        <li><a href="404-dark.html">404 dark</a></li>
+                                                        <li><a href="/faq">FAQs</a></li>
+                                                        <li><a href="/faq-dark">FAQs dark</a></li>
+                                                        <li><a href="/contact">contact</a></li>
+                                                        <li><Link href="/contact-dark">contact dark</Link ></li>
+                                                        <li><a href="/404">404</a></li>
+                                                        <li><a href="/404-dark">404 dark</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -272,12 +272,12 @@ const BlogSecond = () => {
                                                 <li><Link href="/blog-2">blog v.2</Link></li>
                                                 <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
                                                 <li><Link href="/category">category</Link></li>
-                                                <li><Link href="category-dark">category dark</Link></li> 
-                                                <li><Link href="/blog-details">blog details</Link></li> 
+                                                <li><Link href="category-dark">category dark</Link></li>
+                                                <li><Link href="/blog-details">blog details</Link></li>
                                                 <li><Link href="blog-details-dark">blog details dark</Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="/contact">contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -331,83 +331,83 @@ const BlogSecond = () => {
                                     <div class="row">
                                         <div class="col-xxl-6 col-xl-6 col-lg-6">
                                             <article class="blog__item-3">
-                                                <div class="blog__img-wrapper-3"> 
-                                                    <Link href="/blog-details"> 
+                                                <div class="blog__img-wrapper-3">
+                                                    <Link href="/blog-details">
                                                         <div class="img-box">
                                                             <img class="image-box__item" src="assets/imgs/blog/3/1.jpg" alt="Blog Thumbnail" />
                                                             <img class="image-box__item" src="assets/imgs/blog/3/1.jpg" alt="BLog Thumbnail" />
-                                                        </div> 
+                                                        </div>
                                                     </Link>
                                                 </div>
                                                 <div class="blog__info-3">
-                                                    <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
+                                                    <h4 class="blog__meta"><a href="/category">UI Design</a> . 02 May 2019</h4>
                                                     <h5><Link href="/blog-details" class="blog__title-3">How to bring fold to your startup
                                                         company with
                                                         Axtra</Link></h5>
                                                     <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                        class="fa-solid fa-arrow-right"></i></span></Link> 
+                                                        class="fa-solid fa-arrow-right"></i></span></Link>
                                                 </div>
                                             </article>
                                         </div>
 
                                         <div class="col-xxl-6 col-xl-6 col-lg-6">
                                             <article class="blog__item-3">
-                                                <div class="blog__img-wrapper-3"> 
-                                                    <Link href="/blog-details"> 
+                                                <div class="blog__img-wrapper-3">
+                                                    <Link href="/blog-details">
                                                         <div class="img-box">
                                                             <img class="image-box__item" src="assets/imgs/blog/3/2.jpg" alt="Blog Thumbnail" />
                                                             <img class="image-box__item" src="assets/imgs/blog/3/2.jpg" alt="BLog Thumbnail" />
-                                                        </div> 
+                                                        </div>
                                                     </Link>
                                                 </div>
                                                 <div class="blog__info-3">
-                                                    <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
+                                                    <h4 class="blog__meta"><a href="/category">UI Design</a> . 02 May 2019</h4>
                                                     <h5><Link href="/blog-details" class="blog__title-3">How to manage a talented and
                                                         successful design
                                                         team</Link></h5>
                                                     <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                        class="fa-solid fa-arrow-right"></i></span></Link> 
+                                                        class="fa-solid fa-arrow-right"></i></span></Link>
                                                 </div>
                                             </article>
                                         </div>
                                         <div class="col-xxl-6 col-xl-6 col-lg-6">
                                             <article class="blog__item-3">
-                                                <div class="blog__img-wrapper-3"> 
-                                                    <Link href="/blog-details"> 
+                                                <div class="blog__img-wrapper-3">
+                                                    <Link href="/blog-details">
                                                         <div class="img-box">
                                                             <img class="image-box__item" src="assets/imgs/blog/3/1.jpg" alt="Blog Thumbnail" />
                                                             <img class="image-box__item" src="assets/imgs/blog/3/1.jpg" alt="BLog Thumbnail" />
-                                                        </div> 
+                                                        </div>
                                                     </Link>
                                                 </div>
                                                 <div class="blog__info-3">
-                                                    <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
+                                                    <h4 class="blog__meta"><a href="/category">UI Design</a> . 02 May 2019</h4>
                                                     <h5><Link href="/blog-details" class="blog__title-3">How to bring fold to your startup
                                                         company with
                                                         Axtra</Link></h5>
                                                     <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                        class="fa-solid fa-arrow-right"></i></span></Link> 
+                                                        class="fa-solid fa-arrow-right"></i></span></Link>
                                                 </div>
                                             </article>
                                         </div>
 
                                         <div class="col-xxl-6 col-xl-6 col-lg-6">
                                             <article class="blog__item-3">
-                                                <div class="blog__img-wrapper-3"> 
-                                                    <Link href="/blog-details"> 
+                                                <div class="blog__img-wrapper-3">
+                                                    <Link href="/blog-details">
                                                         <div class="img-box">
                                                             <img class="image-box__item" src="assets/imgs/blog/3/2.jpg" alt="Blog Thumbnail" />
                                                             <img class="image-box__item" src="assets/imgs/blog/3/2.jpg" alt="BLog Thumbnail" />
-                                                        </div> 
+                                                        </div>
                                                     </Link>
                                                 </div>
                                                 <div class="blog__info-3">
-                                                    <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
+                                                    <h4 class="blog__meta"><a href="/category">UI Design</a> . 02 May 2019</h4>
                                                     <h5><Link href="/blog-details" class="blog__title-3">How to manage a talented and
                                                         successful design
                                                         team</Link></h5>
                                                     <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                        class="fa-solid fa-arrow-right"></i></span></Link> 
+                                                        class="fa-solid fa-arrow-right"></i></span></Link>
                                                 </div>
                                             </article>
                                         </div>
@@ -427,7 +427,7 @@ const BlogSecond = () => {
                                                 <p class="cta__sub-title">Work with us</p>
                                                 <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
                                                 <div id="btn_wrapper">
-                                                    <a href="contact.html" class="wc-btn-primary btn-item btn-hover"><span></span>Let’s talk us <i
+                                                    <a href="/contact" class="wc-btn-primary btn-item btn-hover"><span></span>Let’s talk us <i
                                                         class="fa-solid fa-arrow-right"></i></a>
                                                 </div>
                                             </div>
@@ -469,11 +469,11 @@ const BlogSecond = () => {
                                                 <div class="footer__widget-2">
                                                     <h2 class="footer__widget-title">Information</h2>
                                                     <ul class="footer__link">
-                                                        <li><a href="about.html">About Company</a></li>
-                                                        <li><a href="portfolio.html">Case Study</a></li>
-                                                        <li><a href="career.html">Career</a></li>
+                                                        <li><a href="/about">About Company</a></li>
+                                                        <li><a href="/portfolio">Case Study</a></li>
+                                                        <li><a href="/career">Career</a></li>
                                                         <li><Link href="/blog">blog</Link></li>
-                                                        <li><a href="contact.html">contact</a></li>
+                                                        <li><a href="/contact">contact</a></li>
                                                     </ul>
                                                 </div>
 
@@ -489,7 +489,7 @@ const BlogSecond = () => {
                                                 <div class="footer__widget-4">
                                                     <h2 class="project-title">Have a project in your mind?</h2>
                                                     <div id="btn_wrapper">
-                                                        <a href="contact.html" class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                                                        <a href="/contact" class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
                                                             class="fa-solid fa-arrow-right"></i></a>
                                                     </div>
                                                     <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>

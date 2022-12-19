@@ -4,20 +4,20 @@ import Footer from '../components/Footer';
 import TopHead from '../components/topHead';
 
 const CareerDark = () => {
-    return (
-        <div>
-            <Head>
-                <meta charset="UTF-8" />
-                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name="description" content="Axtra HTML5 Template" />
+  return (
+    <div>
+      <Head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Axtra HTML5 Template" />
 
-                <title>Career - Axtra</title>
+        <title>Career - Axtra</title>
 
-                {/* Fav Icon   */}
-                <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-            </Head>
-            <body class="dark">
+        {/* Fav Icon   */}
+        <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
+      </Head>
+      <body class="dark">
         {/* Header top start */}
         <TopHead />
         {/* Header top end */}
@@ -117,7 +117,7 @@ const CareerDark = () => {
                     </div>
                     <div class="col-xxl-12">
                       <div class="job__list">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">01</p>
                             <h3 class="job__title">UI/UX Designer</h3>
@@ -125,7 +125,7 @@ const CareerDark = () => {
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </a>
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">02</p>
                             <h3 class="job__title">Frontend Developer</h3>
@@ -133,7 +133,7 @@ const CareerDark = () => {
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </a>
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">03</p>
                             <h3 class="job__title">Product Manager</h3>
@@ -141,7 +141,7 @@ const CareerDark = () => {
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </a>
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">04</p>
                             <h3 class="job__title">JavaScript Engineer</h3>
@@ -149,7 +149,7 @@ const CareerDark = () => {
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </a>
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <div class="job__item">
                             <p class="job__no">05</p>
                             <h3 class="job__title">Joomla Developer</h3>
@@ -206,8 +206,8 @@ const CareerDark = () => {
           </div>
         </div>
       </body>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default CareerDark;

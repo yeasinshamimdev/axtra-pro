@@ -1,6 +1,9 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
+import HomeFooter from '../components/indexFooter'
+import HomeHead from '../components/indexHead'
 
 export default function Home() {
 
@@ -17,466 +20,8 @@ export default function Home() {
         <title>Home - Digital Marketing</title>
       </Head>
       <main>
-        {/* Cursor Animation */}
-        <div class="cursor1"></div>
-        <div class="cursor2"></div>
 
-
-        {/* Preloader */}
-        <div class="preloader">
-          <div class="loading">
-            <div class="bar bar1"></div>
-            <div class="bar bar2"></div>
-            <div class="bar bar3"></div>
-            <div class="bar bar4"></div>
-            <div class="bar bar5"></div>
-            <div class="bar bar6"></div>
-            <div class="bar bar7"></div>
-            <div class="bar bar8"></div>
-          </div>
-        </div>
-
-
-
-        {/* Switcher Area Start */}
-        <div class="switcher__area">
-          <div class="switcher__icon">
-            <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
-            <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
-          </div>
-
-          <div class="switcher__items">
-            <div class="switcher__item">
-              <div class="switch__title-wrap">
-                <h2 class="switcher__title">Cursor</h2>
-              </div>
-              <div class="switcher__btn">
-                <select name="cursor-style" id="cursor_style">
-                  <option value="1">default</option>
-                  <option selected value="2">animated</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="switcher__item">
-              <div class="switch__title-wrap">
-                <h2 class="switcher__title">mode</h2>
-              </div>
-              <div class="switcher__btn mode-type wc-col-2">
-                <button class="active" data-mode="light">light</button>
-                <button data-mode="dark">dark</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Switcher Area End */}
-
-
-
-        {/* Scroll Smoother */}
-        <div class="has-smooth" id="has_smooth"></div>
-
-
-        {/* Go Top Button */}
-        <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
-
-
-        {/* Header area start */}
-        <header class="header__area-3">
-          <div class="header__inner-3">
-            <div class="header__logo-2">
-              <a href="index.js" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></a>
-              <a href="index.js" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></a>
-            </div>
-            <div class="header__nav-2">
-              <ul class="main-menu-3 menu-anim">
-                <li><a href="#">home</a>
-                  <ul class="mega-menu-2">
-                    <li>
-                      <ul>
-                        <li><a href="index.js">Digital Maketing</a></li>
-                        <li><a href="index-dark.js">Digital Maketing dark</a></li>
-                        <li><a href="index-2.html">Design Studio </a></li>
-                        <li><a href="index-2-dark.html">Design Studio dark</a></li>
-                        <li><a href="index-3.html">Digital Agency</a></li>
-                        <li><a href="index-3-dark.html">Digital Agency dark</a></li>
-                        <li><a href="index-4.html">personal Portfolio</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <ul>
-
-                        <li><a href="index-4-dark.html">personal Portfolio dark</a></li>
-                        <li><a href="index-5.html">portfolio showcase</a></li>
-                        <li><a href="index-5-dark.html">portfolio showcase dark</a></li>
-                        <li><a href="index-6.html">Startup Agency</a></li>
-                        <li><a href="index-6-dark.html">Startup Agency dark</a></li>
-                        <li><a href="index-7.html">creative Agency</a></li>
-                        <li><a href="index-7-dark.html">creative Agency dark</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li><Link href="/about">About</Link></li>
-                <li class="has-megamenu"><Link href="/about">Pages</Link>
-                  <ul class="mega-menu">
-                    <li>
-                      <a>Home</a>
-                      <ul>
-                        <li><a href="index.html">Digital Maketing</a></li>
-                        <li><a href="index-dark.html">Digital Maketing dark</a></li>
-                        <li><a href="index-2.html">Design Studio </a></li>
-                        <li><a href="index-2-dark.html">Design Studio dark</a></li>
-                        <li><a href="index-3.html">Digital Agency</a></li>
-                        <li><a href="index-3-dark.html">Digital Agency dark</a></li>
-                        <li><a href="index-4.html">personal Portfolio</a></li>
-                        <li><a href="index-4-dark.html">personal Portfolio dark</a></li>
-                        <li><a href="index-5.html">portfolio showcase</a></li>
-                        <li><a href="index-5-dark.html">portfolio showcase dark</a></li>
-                        <li><a href="index-6.html">Startup Agency</a></li>
-                        <li><a href="index-6-dark.html">Startup Agency dark</a></li>
-                        <li><a href="index-7.html">creative Agency</a></li>
-                        <li><a href="index-7-dark.html">creative Agency dark</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a>Service</a>
-                      <ul>
-                        <li><Link href="/service">service</Link></li>
-                        <li><Link href="/service-dark">service dark</Link></li>
-                        <li><Link href="/service-2">service V.2</Link></li>
-                        <li><Link href="/service-2-dark">service V.2 dark</Link></li>
-                        <li><Link href="/service-3">service V.3</Link></li>
-                        <li><Link href="/service-3-dark">service V.3 dark</Link></li>
-                        <li><Link href="/service-4">service V.4</Link></li>
-                        <li><Link href="/service-4-dark">service V.4 dark</Link></li>
-                        <li><Link href="/service-5">service V.5</Link></li>
-                        <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                        <li><Link href="/service-6">service V.6</Link></li>
-                        <li><Link href="/service-6-dark">service V.6 dark</Link></li>
-                        <li><Link href="/service-details">service details</Link></li>
-                        <li><Link href="/service-details-dark">service details dark</Link></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a>portfolio</a>
-                      <ul>
-                        <li><a href="portfolio.html">portfolio</a></li>
-                        <li><a href="portfolio-dark.html">portfolio dark</a></li>
-                        <li><a href="portfolio-2.html">portfolio v.2</a></li>
-                        <li><a href="portfolio-2-dark.html">portfolio v.2 dark</a></li>
-                        <li><a href="portfolio-3.html">portfolio v.3</a></li>
-                        <li><a href="portfolio-3-dark.html">portfolio v.3 dark</a></li>
-                        <li><a href="portfolio-4.html">portfolio v.4</a></li>
-                        <li><a href="portfolio-4-dark.html">portfolio v.4 dark</a></li>
-                        <li><a href="portfolio-5.html">portfolio v.5</a></li>
-                        <li><a href="portfolio-5-dark.html">portfolio v.5 dark</a></li>
-                        <li><a href="portfolio-details.html">portfolio details</a></li>
-                        <li><a href="portfolio-details-dark.html">portfolio details dark</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a>team</a>
-                      <ul>
-                        <li><Link href="/team">Team</Link></li>
-                        <li><Link href="/team-dark">Team dark</Link></li>
-                        <li><Link href="/team-details">Team Details</Link></li>
-                        <li><Link href="/team-details-dark">Team Details dark</Link ></li>  
-                        <li><a href="career.html">career</a></li>
-                        <li><a href="career-dark.html">career dark</a></li>
-                        <li><a href="job-details.html">job details</a></li>
-                        <li><a href="job-details-dark.html">job details dark</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a>blog</a>
-                      <ul>
-                        <li><Link href="/blog">blog</Link></li>
-                        <li><Link href="/blog-dark">blog dark</Link></li>
-                        <li><Link href="/blog-2">blog v.2</Link></li>
-                        <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
-                        <li><Link href="/category">category</Link></li>
-                        <li><Link href="category-dark">category dark</Link></li>
-                        <li><Link href="/blog-details">blog details</Link></li>
-                        <li><Link href="blog-details-dark">blog details dark</Link></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a>Others</a>
-                      <ul>
-                        <li><a href="faq.html">FAQs</a></li>
-                        <li><a href="faq-dark.html">FAQs dark</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                        <li><Link href="/contact-dark">contact dark</Link ></li>
-                        <li><a href="404.html">404</a></li>
-                        <li><a href="404-dark.html">404 dark</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li><Link href="/service">services</Link>
-                  <ul class="main-dropdown">
-                    <li><Link href="/service">service</Link>
-                      <ul class="sub-dropdown">
-                        <li><Link href="/service-dark">service dark</Link></li>
-                        <li><Link href="/service-2-dark">service V.2 dark</Link></li>
-                        <li><Link href="/service-3-dark">service V.3 dark</Link></li>
-                        <li><Link href="/service-4-dark">service V.4 dark</Link></li>
-                        <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                        <li><Link href="/service-6-dark">service V.6 dark</Link></li>
-                        <li><Link href="/service-details-dark">service details dark</Link></li>
-                      </ul>
-                    </li>
-                    <li><Link href="/service-2">service V.2</Link></li>
-                    <li><Link href="/service-3">service V.3</Link></li>
-                    <li><Link href="/service-4">service V.4</Link></li>
-                    <li><Link href="/service-5">service V.5</Link></li>
-                    <li><Link href="/service-6">service V.6</Link></li>
-                    <li><Link href="/service-details">service details</Link></li>
-                  </ul>
-                </li>
-                <li><a href="team.html">team</a>
-                  <ul class="main-dropdown">
-                    <li><Link href="/team">Team</Link></li>
-                    <li><Link href="/team-details">Team Details</Link></li>
-                  </ul>
-                </li>
-                <li><Link href="/blog">Blog</Link>
-                  {/* <li><a href="blog.html">blog</a> */}
-                  <ul class="main-dropdown">
-                    <li><Link href="/blog"> blog </Link></li>
-                    <li><Link href="/blog-2">blog v.2</Link></li>
-                    <li><Link href="/category">category</Link></li>
-                    <li><Link href="/blog-details">blog details</Link></li>
-                  </ul>
-                </li>
-                <li><Link href="/contact">CONTACT</Link></li>
-              </ul>
-            </div>
-            <div class="header__nav-icon-3">
-              <button class="search-icon" id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
-              <button class="search-icon" id="search_close"><i class="fa-solid fa-xmark"></i></button>
-              <button id="open_offcanvas"><img src="assets/imgs/icon/menu-black.png" alt="Menubar Icon" /></button>
-            </div>
-          </div>
-        </header>
-        <div class="header__search">
-          <form action="#">
-            <input type="text" name="s" id="s" placeholder="Search.." />
-          </form>
-        </div>
-        {/* Header area end */}
-
-
-        {/* Offcanvas area start */}
-        <div class="offcanvas__area">
-          <div class="offcanvas__body">
-            <div class="offcanvas__left">
-              <div class="offcanvas__logo">
-                <a href="index.html"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></a>
-              </div>
-              <div class="offcanvas__social">
-                <h3 class="social-title">Follow Us</h3>
-                <ul>
-                  <li><a href="#">Dribbble</a></li>
-                  <li><a href="#">Behance</a></li>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">YouTube</a></li>
-                </ul>
-              </div>
-              <div class="offcanvas__links">
-                <ul>
-                  <li><Link href="/about">About</Link></li>
-                  <li><a href="contact.html">contact</a></li>
-                  <li><a href="career.html">Career</a></li>
-                  <li><a href="blog.html">blog</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="offcanvas__mid">
-              <div class="offcanvas__menu-wrapper">
-                <nav class="offcanvas__menu">
-                  <ul class="menu-anim">
-                    <li><a>home</a>
-                      <ul>
-                        <li><a href="index.html">Digital Maketing</a></li>
-                        <li><a href="index-dark.html">Digital Maketing dark</a></li>
-                        <li><a href="index-2.html">Design Studio </a></li>
-                        <li><a href="index-2-dark.html">Design Studio dark</a></li>
-                        <li><a href="index-3.html">Digital Agency</a></li>
-                        <li><a href="index-3-dark.html">Digital Agency dark</a></li>
-                        <li><a href="index-4.html">personal Portfolio</a></li>
-                        <li><a href="index-4-dark.html">personal Portfolio dark</a></li>
-                        <li><a href="index-5.html">portfolio showcase</a></li>
-                        <li><a href="index-5-dark.html">portfolio showcase dark</a></li>
-                        <li><a href="index-6.html">Startup Agency</a></li>
-                        <li><a href="index-6-dark.html">Startup Agency dark</a></li>
-                        <li><a href="index-7.html">creative Agency</a></li>
-                        <li><a href="index-7-dark.html">creative Agency dark</a></li>
-                      </ul>
-                    </li>
-                    <li><Link href="/about">about</Link></li>
-                    <li>
-                      <a>Service</a>
-                      <ul>
-                        <li><Link href="/service">service</Link></li>
-                        <li><Link href="/service-dark">service dark</Link></li>
-                        <li><Link href="/service-2">service V.2</Link></li>
-                        <li><Link href="/service-2-dark">service V.2 dark</Link></li>
-                        <li><Link href="/service-3">service V.3</Link></li>
-                        <li><Link href="/service-3-dark">service V.3 dark</Link></li>
-                        <li><Link href="/service-4">service V.4</Link></li>
-                        <li><Link href="/service-4-dark">service V.4 dark</Link></li>
-                        <li><Link href="/service-5">service V.5</Link></li>
-                        <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                        <li><Link href="/service-6">service V.6</Link></li>
-                        <li><Link href="/service-6-dark">service V.6 dark</Link></li>
-                        <li><Link href="/service-details">service details</Link></li>
-                        <li><Link href="/service-details-dark">service details dark</Link></li>
-                      </ul>
-                    </li>
-                    <li><a>pages</a>
-                      <ul>
-                        <li>
-                          <a>Home</a>
-                          <ul>
-                            <li><a href="index.html">Digital Maketing</a></li>
-                            <li><a href="index-dark.html">Digital Maketing dark</a></li>
-                            <li><a href="index-2.html">Design Studio </a></li>
-                            <li><a href="index-2-dark.html">Design Studio dark</a></li>
-                            <li><a href="index-3.html">Digital Agency</a></li>
-                            <li><a href="index-3-dark.html">Digital Agency dark</a></li>
-                            <li><a href="index-4.html">personal Portfolio</a></li>
-                            <li><a href="index-4-dark.html">personal Portfolio dark</a></li>
-                            <li><a href="index-5.html">portfolio showcase</a></li>
-                            <li><a href="index-5-dark.html">portfolio showcase dark</a></li>
-                            <li><a href="index-6.html">Startup Agency</a></li>
-                            <li><a href="index-6-dark.html">Startup Agency dark</a></li>
-                            <li><a href="index-7.html">creative Agency</a></li>
-                            <li><a href="index-7-dark.html">creative Agency dark</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a>Service</a>
-                          <ul>
-                            <li><Link href="/service">service</Link></li>
-                            <li><Link href="/service-dark">service dark</Link></li>
-                            <li><Link href="/service-2">service V.2</Link></li>
-                            <li><Link href="/service-2-dark">service V.2 dark</Link></li>
-                            <li><Link href="/service-3">service V.3</Link></li>
-                            <li><Link href="/service-3-dark">service V.3 dark</Link></li>
-                            <li><Link href="/service-4">service V.4</Link></li>
-                            <li><Link href="/service-4-dark">service V.4 dark</Link></li>
-                            <li><Link href="/service-5">service V.5</Link></li>
-                            <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                            <li><Link href="/service-6">service V.6</Link></li>
-                            <li><Link href="/service-6-dark">service V.6 dark</Link></li>
-                            <li><Link href="/service-details">service details</Link></li>
-                            <li><Link href="/service-details-dark">service details dark</Link></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a>portfolio</a>
-                          <ul>
-                            <li><a href="portfolio.html">portfolio</a></li>
-                            <li><a href="portfolio-dark.html">portfolio dark</a></li>
-                            <li><a href="portfolio-2.html">portfolio v.2</a></li>
-                            <li><a href="portfolio-2-dark.html">portfolio v.2 dark</a></li>
-                            <li><a href="portfolio-3.html">portfolio v.3</a></li>
-                            <li><a href="portfolio-3-dark.html">portfolio v.3 dark</a></li>
-                            <li><a href="portfolio-4.html">portfolio v.4</a></li>
-                            <li><a href="portfolio-4-dark.html">portfolio v.4 dark</a></li>
-                            <li><a href="portfolio-5.html">portfolio v.5</a></li>
-                            <li><a href="portfolio-5-dark.html">portfolio v.5 dark</a></li>
-                            <li><a href="portfolio-details.html">portfolio details</a></li>
-                            <li><a href="portfolio-details-dark.html">portfolio details dark</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a>team</a>
-                          <ul>
-                            <li><Link href="/team">Team</Link></li>
-                            <li><Link href="/team-dark">Team dark</Link></li>
-                            <li><Link href="/team-details">Team Details</Link></li>
-                            <li><Link href="/team-details-dark">Team Details dark</Link ></li>
-
-                            <li><a href="career.html">career</a></li>
-                            <li><a href="career-dark.html">career dark</a></li>
-                            <li><a href="job-details.html">job details</a></li>
-                            <li><a href="job-details-dark.html">job details dark</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a>blog</a>
-                          <ul>
-                            <li><Link href="/blog">blog</Link></li>
-                            <li><Link href="/blog-dark">blog dark</Link></li>
-                            <li><Link href="/blog-2">blog v.2</Link></li>
-                            <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
-                            <li><Link href="/category">category</Link></li>
-                            <li><Link href="category-dark">category dark</Link></li>
-                            <li><Link href="/blog-details">blog details</Link></li>
-                            <li><Link href="blog-details-dark">blog details dark</Link></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a>Others</a>
-                          <ul>
-                            <li><a href="faq.html">FAQs</a></li>
-                            <li><a href="faq-dark.html">FAQs dark</a></li>
-                            <li><a href="contact.html">contact</a></li>
-                            <li><Link href="/contact-dark">contact dark</Link ></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="404-dark.html">404 dark</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a>blog</a>
-                      <ul>
-                        <li><Link href="/blog">blog</Link></li>
-                        <li><Link href="/blog-dark">blog dark</Link></li>
-                        <li><Link href="/blog-2">blog v.2</Link></li>
-                        <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
-                        <li><Link href="/category">category</Link></li>
-                        <li><Link href="category-dark">category dark</Link></li>
-                        <li><Link href="/blog-details">blog details</Link></li>
-                        <li><Link href="blog-details-dark">blog details dark</Link></li>
-                      </ul>
-                    </li>
-                    <li><Link href="/contact">contact</Link></li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-            <div class="offcanvas__right">
-              <div class="offcanvas__search">
-                <form action="#">
-                  <input type="text" name="search" placeholder="Search keyword" />
-                  <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-              </div>
-              <div class="offcanvas__contact">
-                <h3>Get in touch</h3>
-                <ul>
-                  <li><a href="tel:02094980547">+(02) - 094 980 547</a></li>
-                  <li><a href="mailto:info@extradesign.com">info@extradesign.com</a></li>
-                  <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
-                </ul>
-              </div>
-              <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1" />
-              <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2" />
-            </div>
-            <div class="offcanvas__close">
-              <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-          </div>
-        </div>
-        {/* Offcanvas area end */}
-
-
+        <HomeHead />
         <div id="smooth-wrapper">
           <div id="smooth-content">
             <main>
@@ -614,7 +159,7 @@ export default function Home() {
                     <div class="col-xx-12">
                       <div class="service__list-3">
                         <div class="service__item-3 service_animation">
-                          <h3><a href="/service-details" class="service__title-3">Search Engine <br />Optimization</a></h3>
+                          <h3><Link href="/service-details" class="service__title-3">Search Engine <br />Optimization</Link></h3>
                           <div class="service__content-3">
                             <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                             </p>
@@ -626,8 +171,8 @@ export default function Home() {
                           </div>
                           <div class="service__btn-3">
                             <div id="btn_wrapper">
-                              <a href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
-                                <i class="fa-solid fa-arrow-right"></i></a>
+                              <Link href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
+                                <i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                           </div>
 
@@ -635,7 +180,7 @@ export default function Home() {
                         </div>
 
                         <div class="service__item-3 service_animation">
-                          <h3><a href="/service-details" class="service__title-3 ">Email <br />Marketing</a></h3>
+                          <h3><Link href="/service-details" class="service__title-3 ">Email <br />Marketing</Link></h3>
                           <div class="service__content-3">
                             <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                             </p>
@@ -647,8 +192,8 @@ export default function Home() {
                           </div>
                           <div class="service__btn-3">
                             <div id="btn_wrapper">
-                              <a href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
-                                <i class="fa-solid fa-arrow-right"></i></a>
+                              <Link href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
+                                <i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                           </div>
 
@@ -656,8 +201,8 @@ export default function Home() {
                         </div>
 
                         <div class="service__item-3 service_animation">
-                          <h3 class=""><a href="/service-details" class="service__title-3">COntent
-                            <br />Marketing</a></h3>
+                          <h3 class=""><Link href="/service-details" class="service__title-3">COntent
+                            <br />Marketing</Link></h3>
                           <div class="service__content-3">
                             <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                             </p>
@@ -669,8 +214,8 @@ export default function Home() {
                           </div>
                           <div class="service__btn-3 ">
                             <div id="btn_wrapper">
-                              <a href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
-                                <i class="fa-solid fa-arrow-right"></i></a>
+                              <Link href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
+                                <i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                           </div>
 
@@ -678,8 +223,8 @@ export default function Home() {
                         </div>
 
                         <div class="service__item-3 service_animation">
-                          <h3 class=""><a href="/service-details" class="service__title-3">Social
-                            <br />Marketing</a></h3>
+                          <h3 class=""><Link href="/service-details" class="service__title-3">Social
+                            <br />Marketing</Link></h3>
                           <div class="service__content-3">
                             <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                             </p>
@@ -691,8 +236,8 @@ export default function Home() {
                           </div>
                           <div class="service__btn-3">
                             <div id="btn_wrapper">
-                              <a href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
-                                <i class="fa-solid fa-arrow-right"></i></a>
+                              <Link href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
+                                <i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                           </div>
 
@@ -728,34 +273,34 @@ export default function Home() {
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
                             <div class="portfolio__slide-3">
-                              <a href="/service-details">
+                              <Link href="/service-details">
                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                 <img src="assets/imgs/portfolio/3/2.jpg" alt="Portfolio Image" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="portfolio__slide-3">
-                              <a href="/service-details">
+                              <Link href="/service-details">
                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                 <img src="assets/imgs/portfolio/3/1.jpg" alt="Portfolio Image" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="portfolio__slide-3">
-                              <a href="/service-details">
+                              <Link href="/service-details">
                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                 <img src="assets/imgs/portfolio/3/3.jpg" alt="Portfolio Image" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="portfolio__slide-3">
-                              <a href="/service-details">
+                              <Link href="/service-details">
                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                 <img src="assets/imgs/portfolio/3/4.jpg" alt="Portfolio Image" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -862,9 +407,9 @@ export default function Home() {
                             </p>
                           </div>
                           <ul class="research__tools">
-                            <li><a href="#">Google</a></li>
-                            <li><a href="#">pinterest</a></li>
-                            <li><a href="#">Instagram</a></li>
+                            <li><Link href="#">Google</Link></li>
+                            <li><Link href="#">pinterest</Link></li>
+                            <li><Link href="#">Instagram</Link></li>
                           </ul>
                         </div>
                         <div class="col-xxl-6 col-xl-6 col-lg-6">
@@ -952,8 +497,8 @@ export default function Home() {
                             <p class="cta__sub-title-2">Have you project in mind?</p>
                             <h2 class="cta__title-2">Let’s make something great together!</h2>
                             <div id="btn_wrapper">
-                              <a href="contact.html" class="wc-btn-black btn-hover btn-item"><span></span>Contact <br />with
-                                us <i class="fa-solid fa-arrow-right"></i></a>
+                              <Link href="/contact" class="wc-btn-black btn-hover btn-item"><span></span>Contact <br />with
+                                us <i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                           </div>
                         </div>
@@ -1095,8 +640,8 @@ export default function Home() {
                         </div>
                       </div>
                       <div class="price__btn" id="btn_wrapper">
-                        <a href="contact.html" class="wc-btn-black btn-hover btn-item"><span></span> Try it <br />Free Now <i
-                          class="fa-solid fa-arrow-right"></i></a>
+                        <Link href="/contact" class="wc-btn-black btn-hover btn-item"><span></span> Try it <br />Free Now <i
+                          class="fa-solid fa-arrow-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -1132,7 +677,7 @@ export default function Home() {
                           </Link>
                         </div>
                         <div class="blog__info-3">
-                          <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
+                          <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
                           <h5><Link href="/blog-details" class="blog__title-3">How to bring fold to your startup
                             company with
                             Axtra</Link></h5>
@@ -1153,7 +698,7 @@ export default function Home() {
                           </Link>
                         </div>
                         <div class="blog__info-3">
-                          <h4 class="blog__meta"><a href="category.html">UI Design</a> . 02 May 2019</h4>
+                          <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
                           <h5><Link href="/blog-details" class="blog__title-3">How to manage a talented and
                             successful design
                             team</Link></h5>
@@ -1168,56 +713,7 @@ export default function Home() {
               {/* Blog area end */}
 
             </main>
-
-
-
-            {/* Footer area start  */}
-            <footer class="footer__area-3">
-              <div class="footer__top-3">
-                <div class="footer__top-wrapper-3">
-                  <div class="footer__logo-3 pt-120">
-                    <img src="assets/imgs/logo/site-logo-white-2.png" alt="Footer Logo" />
-                    <p>When do they work well, and when do they on us and finally, when do we actually need how can we avoid
-                      them.</p>
-                  </div>
-                  <div class="footer__social-3">
-                    <ul>
-                      <li><a href="#">facebook</a></li>
-                      <li><a href="#">Twitter</a></li>
-                      <li><a href="#">Linkedin</a></li>
-                      <li><a href="#">Instagram</a></li>
-                    </ul>
-                  </div>
-                  <div class="footer__contact-3">
-                    <a class="end" href="contact.html">Let’s talk</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="footer__btm-3">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-xxl-4 col-xl-4 col-lg-4">
-                      <div class="footer__copyright-3">
-                        <p>© 2022 - 2025 | Alrights reserved by <a href="https://wealcoder.com/" target="_blank" rel="noreferrer">Wealcoder</a>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-xxl-8 col-xl-8 col-lg-8">
-                      <div class="footer__nav-2">
-                        <ul class="footer-menu-2 menu-anim">
-                          <li><Link href="/about">about us</Link></li>
-                          <li><a href="contact.html">contact</a></li>
-                          <li><a href="career.html">Career</a></li>
-                          <li><a href="faq.html">FAQs</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </footer>
-            {/* Footer area end */}
+            <HomeFooter />
           </div>
         </div>
       </main >

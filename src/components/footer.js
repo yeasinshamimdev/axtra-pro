@@ -30,11 +30,11 @@ const Footer = () => {
                                 <div className="footer__widget-2">
                                     <h2 className="footer__widget-title">Information</h2>
                                     <ul className="footer__link">
-                                        <li><a href="about.html">About Company</a></li>
-                                        <li><a href="portfolio.html">Case Study</a></li>
-                                        <li><a href="career.html">Career</a></li>
+                                        <li><a href="/about">About Company</a></li>
+                                        <li><a href="/portfolio">Case Study</a></li>
+                                        <li><a href="/career">Career</a></li>
                                         <li><Link href="/blog">blog</Link></li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="/contact">contact</a></li>
                                     </ul>
                                 </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
                                 <div className="footer__widget-4">
                                     <h2 className="project-title">Have a project in your mind?</h2>
                                     <div id="btn_wrapper">
-                                        <a href="contact.html" className="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                                        <a href="/contact" className="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
                                             className="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                     <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>

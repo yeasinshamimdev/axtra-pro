@@ -59,25 +59,25 @@ const PortfolioFive = () => {
                                                     <div class="swiper-wrapper">
                                                         <div class="swiper-slide pp-slide">
                                                             <div class="pp-slide-img">
-                                                                <a href="portfolio-details.html"><img src="assets/imgs/portfolio/1/1.jpg"
+                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg"
                                                                     alt="Portfolio Thumbnail" /></a>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide pp-slide">
                                                             <div class="pp-slide-img">
-                                                                <a href="portfolio-details.html"><img src="assets/imgs/portfolio/1/2.jpg"
+                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg"
                                                                     alt="Portfolio Thumbnail" /></a>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide pp-slide">
                                                             <div class="pp-slide-img">
-                                                                <a href="portfolio-details.html"><img src="assets/imgs/portfolio/1/3.jpg"
+                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg"
                                                                     alt="Portfolio Thumbnail" /></a>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide pp-slide">
                                                             <div class="pp-slide-img">
-                                                                <a href="portfolio-details.html"><img src="assets/imgs/portfolio/1/4.jpg"
+                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg"
                                                                     alt="Portfolio Thumbnail" /></a>
                                                             </div>
                                                         </div>

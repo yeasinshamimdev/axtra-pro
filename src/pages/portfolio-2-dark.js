@@ -18,7 +18,7 @@ const PortfolioSecondDark = () => {
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
             </Head>
-            <body class="dark">
+            <main class="dark">
                 {/* Top head start */}
                 <TopHead portfolio={true} />
                 {/* Top head end */}
@@ -52,7 +52,7 @@ const PortfolioSecondDark = () => {
                                         <h2 class="portfolio__text">work</h2>
                                         <div class="portfolio__list-1">
                                             <div class="portfolio__item">
-                                                <a href="/portfolio-details"><img class="mover" src="assets/imgs/portfolio/1/1.jpg"
+                                                <Link href="/portfolio-details"><img class="mover" src="assets/imgs/portfolio/1/1.jpg"
                                                     alt="Portfolio Image" /></a>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
@@ -60,35 +60,35 @@ const PortfolioSecondDark = () => {
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></a>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg" alt="Portfolio Image" /></a>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg" alt="Portfolio Image" /></a>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg" alt="Portfolio Image" /></a>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></a>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
@@ -120,7 +120,7 @@ const PortfolioSecondDark = () => {
 
                     </div>
                 </div>
-            </body>
+            </main>
         </div>
     );
 };

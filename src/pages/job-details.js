@@ -17,7 +17,7 @@ const JobDetails = () => {
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
             </Head>
-            <body>
+            <main>
                 {/* Header area start */}
                 <TopHead />
                 {/* Header area end */}
@@ -179,7 +179,7 @@ const JobDetails = () => {
                                     <textarea name="question-3" required></textarea>
                                 </div>
                                 <div class="input-apply">
-                                    <p>Who's your favorite designer? *</p>
+                                    <p>Who`s your favorite designer? *</p>
                                     <textarea name="question-4" required></textarea>
                                 </div>
                                 <div class="input-apply">
@@ -245,7 +245,7 @@ const JobDetails = () => {
                         </div>
                     </div>
                 </div>
-            </body>
+            </main>
         </div>
     );
 };

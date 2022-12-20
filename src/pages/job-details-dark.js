@@ -17,7 +17,7 @@ const JobDetailsDark = () => {
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
             </Head>
-            <body class="dark">
+            <main class="dark">
                 {/* Header top start */}
                 <TopHead />
                 {/* Header top end */}
@@ -242,7 +242,7 @@ const JobDetailsDark = () => {
                         </div>
                     </div>
                 </div>
-            </body>
+            </main>
         </div>
     );
 };

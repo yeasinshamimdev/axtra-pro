@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Script from 'next/script'
+import HomeFooter from '../components/indexFooter'
 import TopHead from '../components/indexHead'
 
 export default function HomeDark() {
@@ -15,11 +18,29 @@ export default function HomeDark() {
                 {/* Fav Icon */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
 
+                {/* Google Fonts  */}
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+                <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
+                <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
+                <script type="text/javascript" src="assets/js/swiper-bundle.min.js" async />
+                <script type="text/javascript" src="assets/js/counter.js" async />
+                <script type="text/javascript" src="assets/js/gsap.min.js" async />
+                <script type="text/javascript" src="assets/js/ScrollTrigger.min.js" async />
+                <script type="text/javascript" src="assets/js/ScrollToPlugin.min.js" async />
+                <script type="text/javascript" src="assets/js/ScrollSmoother.min.js" async />
+                <script type="text/javascript" src="assets/js/SplitText.min.js" async />
+                <script type="text/javascript" src="assets/js/chroma.min.js" async />
+                <script type="text/javascript" src="assets/js/jquery.meanmenu.min.js" async />
+                <script type="text/javascript" src="assets/js/main.js" async />
             </Head>
 
             <main class="dark">
+                {/* Header area start  */}
                 <TopHead />
-
+                {/* Header area end  */}
 
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
@@ -125,8 +146,8 @@ export default function HomeDark() {
                                                         insights with design, technological data to produce brand experiences that customers love our
                                                         services.</p>
                                                     <div id="btn_wrapper">
-                                                        <a class="wc-btn-light btn-hover btn-item" href="/about"><span></span> Explore Us <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
+                                                        <Link class="wc-btn-light btn-hover btn-item" href="/about"><span></span> Explore Us <i
+                                                            class="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -158,7 +179,7 @@ export default function HomeDark() {
                                         <div class="col-xx-12">
                                             <div class="service__list-3">
                                                 <div class="service__item-3 service_animation">
-                                                    <h3><a href="/service-details" class="service__title-3">Search Engine <br />Optimization</a></h3>
+                                                    <h3><Link href="/service-details" class="service__title-3">Search Engine <br />Optimization</Link></h3>
                                                     <div class="service__content-3">
                                                         <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                         </p>
@@ -170,8 +191,8 @@ export default function HomeDark() {
                                                     </div>
                                                     <div class="service__btn-3">
                                                         <div id="btn_wrapper">
-                                                            <a href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
-                                                                <i class="fa-solid fa-arrow-right"></i></a>
+                                                            <Link href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
+                                                                <i class="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
 
@@ -179,7 +200,7 @@ export default function HomeDark() {
                                                 </div>
 
                                                 <div class="service__item-3 service_animation">
-                                                    <h3><a href="/service-details" class="service__title-3 ">Email <br />Marketing</a></h3>
+                                                    <h3><Link href="/service-details" class="service__title-3 ">Email <br />Marketing</Link></h3>
                                                     <div class="service__content-3">
                                                         <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                         </p>
@@ -191,8 +212,8 @@ export default function HomeDark() {
                                                     </div>
                                                     <div class="service__btn-3">
                                                         <div id="btn_wrapper">
-                                                            <a href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
-                                                                <i class="fa-solid fa-arrow-right"></i></a>
+                                                            <Link href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
+                                                                <i class="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
 
@@ -200,8 +221,8 @@ export default function HomeDark() {
                                                 </div>
 
                                                 <div class="service__item-3 service_animation">
-                                                    <h3 class=""><a href="/service-details" class="service__title-3">COntent
-                                                        <br />Marketing</a></h3>
+                                                    <h3 class=""><Link href="/service-details" class="service__title-3">COntent
+                                                        <br />Marketing</Link></h3>
                                                     <div class="service__content-3">
                                                         <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                         </p>
@@ -213,8 +234,8 @@ export default function HomeDark() {
                                                     </div>
                                                     <div class="service__btn-3 ">
                                                         <div id="btn_wrapper">
-                                                            <a href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
-                                                                <i class="fa-solid fa-arrow-right"></i></a>
+                                                            <Link href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
+                                                                <i class="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
 
@@ -222,8 +243,8 @@ export default function HomeDark() {
                                                 </div>
 
                                                 <div class="service__item-3 service_animation">
-                                                    <h3 class=""><a href="/service-details" class="service__title-3">Social
-                                                        <br />Marketing</a></h3>
+                                                    <h3 class=""><Link href="/service-details" class="service__title-3">Social
+                                                        <br />Marketing</Link></h3>
                                                     <div class="service__content-3">
                                                         <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                         </p>
@@ -235,8 +256,8 @@ export default function HomeDark() {
                                                     </div>
                                                     <div class="service__btn-3">
                                                         <div id="btn_wrapper">
-                                                            <a href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
-                                                                <i class="fa-solid fa-arrow-right"></i></a>
+                                                            <Link href="/service-details" class="wc-btn-black btn-hover btn-item"><span></span> Details
+                                                                <i class="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
 
@@ -272,34 +293,34 @@ export default function HomeDark() {
                                                 <div class="swiper-wrapper">
                                                     <div class="swiper-slide">
                                                         <div class="portfolio__slide-3">
-                                                            <a href="/service-details">
+                                                            <Link href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/2.jpg" alt="Portfolio Image" />
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="portfolio__slide-3">
-                                                            <a href="/service-details">
+                                                            <Link href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/1.jpg" alt="Portfolio Image" />
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="portfolio__slide-3">
-                                                            <a href="/service-details">
+                                                            <Link href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/3.jpg" alt="Portfolio Image" />
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="portfolio__slide-3">
-                                                            <a href="/service-details">
+                                                            <Link href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/4.jpg" alt="Portfolio Image" />
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -406,9 +427,9 @@ export default function HomeDark() {
                                                         </p>
                                                     </div>
                                                     <ul class="research__tools">
-                                                        <li><a href="#">Google</a></li>
-                                                        <li><a href="#">pinterest</a></li>
-                                                        <li><a href="#">Instagram</a></li>
+                                                        <li><Link href="#">Google</Link></li>
+                                                        <li><Link href="#">pinterest</Link></li>
+                                                        <li><Link href="#">Instagram</Link></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-xxl-6 col-xl-6 col-lg-6">
@@ -496,8 +517,8 @@ export default function HomeDark() {
                                                         <p class="cta__sub-title-2">Have you project in mind?</p>
                                                         <h2 class="cta__title-2">Let’s make something great together!</h2>
                                                         <div id="btn_wrapper">
-                                                            <a href="/contact" class="wc-btn-black btn-hover btn-item"><span></span>Contact <br />with
-                                                                us <i class="fa-solid fa-arrow-right"></i></a>
+                                                            <Link href="/contact" class="wc-btn-black btn-hover btn-item"><span></span>Contact <br />with
+                                                                us <i class="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -639,8 +660,8 @@ export default function HomeDark() {
                                                 </div>
                                             </div>
                                             <div class="price__btn" id="btn_wrapper">
-                                                <a href="/contact" class="wc-btn-black btn-hover btn-item"><span></span> Try it <br />Free Now <i
-                                                    class="fa-solid fa-arrow-right"></i></a>
+                                                <Link href="/contact" class="wc-btn-black btn-hover btn-item"><span></span> Try it <br />Free Now <i
+                                                    class="fa-solid fa-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -668,20 +689,20 @@ export default function HomeDark() {
                                         <div class="col-xxl-6 col-xl-6 col-lg-6">
                                             <article class="blog__item-3">
                                                 <div class="blog__img-wrapper-3">
-                                                    <a href="/blog-details">
+                                                    <Link href="/blog-details">
                                                         <div class="img-box">
                                                             <img class="image-box__item" src="assets/imgs/blog/3/1.jpg" alt="Blog Thumbnail" />
                                                             <img class="image-box__item" src="assets/imgs/blog/3/1.jpg" alt="BLog Thumbnail" />
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div class="blog__info-3">
-                                                    <h4 class="blog__meta"><a href="/category">UI Design</a> . 02 May 2019</h4>
-                                                    <h5><a href="/blog-details" class="blog__title-3">How to bring fold to your startup
+                                                    <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
+                                                    <h5><Link href="/blog-details" class="blog__title-3">How to bring fold to your startup
                                                         company with
-                                                        Axtra</a></h5>
-                                                    <a href="/blog-details" class="blog__btn">Read More <span><i
-                                                        class="fa-solid fa-arrow-right"></i></span></a>
+                                                        Axtra</Link></h5>
+                                                    <Link href="/blog-details" class="blog__btn">Read More <span><i
+                                                        class="fa-solid fa-arrow-right"></i></span></Link>
                                                 </div>
                                             </article>
                                         </div>
@@ -689,20 +710,20 @@ export default function HomeDark() {
                                         <div class="col-xxl-6 col-xl-6 col-lg-6">
                                             <article class="blog__item-3">
                                                 <div class="blog__img-wrapper-3">
-                                                    <a href="/blog-details">
+                                                    <Link href="/blog-details">
                                                         <div class="img-box">
                                                             <img class="image-box__item" src="assets/imgs/blog/3/2.jpg" alt="Blog Thumbnail" />
                                                             <img class="image-box__item" src="assets/imgs/blog/3/2.jpg" alt="BLog Thumbnail" />
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div class="blog__info-3">
-                                                    <h4 class="blog__meta"><a href="/category">UI Design</a> . 02 May 2019</h4>
-                                                    <h5><a href="/blog-details" class="blog__title-3">How to manage a talented and
+                                                    <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
+                                                    <h5><Link href="/blog-details" class="blog__title-3">How to manage a talented and
                                                         successful design
-                                                        team</a></h5>
-                                                    <a href="/blog-details" class="blog__btn">Read More <span><i
-                                                        class="fa-solid fa-arrow-right"></i></span></a>
+                                                        team</Link></h5>
+                                                    <Link href="/blog-details" class="blog__btn">Read More <span><i
+                                                        class="fa-solid fa-arrow-right"></i></span></Link>
                                                 </div>
                                             </article>
                                         </div>
@@ -710,63 +731,15 @@ export default function HomeDark() {
                                 </div>
                             </section>
                             {/* Blog area end  */}
-
                         </main>
 
-
-
                         {/* Footer area start  */}
-                        <footer class="footer__area-3">
-                            <div class="footer__top-3">
-                                <div class="footer__top-wrapper-3">
-                                    <div class="footer__logo-3 pt-120">
-                                        <img src="assets/imgs/logo/site-logo-white-2.png" alt="Footer Logo" />
-                                        <p>When do they work well, and when do they on us and finally, when do we actually need how can we avoid
-                                            them.</p>
-                                    </div>
-                                    <div class="footer__social-3">
-                                        <ul>
-                                            <li><a href="#">facebook</a></li>
-                                            <li><a href="#">Twitter</a></li>
-                                            <li><a href="#">Linkedin</a></li>
-                                            <li><a href="#">Instagram</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="footer__contact-3">
-                                        <a class="end" href="/contact">Let’s talk</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="footer__btm-3">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4">
-                                            <div class="footer__copyright-3">
-                                                <p>© 2022 - 2025 | Alrights reserved by <a href="https://wealcoder.com/" target="_blank" rel="noreferrer">Wealcoder</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xxl-8 col-xl-8 col-lg-8">
-                                            <div class="footer__nav-2">
-                                                <ul class="footer-menu-2 menu-anim">
-                                                    <li><a href="/about">about us</a></li>
-                                                    <li><a href="/contact">contact</a></li>
-                                                    <li><a href="/career">Career</a></li>
-                                                    <li><a href="/faq">FAQs</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </footer>
+                        <HomeFooter />
                         {/* Footer area end  */}
-
-
                     </div>
                 </div>
             </main>
+
         </div>
     )
 }

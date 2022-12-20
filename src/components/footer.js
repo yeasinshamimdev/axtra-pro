@@ -30,11 +30,11 @@ const Footer = () => {
                                 <div className="footer__widget-2">
                                     <h2 className="footer__widget-title">Information</h2>
                                     <ul className="footer__link">
-                                        <li><a href="/about">About Company</a></li>
-                                        <li><a href="/portfolio">Case Study</a></li>
-                                        <li><a href="/career">Career</a></li>
+                                        <li><Link href="/about">About Company</Link></li>
+                                        <li><Link href="/portfolio">Case Study</Link></li>
+                                        <li><Link href="/career">Career</Link></li>
                                         <li><Link href="/blog">blog</Link></li>
-                                        <li><a href="/contact">contact</a></li>
+                                        <li><Link href="/contact">contact</Link></li>
                                     </ul>
                                 </div>
 
@@ -50,8 +50,8 @@ const Footer = () => {
                                 <div className="footer__widget-4">
                                     <h2 className="project-title">Have a project in your mind?</h2>
                                     <div id="btn_wrapper">
-                                        <a href="/contact" className="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
-                                            className="fa-solid fa-arrow-right"></i></a>
+                                        <Link href="/contact" className="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                                            className="fa-solid fa-arrow-right"></i></Link>
                                     </div>
                                     <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
                                     <h4 className="contact-day">Saturday - Thursday</h4>

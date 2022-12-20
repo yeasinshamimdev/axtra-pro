@@ -17,7 +17,7 @@ const PortfolioDetails = () => {
         {/* Fav Icon   */}
         <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
       </Head>
-      <body>
+      <main>
         {/* Header top start */}
         <TopHead />
         {/* Header top end */}
@@ -42,7 +42,7 @@ const PortfolioDetails = () => {
                       <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-5">
                         <div class="portfolio__detail-info">
                           <ul>
-                            <li>Category <a href="/category">Development</a></li>
+                            <li>Category <Link href="/category">Development</Link></li>
                             <li>Client <span>Webflow</span></li>
                             <li>Start Date <span>23 January 2021</span></li>
                             <li>Handover <span>05 March 2021</span></li>
@@ -150,8 +150,8 @@ const PortfolioDetails = () => {
                     <div class="row">
                       <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                         <div class="portfolio__detail-btns pt-150 pb-150">
-                          <a href="/portfolio-details" class="wc-btn-primary btn-hover"><span></span> Prev Work</a>
-                          <a href="/portfolio-details" class="wc-btn-primary btn-hover"><span></span> Next Work</a>
+                          <Link href="/portfolio-details" class="wc-btn-primary btn-hover"><span></span> Prev Work</a>
+                          <Link href="/portfolio-details" class="wc-btn-primary btn-hover"><span></span> Next Work</a>
                         </div>
                       </div>
                     </div>
@@ -170,7 +170,7 @@ const PortfolioDetails = () => {
 
           </div>
         </div>
-      </body>
+      </main>
     </div>
   );
 };

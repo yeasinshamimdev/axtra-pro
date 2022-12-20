@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
-import Footer from '../components/Footer'
-import TopHead from '../components/topHead'
+import Footer from '../components/footer'
+import Offcanvas from '../components/offcanvas';
+import SwitcherArea from '../components/switcherArea';
 
 const Career = () => {
   return (
@@ -16,11 +18,81 @@ const Career = () => {
 
         {/* Fav Icon   */}
         <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
+        {/* Google Fonts  */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+        <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
+        <script type="text/javascript" src="assets/js/swiper-bundle.min.js" async />
+        <script type="text/javascript" src="assets/js/counter.js" async />
+        <script type="text/javascript" src="assets/js/gsap.min.js" async />
+        <script type="text/javascript" src="assets/js/ScrollTrigger.min.js" async />
+        <script type="text/javascript" src="assets/js/ScrollToPlugin.min.js" async />
+        <script type="text/javascript" src="assets/js/ScrollSmoother.min.js" async />
+        <script type="text/javascript" src="assets/js/SplitText.min.js" async />
+        <script type="text/javascript" src="assets/js/chroma.min.js" async />
+        <script type="text/javascript" src="assets/js/jquery.meanmenu.min.js" async />
+        <script type="text/javascript" src="assets/js/main.js" async />
       </Head>
-      <body>
-        {/* Header top start */}
-        <TopHead />
-        {/* Header top end */}
+      <main>
+        {/* Cursor Animation  */}
+        <div class="cursor1"></div>
+        <div class="cursor2"></div>
+
+
+        {/* Preloader  */}
+        <div class="preloader">
+          <div class="loading">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+            <div class="bar bar4"></div>
+            <div class="bar bar5"></div>
+            <div class="bar bar6"></div>
+            <div class="bar bar7"></div>
+            <div class="bar bar8"></div>
+          </div>
+        </div>
+
+
+
+        {/* Switcher Area Start  */}
+        <SwitcherArea />
+        {/* Switcher Area End  */}
+
+
+        {/* Scroll Smoother  */}
+        <div class="has-smooth" id="has_smooth"></div>
+
+
+        {/* Go Top Button  */}
+        <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+        {/* Header area start  */}
+        <header class="header__area">
+          <div class="header__inner">
+            <div class="header__logo">
+              <Link href="/index-dark">
+                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+              </Link>
+            </div>
+            <div class="header__nav-icon">
+              <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
+            </div>
+            <div class="header__support">
+              <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
+            </div>
+          </div>
+        </header>
+        {/* Header area end  */}
+
+        {/* Offcanvas area start */}
+        <Offcanvas />
+        {/* Offcanvas area end  */}
 
 
         <div id="smooth-wrapper">
@@ -40,8 +112,8 @@ const Career = () => {
                       </div>
                       <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
                         <div id="btn_wrapper">
-                          <a href="#job_list" class="wc-btn-secondary btn-hover btn-item"><span></span> Explore job
-                            <br />vacancies <i class="fa-solid fa-arrow-right"></i></a>
+                          <Link href="#job_list" class="wc-btn-secondary btn-hover btn-item"><span></span> Explore job
+                            <br />vacancies <i class="fa-solid fa-arrow-right"></i></Link>
                         </div>
                       </div>
                     </div>
@@ -105,7 +177,6 @@ const Career = () => {
               </section>
               {/* Career gallery end   */}
 
-
               {/* Career area start   */}
               <section class="job__area pt-130 pb-150" id="job_list">
                 <div class="container">
@@ -117,53 +188,52 @@ const Career = () => {
                     </div>
                     <div class="col-xxl-12">
                       <div class="job__list">
-                        <a href="/job-details">
+                        <Link href="/job-details">
                           <div class="job__item">
                             <p class="job__no">01</p>
                             <h3 class="job__title">UI/UX Designer</h3>
                             <h4 class="job__open">(02 Open Roles)</h4>
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
-                        </a>
-                        <a href="/job-details">
+                        </Link>
+                        <Link href="/job-details">
                           <div class="job__item">
                             <p class="job__no">02</p>
                             <h3 class="job__title">Frontend Developer</h3>
                             <h4 class="job__open">(07 Open Roles)</h4>
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
-                        </a>
-                        <a href="/job-details">
+                        </Link>
+                        <Link href="/job-details">
                           <div class="job__item">
                             <p class="job__no">03</p>
                             <h3 class="job__title">Product Manager</h3>
                             <h4 class="job__open">(15 Open Roles)</h4>
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
-                        </a>
-                        <a href="/job-details">
+                        </Link>
+                        <Link href="/job-details">
                           <div class="job__item">
                             <p class="job__no">04</p>
                             <h3 class="job__title">JavaScript Engineer</h3>
                             <h4 class="job__open">(03 Open Roles)</h4>
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
-                        </a>
-                        <a href="/job-details">
+                        </Link>
+                        <Link href="/job-details">
                           <div class="job__item">
                             <p class="job__no">05</p>
                             <h3 class="job__title">Joomla Developer</h3>
                             <h4 class="job__open">(09 Open Roles)</h4>
                             <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </section>
               {/* Career area end   */}
-
 
               {/* Career benefit area start   */}
               <section class="career__benefits">
@@ -195,9 +265,7 @@ const Career = () => {
               </section>
               {/* Career benefit area end   */}
 
-
             </main>
-
 
             {/* Footer area start   */}
             <Footer />
@@ -205,7 +273,7 @@ const Career = () => {
 
           </div>
         </div>
-      </body>
+      </main>
     </div>
   );
 };

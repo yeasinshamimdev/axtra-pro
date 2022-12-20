@@ -18,7 +18,7 @@ const PortfolioFiveDark = () => {
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
             </Head>
-            <body class="dark">
+            <main class="dark">
                 {/* header top start */}
                 <TopHead />
                 {/* header top end */}
@@ -58,25 +58,25 @@ const PortfolioFiveDark = () => {
                                                     <div class="swiper-wrapper">
                                                         <div class="swiper-slide pp-slide">
                                                             <div class="pp-slide-img">
-                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg"
+                                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg"
                                                                     alt="Portfolio Thumbnail" /></a>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide pp-slide">
                                                             <div class="pp-slide-img">
-                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg"
+                                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg"
                                                                     alt="Portfolio Thumbnail" /></a>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide pp-slide">
                                                             <div class="pp-slide-img">
-                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg"
+                                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg"
                                                                     alt="Portfolio Thumbnail" /></a>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide pp-slide">
                                                             <div class="pp-slide-img">
-                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg"
+                                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg"
                                                                     alt="Portfolio Thumbnail" /></a>
                                                             </div>
                                                         </div>
@@ -138,7 +138,7 @@ const PortfolioFiveDark = () => {
 
                     </div>
                 </div>
-            </body>
+            </main>
         </div>
     );
 };

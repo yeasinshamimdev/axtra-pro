@@ -14,7 +14,7 @@ export default function Home4Dark() {
                 {/* Fav Icon */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
             </Head>
-            <body class="dark">
+            <main class="dark">
 
                 {/* Cursor Animation  */}
                 <div class="cursor1"></div>
@@ -85,8 +85,8 @@ export default function Home4Dark() {
                 <header class="header__area-2">
                     <div class="header__inner-5">
                         <div class="header__logo-5">
-                            <a href="/index" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></a>
-                            <a href="/index" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></a>
+                            <Link href="/" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></a>
+                            <Link href="/" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></a>
                         </div>
                         <div class="header__nav-icon-5">
                             <button id="open_offcanvas"><span class="menu-text-pp">Menu</span><img src="assets/imgs/icon/menu-black.png"
@@ -102,25 +102,25 @@ export default function Home4Dark() {
                     <div class="offcanvas__body">
                         <div class="offcanvas__left">
                             <div class="offcanvas__logo">
-                                <a href="/index"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></a>
+                                <Link href="/"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></a>
                             </div>
                             <div class="offcanvas__social">
                                 <h3 class="social-title">Follow Us</h3>
                                 <ul>
-                                    <li><a href="#">Dribbble</a></li>
-                                    <li><a href="#">Behance</a></li>
-                                    <li><a href="#">Instagram</a></li>
-                                    <li><a href="#">Facebook</a></li>
-                                    <li><a href="#">Twitter</a></li>
-                                    <li><a href="#">YouTube</a></li>
+                                    <li><Link href="#">Dribbble</Link></li>
+                                    <li><Link href="#">Behance</Link></li>
+                                    <li><Link href="#">Instagram</Link></li>
+                                    <li><Link href="#">Facebook</Link></li>
+                                    <li><Link href="#">Twitter</Link></li>
+                                    <li><Link href="#">YouTube</Link></li>
                                 </ul>
                             </div>
                             <div class="offcanvas__links">
                                 <ul>
-                                    <li><a href="/about">About</a></li>
-                                    <li><a href="/contact">contact</a></li>
-                                    <li><a href="/career">Career</a></li>
-                                    <li><a href="/blog">blog</a></li>
+                                    <li><Link href="/about">About</Link></li>
+                                    <li><Link href="/contact">contact</Link></li>
+                                    <li><Link href="/career">Career</Link></li>
+                                    <li><Link href="/blog">blog</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -130,40 +130,40 @@ export default function Home4Dark() {
                                     <ul class="menu-anim">
                                         <li><a>home</a>
                                             <ul>
-                                                <li><a href="/index">Digital Maketing</a></li>
-                                                <li><a href="/index-dark">Digital Maketing dark</a></li>
-                                                <li><a href="/index-2">Design Studio </a></li>
-                                                <li><a href="/index-2-dark">Design Studio dark</a></li>
-                                                <li><a href="/index-3">Digital Agency</a></li>
-                                                <li><a href="/index-3-dark">Digital Agency dark</a></li>
-                                                <li><a href="/index-4">personal Portfolio</a></li>
-                                                <li><a href="/index-4-dark">personal Portfolio dark</a></li>
-                                                <li><a href="/index-5">portfolio showcase</a></li>
-                                                <li><a href="/index-5-dark">portfolio showcase dark</a></li>
-                                                <li><a href="/index-6">Startup Agency</a></li>
-                                                <li><a href="/index-6-dark">Startup Agency dark</a></li>
-                                                <li><a href="/index-7">creative Agency</a></li>
-                                                <li><a href="/index-7-dark">creative Agency dark</a></li>
+                                                <li><Link href="/">Digital Maketing</Link></li>
+                                                <li><Link href="/index-dark">Digital Maketing dark</Link></li>
+                                                <li><Link href="/index-2">Design Studio </Link></li>
+                                                <li><Link href="/index-2-dark">Design Studio dark</Link></li>
+                                                <li><Link href="/index-3">Digital Agency</Link></li>
+                                                <li><Link href="/index-3-dark">Digital Agency dark</Link></li>
+                                                <li><Link href="/index-4">personal Portfolio</Link></li>
+                                                <li><Link href="/index-4-dark">personal Portfolio dark</Link></li>
+                                                <li><Link href="/index-5">portfolio showcase</Link></li>
+                                                <li><Link href="/index-5-dark">portfolio showcase dark</Link></li>
+                                                <li><Link href="/index-6">Startup Agency</Link></li>
+                                                <li><Link href="/index-6-dark">Startup Agency dark</Link></li>
+                                                <li><Link href="/index-7">creative Agency</Link></li>
+                                                <li><Link href="/index-7-dark">creative Agency dark</Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/about">about</a></li>
+                                        <li><Link href="/about">about</Link></li>
                                         <li>
                                             <a>Service</a>
                                             <ul>
-                                                <li><a href="/service">service</a></li>
-                                                <li><a href="/service-dark">service dark</a></li>
-                                                <li><a href="/service-2">service V.2</a></li>
-                                                <li><a href="/service-2-dark">service V.2 dark</a></li>
-                                                <li><a href="/service-3">service V.3</a></li>
-                                                <li><a href="/service-3-dark">service V.3 dark</a></li>
-                                                <li><a href="/service-4">service V.4</a></li>
-                                                <li><a href="/service-4-dark">service V.4 dark</a></li>
-                                                <li><a href="/service-5">service V.5</a></li>
-                                                <li><a href="/service-5-dark">service V.5 dark</a></li>
-                                                <li><a href="service-6.html">service V.6</a></li>
-                                                <li><a href="service-6-dark.html">service V.6 dark</a></li>
-                                                <li><a href="/service-details">service details</a></li>
-                                                <li><a href="/service-details-dark">service details dark</a></li>
+                                                <li><Link href="/service">service</Link></li>
+                                                <li><Link href="/service-dark">service dark</Link></li>
+                                                <li><Link href="/service-2">service V.2</Link></li>
+                                                <li><Link href="/service-2-dark">service V.2 dark</Link></li>
+                                                <li><Link href="/service-3">service V.3</Link></li>
+                                                <li><Link href="/service-3-dark">service V.3 dark</Link></li>
+                                                <li><Link href="/service-4">service V.4</Link></li>
+                                                <li><Link href="/service-4-dark">service V.4 dark</Link></li>
+                                                <li><Link href="/service-5">service V.5</Link></li>
+                                                <li><Link href="/service-5-dark">service V.5 dark</Link></li>
+                                                <li><Link href="service-6.html">service V.6</Link></li>
+                                                <li><Link href="service-6-dark.html">service V.6 dark</Link></li>
+                                                <li><Link href="/service-details">service details</Link></li>
+                                                <li><Link href="/service-details-dark">service details dark</Link></li>
                                             </ul>
                                         </li>
                                         <li><a>pages</a>
@@ -171,110 +171,110 @@ export default function Home4Dark() {
                                                 <li>
                                                     <a>Home</a>
                                                     <ul>
-                                                        <li><a href="/index">Digital Maketing</a></li>
-                                                        <li><a href="/index-dark">Digital Maketing dark</a></li>
-                                                        <li><a href="/index-2">Design Studio </a></li>
-                                                        <li><a href="/index-2-dark">Design Studio dark</a></li>
-                                                        <li><a href="/index-3">Digital Agency</a></li>
-                                                        <li><a href="/index-3-dark">Digital Agency dark</a></li>
-                                                        <li><a href="/index-4">personal Portfolio</a></li>
-                                                        <li><a href="/index-4-dark">personal Portfolio dark</a></li>
-                                                        <li><a href="/index-5">portfolio showcase</a></li>
-                                                        <li><a href="/index-5-dark">portfolio showcase dark</a></li>
-                                                        <li><a href="/index-6">Startup Agency</a></li>
-                                                        <li><a href="/index-6-dark">Startup Agency dark</a></li>
-                                                        <li><a href="/index-7">creative Agency</a></li>
-                                                        <li><a href="/index-7-dark">creative Agency dark</a></li>
+                                                        <li><Link href="/">Digital Maketing</Link></li>
+                                                        <li><Link href="/index-dark">Digital Maketing dark</Link></li>
+                                                        <li><Link href="/index-2">Design Studio </Link></li>
+                                                        <li><Link href="/index-2-dark">Design Studio dark</Link></li>
+                                                        <li><Link href="/index-3">Digital Agency</Link></li>
+                                                        <li><Link href="/index-3-dark">Digital Agency dark</Link></li>
+                                                        <li><Link href="/index-4">personal Portfolio</Link></li>
+                                                        <li><Link href="/index-4-dark">personal Portfolio dark</Link></li>
+                                                        <li><Link href="/index-5">portfolio showcase</Link></li>
+                                                        <li><Link href="/index-5-dark">portfolio showcase dark</Link></li>
+                                                        <li><Link href="/index-6">Startup Agency</Link></li>
+                                                        <li><Link href="/index-6-dark">Startup Agency dark</Link></li>
+                                                        <li><Link href="/index-7">creative Agency</Link></li>
+                                                        <li><Link href="/index-7-dark">creative Agency dark</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>Service</a>
                                                     <ul>
-                                                        <li><a href="/service">service</a></li>
-                                                        <li><a href="/service-dark">service dark</a></li>
-                                                        <li><a href="/service-2">service V.2</a></li>
-                                                        <li><a href="/service-2-dark">service V.2 dark</a></li>
-                                                        <li><a href="/service-3">service V.3</a></li>
-                                                        <li><a href="/service-3-dark">service V.3 dark</a></li>
-                                                        <li><a href="/service-4">service V.4</a></li>
-                                                        <li><a href="/service-4-dark">service V.4 dark</a></li>
-                                                        <li><a href="/service-5">service V.5</a></li>
-                                                        <li><a href="/service-5-dark">service V.5 dark</a></li>
-                                                        <li><a href="service-6.html">service V.6</a></li>
-                                                        <li><a href="service-6-dark.html">service V.6 dark</a></li>
-                                                        <li><a href="/service-details">service details</a></li>
-                                                        <li><a href="/service-details-dark">service details dark</a></li>
+                                                        <li><Link href="/service">service</Link></li>
+                                                        <li><Link href="/service-dark">service dark</Link></li>
+                                                        <li><Link href="/service-2">service V.2</Link></li>
+                                                        <li><Link href="/service-2-dark">service V.2 dark</Link></li>
+                                                        <li><Link href="/service-3">service V.3</Link></li>
+                                                        <li><Link href="/service-3-dark">service V.3 dark</Link></li>
+                                                        <li><Link href="/service-4">service V.4</Link></li>
+                                                        <li><Link href="/service-4-dark">service V.4 dark</Link></li>
+                                                        <li><Link href="/service-5">service V.5</Link></li>
+                                                        <li><Link href="/service-5-dark">service V.5 dark</Link></li>
+                                                        <li><Link href="service-6.html">service V.6</Link></li>
+                                                        <li><Link href="service-6-dark.html">service V.6 dark</Link></li>
+                                                        <li><Link href="/service-details">service details</Link></li>
+                                                        <li><Link href="/service-details-dark">service details dark</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>portfolio</a>
                                                     <ul>
-                                                        <li><a href="/portfolio">portfolio</a></li>
-                                                        <li><a href="/portfolio-dark">portfolio dark</a></li>
-                                                        <li><a href="/portfolio-2">portfolio v.2</a></li>
-                                                        <li><a href="/portfolio-2-dark">portfolio v.2 dark</a></li>
-                                                        <li><a href="/portfolio-3">portfolio v.3</a></li>
-                                                        <li><a href="/portfolio-3-dark">portfolio v.3 dark</a></li>
-                                                        <li><a href="/portfolio-4">portfolio v.4</a></li>
-                                                        <li><a href="/portfolio-4-dark">portfolio v.4 dark</a></li>
-                                                        <li><a href="/portfolio-5">portfolio v.5</a></li>
-                                                        <li><a href="/portfolio-5-dark">portfolio v.5 dark</a></li>
-                                                        <li><a href="/portfolio-details">portfolio details</a></li>
-                                                        <li><a href="/portfolio-details-dark">portfolio details dark</a></li>
+                                                        <li><Link href="/portfolio">portfolio</Link></li>
+                                                        <li><Link href="/portfolio-dark">portfolio dark</Link></li>
+                                                        <li><Link href="/portfolio-2">portfolio v.2</Link></li>
+                                                        <li><Link href="/portfolio-2-dark">portfolio v.2 dark</Link></li>
+                                                        <li><Link href="/portfolio-3">portfolio v.3</Link></li>
+                                                        <li><Link href="/portfolio-3-dark">portfolio v.3 dark</Link></li>
+                                                        <li><Link href="/portfolio-4">portfolio v.4</Link></li>
+                                                        <li><Link href="/portfolio-4-dark">portfolio v.4 dark</Link></li>
+                                                        <li><Link href="/portfolio-5">portfolio v.5</Link></li>
+                                                        <li><Link href="/portfolio-5-dark">portfolio v.5 dark</Link></li>
+                                                        <li><Link href="/portfolio-details">portfolio details</Link></li>
+                                                        <li><Link href="/portfolio-details-dark">portfolio details dark</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>team</a>
                                                     <ul>
-                                                        <li><a href="/team">Team</a></li>
-                                                        <li><a href="/team-dark">Team dark</a></li>
-                                                        <li><a href="/team-details">Team Details</a></li>
-                                                        <li><a href="/team-details-dark">Team Details dark</a></li>
-                                                        <li><a href="/career">career</a></li>
-                                                        <li><a href="/career-dark">career dark</a></li>
-                                                        <li><a href="/job-details">job details</a></li>
-                                                        <li><a href="/job-details-dark">job details dark</a></li>
+                                                        <li><Link href="/team">Team</Link></li>
+                                                        <li><Link href="/team-dark">Team dark</Link></li>
+                                                        <li><Link href="/team-details">Team Details</Link></li>
+                                                        <li><Link href="/team-details-dark">Team Details dark</Link></li>
+                                                        <li><Link href="/career">career</Link></li>
+                                                        <li><Link href="/career-dark">career dark</Link></li>
+                                                        <li><Link href="/job-details">job details</Link></li>
+                                                        <li><Link href="/job-details-dark">job details dark</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>blog</a>
                                                     <ul>
-                                                        <li><a href="/blog">blog</a></li>
-                                                        <li><a href="/blog-dark">blog dark</a></li>
-                                                        <li><a href="/blog-2">blog v.2</a></li>
-                                                        <li><a href="/blog-2-dark">blog v.2 dark</a></li>
-                                                        <li><a href="/category">category</a></li>
-                                                        <li><a href="/category-dark">category dark</a></li>
-                                                        <li><a href="/blog-details">blog details</a></li>
-                                                        <li><a href="/blog-details-dark">blog details dark</a></li>
+                                                        <li><Link href="/blog">blog</Link></li>
+                                                        <li><Link href="/blog-dark">blog dark</Link></li>
+                                                        <li><Link href="/blog-2">blog v.2</Link></li>
+                                                        <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
+                                                        <li><Link href="/category">category</Link></li>
+                                                        <li><Link href="/category-dark">category dark</Link></li>
+                                                        <li><Link href="/blog-details">blog details</Link></li>
+                                                        <li><Link href="/blog-details-dark">blog details dark</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a>Others</a>
                                                     <ul>
-                                                        <li><a href="/faq">FAQs</a></li>
-                                                        <li><a href="/faq-dark">FAQs dark</a></li>
-                                                        <li><a href="/contact">contact</a></li>
-                                                        <li><a href="/contact-dark">contact dark</a></li>
-                                                        <li><a href="/404">404</a></li>
-                                                        <li><a href="/404-dark">404 dark</a></li>
+                                                        <li><Link href="/faq">FAQs</Link></li>
+                                                        <li><Link href="/faq-dark">FAQs dark</Link></li>
+                                                        <li><Link href="/contact">contact</Link></li>
+                                                        <li><Link href="/contact-dark">contact dark</Link></li>
+                                                        <li><Link href="/404">404</Link></li>
+                                                        <li><Link href="/404-dark">404 dark</Link></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li><a>blog</a>
                                             <ul>
-                                                <li><a href="/blog">blog</a></li>
-                                                <li><a href="/blog-dark">blog dark</a></li>
-                                                <li><a href="/blog-2">blog v.2</a></li>
-                                                <li><a href="/blog-2-dark">blog v.2 dark</a></li>
-                                                <li><a href="/category">category</a></li>
-                                                <li><a href="/category-dark">category dark</a></li>
-                                                <li><a href="/blog-details">blog details</a></li>
-                                                <li><a href="/blog-details-dark">blog details dark</a></li>
+                                                <li><Link href="/blog">blog</Link></li>
+                                                <li><Link href="/blog-dark">blog dark</Link></li>
+                                                <li><Link href="/blog-2">blog v.2</Link></li>
+                                                <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
+                                                <li><Link href="/category">category</Link></li>
+                                                <li><Link href="/category-dark">category dark</Link></li>
+                                                <li><Link href="/blog-details">blog details</Link></li>
+                                                <li><Link href="/blog-details-dark">blog details dark</Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/contact">contact</a></li>
+                                        <li><Link href="/contact">contact</Link></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -289,8 +289,8 @@ export default function Home4Dark() {
                             <div class="offcanvas__contact">
                                 <h3>Get in touch</h3>
                                 <ul>
-                                    <li><a href="tel:02094980547">+(02) - 094 980 547</a></li>
-                                    <li><a href="mailto:info@extradesign.com">info@extradesign.com</a></li>
+                                    <li><Link href="tel:02094980547">+(02) - 094 980 547</Link></li>
+                                    <li><Link href="mailto:info@extradesign.com">info@extradesign.com</Link></li>
                                     <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
                                 </ul>
                             </div>
@@ -322,7 +322,7 @@ export default function Home4Dark() {
                                                                 <h2 class="title text-stroke">Web & Mobile</h2>
                                                                 <h2 class="title">developer</h2>
                                                                 <div class="btn-wrapper">
-                                                                    <a href="/portfolio" class="wc-btn-dark">View all work</a>
+                                                                    <Link href="/portfolio" class="wc-btn-dark">View all work</a>
                                                                 </div>
                                                                 <img src="assets/imgs/portfolio/1.png" alt="Personal Portfolio" class="pp-thumb" />
                                                             </div>
@@ -353,7 +353,7 @@ export default function Home4Dark() {
                                                                     make websites, data visualizations, and long-forms that strengthen their networks and
                                                                     engage new
                                                                     audiences with thoughtful content and design strategies.</p>
-                                                                <a href="/about" class="wc-btn-dark">Explore Me</a>
+                                                                <Link href="/about" class="wc-btn-dark">Explore Me</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -404,25 +404,25 @@ export default function Home4Dark() {
                                                                     <div class="swiper-wrapper">
                                                                         <div class="swiper-slide pp-slide">
                                                                             <div class="pp-slide-img">
-                                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg"
+                                                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg"
                                                                                     alt="Portfolio Thumbnail" /></a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide pp-slide">
                                                                             <div class="pp-slide-img">
-                                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg"
+                                                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg"
                                                                                     alt="Portfolio Thumbnail" /></a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide pp-slide">
                                                                             <div class="pp-slide-img">
-                                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg"
+                                                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg"
                                                                                     alt="Portfolio Thumbnail" /></a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide pp-slide">
                                                                             <div class="pp-slide-img">
-                                                                                <a href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg"
+                                                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg"
                                                                                     alt="Portfolio Thumbnail" /></a>
                                                                             </div>
                                                                         </div>
@@ -491,7 +491,7 @@ export default function Home4Dark() {
                                                         <div class="row">
                                                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                                                 <div class="portfolio__service-item">
-                                                                    <a href="/service-details">
+                                                                    <Link href="/service-details">
                                                                         <h3 class="ps-title">Frontend <br /> Developemnt</h3>
                                                                         <ul>
                                                                             <li>+ WordPress</li>
@@ -503,7 +503,7 @@ export default function Home4Dark() {
                                                             </div>
                                                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                                                 <div class="portfolio__service-item">
-                                                                    <a href="/service-details">
+                                                                    <Link href="/service-details">
                                                                         <h3 class="ps-title">Backend<br /> Developemnt</h3>
                                                                         <ul>
                                                                             <li>+ WordPress</li>
@@ -515,7 +515,7 @@ export default function Home4Dark() {
                                                             </div>
                                                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                                                 <div class="portfolio__service-item">
-                                                                    <a href="/service-details">
+                                                                    <Link href="/service-details">
                                                                         <h3 class="ps-title">Android<br /> Developemnt</h3>
                                                                         <ul>
                                                                             <li>+ WordPress</li>
@@ -530,7 +530,7 @@ export default function Home4Dark() {
                                                     <div class="row">
                                                         <div class="col-xxl-12">
                                                             <div class="ps-btn">
-                                                                <a href="/contact">Call me to get more extra service <strong>call now</strong></a>
+                                                                <Link href="/contact">Call me to get more extra service <strong>call now</strong></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -563,16 +563,16 @@ export default function Home4Dark() {
                                                                     <h3>Don’t be afraid man ! <br />say hello
                                                                     </h3>
                                                                     <ul>
-                                                                        <li><a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a></li>
-                                                                        <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+                                                                        <li><Link href="tel:+(2)578365379">+(2) 578 - 365 - 379</Link></li>
+                                                                        <li><Link href="mailto:hello@example.com">hello@example.com</Link></li>
                                                                     </ul>
                                                                 </div>
                                                                 <div class="pf-social">
                                                                     <h3>follow </h3>
                                                                     <ul>
-                                                                        <li><a href="#">Behance</a></li>
-                                                                        <li><a href="#">Dribble</a></li>
-                                                                        <li><a href="#">Meduim</a></li>
+                                                                        <li><Link href="#">Behance</Link></li>
+                                                                        <li><Link href="#">Dribble</Link></li>
+                                                                        <li><Link href="#">Meduim</Link></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -622,7 +622,7 @@ export default function Home4Dark() {
                                                             <div class="row">
                                                                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5">
                                                                     <div class="footer__copyright-2">
-                                                                        <p>© 2022 - 2025 | Alrights reserved by <a href="https://wealcoder.com/"
+                                                                        <p>© 2022 - 2025 | Alrights reserved by <Link href="https://wealcoder.com/"
                                                                             target="_blank" rel="noreferrer">Wealcoder</a>
                                                                         </p>
                                                                     </div>
@@ -630,10 +630,10 @@ export default function Home4Dark() {
                                                                 <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7">
                                                                     <div class="footer__nav">
                                                                         <ul class="footer-menu menu-anim">
-                                                                            <li><a href="/about">about us</a></li>
-                                                                            <li><a href="/contact">contact</a></li>
-                                                                            <li><a href="/career">Career</a></li>
-                                                                            <li><a href="/faq">FAQs</a></li>
+                                                                            <li><Link href="/about">about us</Link></li>
+                                                                            <li><Link href="/contact">contact</Link></li>
+                                                                            <li><Link href="/career">Career</Link></li>
+                                                                            <li><Link href="/faq">FAQs</Link></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -654,7 +654,7 @@ export default function Home4Dark() {
 
                     </div>
                 </div>
-            </body>
+            </main>
         </div>
     )
 }

@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function TopHead() {
     return (
-        <div>
+        <>
             {/* Cursor Animation */}
             <div class="cursor1"></div>
             <div class="cursor2"></div>
@@ -72,8 +71,8 @@ export default function TopHead() {
             <header class="header__area-3">
                 <div class="header__inner-3">
                     <div class="header__logo-2">
-                        <Link href="/index" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></Link>
-                        <Link href="/index" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></Link>
+                        <Link href="/" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></Link>
+                        <Link href="/" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></Link>
                     </div>
                     <div class="header__nav-2">
                         <ul class="main-menu-3 menu-anim">
@@ -81,7 +80,7 @@ export default function TopHead() {
                                 <ul class="mega-menu-2">
                                     <li>
                                         <ul>
-                                            <li><Link href="/index">Digital Maketing</Link></li>
+                                            <li><Link href="/">Digital Maketing</Link></li>
                                             <li><Link href="/index-dark">Digital Maketing dark</Link></li>
                                             <li><Link href="/index-2">Design Studio </Link></li>
                                             <li><Link href="/index-2-dark">Design Studio dark</Link></li>
@@ -110,7 +109,7 @@ export default function TopHead() {
                                     <li>
                                         <a>Home</a>
                                         <ul>
-                                            <li><Link href="/index">Digital Maketing</Link></li>
+                                            <li><Link href="/">Digital Maketing</Link></li>
                                             <li><Link href="/index-dark">Digital Maketing dark</Link></li>
                                             <li><Link href="/index-2">Design Studio </Link></li>
                                             <li><Link href="/index-2-dark">Design Studio dark</Link></li>
@@ -259,7 +258,7 @@ export default function TopHead() {
                 <div class="offcanvas__body">
                     <div class="offcanvas__left">
                         <div class="offcanvas__logo">
-                            <Link href="/index"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></Link>
+                            <Link href="/"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></Link>
                         </div>
                         <div class="offcanvas__social">
                             <h3 class="social-title">Follow Us</h3>
@@ -287,7 +286,7 @@ export default function TopHead() {
                                 <ul class="menu-anim">
                                     <li><a>home</a>
                                         <ul>
-                                            <li><Link href="/index">Digital Maketing</Link></li>
+                                            <li><Link href="/">Digital Maketing</Link></li>
                                             <li><Link href="/index-dark">Digital Maketing dark</Link></li>
                                             <li><Link href="/index-2">Design Studio </Link></li>
                                             <li><Link href="/index-2-dark">Design Studio dark</Link></li>
@@ -328,7 +327,7 @@ export default function TopHead() {
                                             <li>
                                                 <a>Home</a>
                                                 <ul>
-                                                    <li><Link href="/index">Digital Maketing</Link></li>
+                                                    <li><Link href="/">Digital Maketing</Link></li>
                                                     <li><Link href="/index-dark">Digital Maketing dark</Link></li>
                                                     <li><Link href="/index-2">Design Studio </Link></li>
                                                     <li><Link href="/index-2-dark">Design Studio dark</Link></li>
@@ -461,6 +460,6 @@ export default function TopHead() {
                 </div>
             </div>
             {/* Offcanvas area end */}
-        </div>
+        </>
     )
 }

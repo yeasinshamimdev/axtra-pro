@@ -18,7 +18,7 @@ const PortfolioDark = () => {
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
             </Head>
-            <body class="dark">
+            <main class="dark">
                 {/* Top head start */}
                 <TopHead portfolio={true} />
                 {/* Top head end */}
@@ -53,7 +53,7 @@ const PortfolioDark = () => {
                                                 <div class="portfolio__wrapper-6">
                                                     <div class="portfolio__list-6">
                                                         <div class="portfolio__item-6" data-portfitem="1">
-                                                            <a href="/portfolio-details">
+                                                            <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/1.jpg" alt="Portfolio Image" data-speed="0.4" />
                                                                 <div class="portfolio__content-6">
                                                                     <h4 class="portfolio__title-6">Lionpro Agency</h4>
@@ -63,7 +63,7 @@ const PortfolioDark = () => {
                                                         </div>
 
                                                         <div class="portfolio__item-6" data-portfitem="2">
-                                                            <a href="/portfolio-details">
+                                                            <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/2.jpg" alt="Portfolio Image" data-speed="0.4" />
                                                                 <div class="portfolio__content-6">
                                                                     <h4 class="portfolio__title-6">Lionpro Agency</h4>
@@ -73,7 +73,7 @@ const PortfolioDark = () => {
                                                         </div>
 
                                                         <div class="portfolio__item-6" data-portfitem="3">
-                                                            <a href="/portfolio-details">
+                                                            <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/3.jpg" alt="Portfolio Image" data-speed="0.4" />
                                                                 <div class="portfolio__content-6">
                                                                     <h4 class="portfolio__title-6">Lionpro Agency</h4>
@@ -83,7 +83,7 @@ const PortfolioDark = () => {
                                                         </div>
 
                                                         <div class="portfolio__item-6" data-portfitem="4">
-                                                            <a href="/portfolio-details">
+                                                            <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/4.jpg" alt="Portfolio Image" data-speed="0.4" />
                                                                 <div class="portfolio__content-6">
                                                                     <h4 class="portfolio__title-6">Lionpro Agency</h4>
@@ -93,7 +93,7 @@ const PortfolioDark = () => {
                                                         </div>
 
                                                         <div class="portfolio__item-6" data-portfitem="5">
-                                                            <a href="/portfolio-details">
+                                                            <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/5.jpg" alt="Portfolio Image" data-speed="0.4" />
                                                                 <div class="portfolio__content-6">
                                                                     <h4 class="portfolio__title-6">Lionpro Agency</h4>
@@ -103,7 +103,7 @@ const PortfolioDark = () => {
                                                         </div>
 
                                                         <div class="portfolio__item-6" data-portfitem="6">
-                                                            <a href="/portfolio-details">
+                                                            <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/6.jpg" alt="Portfolio Image" data-speed="0.4" />
                                                                 <div class="portfolio__content-6">
                                                                     <h4 class="portfolio__title-6">Lionpro Agency</h4>
@@ -113,7 +113,7 @@ const PortfolioDark = () => {
                                                         </div>
 
                                                         <div class="portfolio__item-6" data-portfitem="7">
-                                                            <a href="/portfolio-details">
+                                                            <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/7.jpg" alt="Portfolio Image" data-speed="0.4" />
                                                                 <div class="portfolio__content-6">
                                                                     <h4 class="portfolio__title-6">Lionpro Agency</h4>
@@ -142,7 +142,7 @@ const PortfolioDark = () => {
 
                     </div>
                 </div>
-            </body>
+            </main>
         </div>
     );
 };

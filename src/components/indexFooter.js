@@ -22,7 +22,7 @@ export default function HomeFooter() {
                             </ul>
                         </div>
                         <div class="footer__contact-3">
-                            <a class="end" href="/contact">Let’s talk</a>
+                            <Link class="end" href="/contact">Let’s talk</Link>
                         </div>
                     </div>
                 </div>

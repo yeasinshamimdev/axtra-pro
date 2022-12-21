@@ -4,7 +4,8 @@ import React from 'react';
 import CtaArea from '../components/ctaArea';
 import Footer from '../components/footer'
 import Offcanvas from '../components/offcanvas';
-import SwitcherArea from '../components/switcherArea';
+import OffcanvasDark from '../components/offcanvasDark';
+import SwitcherAreaDark from '../components/switcherAreaDark';
 
 const CategoryDark = () => {
     return (
@@ -60,7 +61,7 @@ const CategoryDark = () => {
 
 
                 {/* Switcher Area Start   */}
-                <SwitcherArea />
+                <SwitcherAreaDark />
                 {/* Switcher Area End   */}
 
 
@@ -93,7 +94,7 @@ const CategoryDark = () => {
                 {/* Header area end   */}
 
                 {/* Offcanvas area start   */}
-                <Offcanvas />
+                <OffcanvasDark />
                 {/* Offcanvas area end   */}
 
 

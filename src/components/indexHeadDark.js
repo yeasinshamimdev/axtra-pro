@@ -1,14 +1,14 @@
 import Link from "next/link";
 
-export default function TopHead() {
+export default function TopHeadDark() {
     return (
         <>
-            {/* Cursor Animation */}
+            {/* Cursor Animation  */}
             <div class="cursor1"></div>
             <div class="cursor2"></div>
 
 
-            {/* Preloader */}
+            {/* Preloader  */}
             <div class="preloader">
                 <div class="loading">
                     <div class="bar bar1"></div>
@@ -22,7 +22,7 @@ export default function TopHead() {
                 </div>
             </div>
 
-            {/* Switcher Area Start */}
+            {/* Switcher Area Start  */}
             <div class="switcher__area">
                 <div class="switcher__icon">
                     <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
@@ -47,31 +47,29 @@ export default function TopHead() {
                             <h2 class="switcher__title">mode</h2>
                         </div>
                         <div class="switcher__btn mode-type wc-col-2">
-                            <button class="active" data-mode="light">light</button>
-                            <button data-mode="dark">dark</button>
+                            <button data-mode="light">light</button>
+                            <button class="active" data-mode="dark">dark</button>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* Switcher Area End */}
+            {/* Switcher Area End  */}
 
-            {/* Scroll Smoother */}
+            {/* Scroll Smoother  */}
             <div class="has-smooth" id="has_smooth"></div>
 
-
-            {/* Go Top Button */}
+            {/* Go Top Button  */}
             <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
 
-
-            {/* Header area start */}
-            <header class="header__area-3">
-                <div class="header__inner-3">
+            {/* Header area start  */}
+            <header class="header__area-7">
+                <div class="header__inner-2">
                     <div class="header__logo-2">
                         <Link href="/" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></Link>
                         <Link href="/" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></Link>
                     </div>
                     <div class="header__nav-2">
-                        <ul class="main-menu-3 menu-anim">
+                        <ul class="main-menu-4 menu-anim">
                             <li><Link href="#">home</Link>
                                 <ul class="mega-menu-2">
                                     <li>
@@ -106,13 +104,13 @@ export default function TopHead() {
                                         <a>Home</a>
                                         <ul>
                                             <li><Link href="/">Digital Maketing</Link></li>
-                                            <li><Link href="/index-dark">Digital Maketing dark</Link></li>
+                                            <li><Link href="/index-dark">Digital Maketing Dark</Link></li>
                                             <li><Link href="/index-2">Design Studio </Link></li>
-                                            <li><Link href="/index-2-dark">Design Studio dark</Link></li>
+                                            <li><Link href="/index-2-dark">Design Studio Dark</Link></li>
                                             <li><Link href="/index-3">Digital Agency</Link></li>
-                                            <li><Link href="/index-3-dark">Digital Agency dark</Link></li>
-                                            <li><Link href="/index-4">personal Portfolio</Link></li>
-                                            <li><Link href="/index-4-dark">personal Portfolio dark</Link></li>
+                                            <li><Link href="/index-3-dark">Digital Agency Dark</Link></li>
+                                            <li><Link href="/index-4">Personal Portfolio</Link></li>
+                                            <li><Link href="/index-4-dark">Personal Portfolio Dark</Link></li>
                                             <li><Link href="/index-5">portfolio showcase</Link></li>
                                             <li><Link href="/index-5-dark">portfolio showcase dark</Link></li>
                                             <li><Link href="/index-6">Startup Agency</Link></li>
@@ -163,7 +161,7 @@ export default function TopHead() {
                                             <li><Link href="/team">Team</Link></li>
                                             <li><Link href="/team-dark">Team dark</Link></li>
                                             <li><Link href="/team-details">Team Details</Link></li>
-                                            <li><Link href="/team-details-dark">Team Details dark</Link ></li>
+                                            <li><Link href="/team-details-dark">Team Details dark</Link></li>
                                             <li><Link href="/career">career</Link></li>
                                             <li><Link href="/career-dark">career dark</Link></li>
                                             <li><Link href="/job-details">job details</Link></li>
@@ -178,9 +176,9 @@ export default function TopHead() {
                                             <li><Link href="/blog-2">blog v.2</Link></li>
                                             <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
                                             <li><Link href="/category">category</Link></li>
-                                            <li><Link href="category-dark">category dark</Link></li>
+                                            <li><Link href="/category-dark">category dark</Link></li>
                                             <li><Link href="/blog-details">blog details</Link></li>
-                                            <li><Link href="blog-details-dark">blog details dark</Link></li>
+                                            <li><Link href="/blog-details-dark">blog details dark</Link></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -189,14 +187,14 @@ export default function TopHead() {
                                             <li><Link href="/faq">FAQs</Link></li>
                                             <li><Link href="/faq-dark">FAQs dark</Link></li>
                                             <li><Link href="/contact">contact</Link></li>
-                                            <li><Link href="/contact-dark">contact dark</Link ></li>
+                                            <li><Link href="/contact-dark">contact dark</Link></li>
                                             <li><Link href="/404">404</Link></li>
                                             <li><Link href="/404-dark">404 dark</Link></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li><Link href="/service">services</Link>
+                            <li><Link href="/portfolio">services</Link>
                                 <ul class="main-dropdown">
                                     <li><Link href="/service">service</Link>
                                         <ul class="sub-dropdown">
@@ -219,37 +217,30 @@ export default function TopHead() {
                             </li>
                             <li><Link href="/team">team</Link>
                                 <ul class="main-dropdown">
-                                    <li><Link href="/team">Team</Link></li>
-                                    <li><Link href="/team-details">Team Details</Link></li>
+                                    <li><Link href="/team">team</Link></li>
+                                    <li><Link href="/team-details">team details</Link></li>
                                 </ul>
                             </li>
                             <li><Link href="/blog">Blog</Link>
                                 <ul class="main-dropdown">
-                                    <li><Link href="/blog"> blog </Link></li>
+                                    <li><Link href="/blog">blog</Link></li>
                                     <li><Link href="/blog-2">blog v.2</Link></li>
                                     <li><Link href="/category">category</Link></li>
                                     <li><Link href="/blog-details">blog details</Link></li>
                                 </ul>
                             </li>
-                            <li><Link href="/contact">CONTACT</Link></li>
+                            <li><Link href="/contact">Contact</Link></li>
                         </ul>
                     </div>
-                    <div class="header__nav-icon-3">
-                        <button class="search-icon" id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <button class="search-icon" id="search_close"><i class="fa-solid fa-xmark"></i></button>
-                        <button id="open_offcanvas"><img src="assets/imgs/icon/menu-black.png" alt="Menubar Icon" /></button>
+                    <div class="header__nav-icon-7">
+                        <button class="menu-icon-2" id="open_offcanvas"><img src="assets/imgs/icon/menu-dark.png"
+                            alt="Menubar Icon" /></button>
                     </div>
                 </div>
             </header>
-            <div class="header__search">
-                <form action="#">
-                    <input type="text" name="s" id="s" placeholder="Search.." />
-                </form>
-            </div>
-            {/* Header area end */}
+            {/* Header area end  */}
 
-
-            {/* Offcanvas area start */}
+            {/* Offcanvas area start  */}
             <div class="offcanvas__area">
                 <div class="offcanvas__body">
                     <div class="offcanvas__left">
@@ -381,8 +372,7 @@ export default function TopHead() {
                                                     <li><Link href="/team">Team</Link></li>
                                                     <li><Link href="/team-dark">Team dark</Link></li>
                                                     <li><Link href="/team-details">Team Details</Link></li>
-                                                    <li><Link href="/team-details-dark">Team Details dark</Link ></li>
-
+                                                    <li><Link href="/team-details-dark">Team Details dark</Link></li>
                                                     <li><Link href="/career">career</Link></li>
                                                     <li><Link href="/career-dark">career dark</Link></li>
                                                     <li><Link href="/job-details">job details</Link></li>
@@ -397,9 +387,9 @@ export default function TopHead() {
                                                     <li><Link href="/blog-2">blog v.2</Link></li>
                                                     <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
                                                     <li><Link href="/category">category</Link></li>
-                                                    <li><Link href="category-dark">category dark</Link></li>
+                                                    <li><Link href="/category-dark">category dark</Link></li>
                                                     <li><Link href="/blog-details">blog details</Link></li>
-                                                    <li><Link href="blog-details-dark">blog details dark</Link></li>
+                                                    <li><Link href="/blog-details-dark">blog details dark</Link></li>
                                                 </ul>
                                             </li>
                                             <li>
@@ -408,7 +398,7 @@ export default function TopHead() {
                                                     <li><Link href="/faq">FAQs</Link></li>
                                                     <li><Link href="/faq-dark">FAQs dark</Link></li>
                                                     <li><Link href="/contact">contact</Link></li>
-                                                    <li><Link href="/contact-dark">contact dark</Link ></li>
+                                                    <li><Link href="/contact-dark">contact dark</Link></li>
                                                     <li><Link href="/404">404</Link></li>
                                                     <li><Link href="/404-dark">404 dark</Link></li>
                                                 </ul>
@@ -422,9 +412,9 @@ export default function TopHead() {
                                             <li><Link href="/blog-2">blog v.2</Link></li>
                                             <li><Link href="/blog-2-dark">blog v.2 dark</Link></li>
                                             <li><Link href="/category">category</Link></li>
-                                            <li><Link href="category-dark">category dark</Link></li>
+                                            <li><Link href="/category-dark">category dark</Link></li>
                                             <li><Link href="/blog-details">blog details</Link></li>
-                                            <li><Link href="blog-details-dark">blog details dark</Link></li>
+                                            <li><Link href="/blog-details-dark">blog details dark</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link href="/contact">contact</Link></li>
@@ -455,7 +445,7 @@ export default function TopHead() {
                     </div>
                 </div>
             </div>
-            {/* Offcanvas area end */}
+            {/* Offcanvas area end  */}
         </>
     )
 }

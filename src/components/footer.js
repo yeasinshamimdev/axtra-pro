@@ -20,10 +20,10 @@ const Footer = () => {
                                         avoid
                                         them.</p>
                                     <ul className="footer__social">
-                                        <li><a href="#"><span><i className="fa-brands fa-facebook-f"></i></span></a></li>
-                                        <li><a href="#"><span><i className="fa-brands fa-twitter"></i></span></a></li>
-                                        <li><a href="#"><span><i className="fa-brands fa-instagram"></i></span></a></li>
-                                        <li><a href="#"><span><i className="fa-brands fa-linkedin"></i></span></a></li>
+                                        <li><Link href="#"><span><i className="fa-brands fa-facebook-f"></i></span></Link></li>
+                                        <li><Link href="#"><span><i className="fa-brands fa-twitter"></i></span></Link></li>
+                                        <li><Link href="#"><span><i className="fa-brands fa-instagram"></i></span></Link></li>
+                                        <li><Link href="#"><span><i className="fa-brands fa-linkedin"></i></span></Link></li>
                                     </ul>
                                 </div>
 
@@ -42,8 +42,8 @@ const Footer = () => {
                                     <h2 className="footer__widget-title">Contact Us</h2>
                                     <ul className="footer__contact">
                                         <li>Valentin, Street Road 24, New York, USA - 67452</li>
-                                        <li><a href="tel:02574328301" className="phone">+02) 574 - 328 - 301 </a></li>
-                                        <li><a href="mailto:info@buildyexample.com">info@buildyexample.com</a></li>
+                                        <li><Link href="tel:02574328301" className="phone">+02) 574 - 328 - 301 </Link></li>
+                                        <li><Link href="mailto:info@buildyexample.com">info@buildyexample.com</Link></li>
                                     </ul>
                                 </div>
 

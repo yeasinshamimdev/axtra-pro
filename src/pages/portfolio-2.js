@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
+import CtaArea from '../components/ctaArea';
 import Footer from '../components/footer'
-import TopHead from '../components/topHead'
+import TopHeadDark from '../components/indexHeadDark';
 const PortfolioSecond = () => {
     return (
         <div>
@@ -18,7 +20,7 @@ const PortfolioSecond = () => {
             </Head>
             <main>
                 {/* Top head start */}
-                <TopHead />
+                <TopHeadDark />
                 {/* Top head end */}
 
                 <div id="smooth-wrapper">
@@ -51,42 +53,42 @@ const PortfolioSecond = () => {
                                         <div class="portfolio__list-1">
                                             <div class="portfolio__item">
                                                 <Link href="/portfolio-details"><img class="mover" src="assets/imgs/portfolio/1/1.jpg"
-                                                    alt="Portfolio Image" /></a>
+                                                    alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
@@ -99,7 +101,7 @@ const PortfolioSecond = () => {
                                     <div class="row row_bottom">
                                         <div class="col-xxl-12">
                                             <div class="portfolio__btn" id="btn_wrapper" data-speed="1" data-lag="0.2">
-                                                <a class="wc-btn-secondary btn-hover btn-item" href="/portfolio"><span></span>Load More</a>
+                                                <Link class="wc-btn-secondary btn-hover btn-item" href="/portfolio"><span></span>Load More</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -108,8 +110,7 @@ const PortfolioSecond = () => {
                             {/* Portfolio area end  */}
 
                             {/* CTA area start   */}
-
-
+                            <CtaArea />
                             {/* CTA area end   */}
 
                         </main>

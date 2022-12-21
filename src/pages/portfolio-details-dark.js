@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import Footer from '../Components/footer';
+import TopHeadDark from '../components/indexHeadDark';
 import TopHead from '../Components/topHead';
 
 const PortfolioDetailsDark = () => {
@@ -19,7 +20,7 @@ const PortfolioDetailsDark = () => {
             </Head>
             <main class="dark">
                 {/* header top start */}
-                <TopHead />
+                <TopHeadDark />
                 {/* header top end */}
 
                 <div id="smooth-wrapper">

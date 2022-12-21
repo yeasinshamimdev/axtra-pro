@@ -3,8 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import CtaArea from '../components/ctaArea';
 import Footer from '../components/footer'
-import Offcanvas from '../components/offcanvas';
-import SwitcherArea from '../components/switcherArea';
+import OffcanvasDark from '../components/offcanvasDark';
+import SwitcherAreaDark from '../components/switcherAreaDark';
 
 const AboutDark = () => {
   return (
@@ -61,7 +61,7 @@ const AboutDark = () => {
 
 
         {/* Switcher Area Start   */}
-        <SwitcherArea />
+        <SwitcherAreaDark />
         {/* Switcher Area End   */}
 
 
@@ -87,16 +87,14 @@ const AboutDark = () => {
               <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
             </div>
             <div class="header__support">
-              <p>Support center <a href="tel:+9587325902">+9 587 325 902</a></p>
+              <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
             </div>
           </div>
         </header>
         {/* Header area end   */}
 
-
-
         {/* Offcanvas area start   */}
-        <Offcanvas />
+        <OffcanvasDark />
         {/* Offcanvas area end   */}
 
 

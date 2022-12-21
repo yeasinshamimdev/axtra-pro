@@ -64,8 +64,8 @@ export default function Offcanvas() {
                                         <li><Link href="/service-4-dark">service V.4 dark</Link></li>
                                         <li><Link href="/service-5">service V.5</Link></li>
                                         <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                                        <li><Link href="service-6.html">service V.6</Link></li>
-                                        <li><Link href="service-6-dark.html">service V.6 dark</Link></li>
+                                        <li><Link href="/service-6">service V.6</Link></li>
+                                        <li><Link href="/service-6-dark">service V.6 dark</Link></li>
                                         <li><Link href="/service-details">service details</Link></li>
                                         <li><Link href="/service-details-dark">service details dark</Link></li>
                                     </ul>
@@ -104,8 +104,8 @@ export default function Offcanvas() {
                                                 <li><Link href="/service-4-dark">service V.4 dark</Link></li>
                                                 <li><Link href="/service-5">service V.5</Link></li>
                                                 <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                                                <li><Link href="service-6.html">service V.6</Link></li>
-                                                <li><Link href="service-6-dark.html">service V.6 dark</Link></li>
+                                                <li><Link href="/service-6">service V.6</Link></li>
+                                                <li><Link href="/service-6-dark">service V.6 dark</Link></li>
                                                 <li><Link href="/service-details">service details</Link></li>
                                                 <li><Link href="/service-details-dark">service details dark</Link></li>
                                             </ul>

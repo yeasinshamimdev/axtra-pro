@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Link from "next/link";
+import CtaArea from "../components/ctaArea";
 
 export default function Home7() {
     return (
@@ -13,13 +15,29 @@ export default function Home7() {
 
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
+                {/* Google Fonts  */}
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+                <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
+                <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
+                <script type="text/javascript" src="assets/js/swiper-bundle.min.js" async />
+                <script type="text/javascript" src="assets/js/counter.js" async />
+                <script type="text/javascript" src="assets/js/gsap.min.js" async />
+                <script type="text/javascript" src="assets/js/ScrollTrigger.min.js" async />
+                <script type="text/javascript" src="assets/js/ScrollToPlugin.min.js" async />
+                <script type="text/javascript" src="assets/js/ScrollSmoother.min.js" async />
+                <script type="text/javascript" src="assets/js/SplitText.min.js" async />
+                <script type="text/javascript" src="assets/js/chroma.min.js" async />
+                <script type="text/javascript" src="assets/js/jquery.meanmenu.min.js" async />
+                <script type="text/javascript" src="assets/js/main.js" async />
             </Head>
 
             <main>
                 {/* Cursor Animation  */}
                 <div class="cursor1"></div>
                 <div class="cursor2"></div>
-
 
                 {/* Preloader  */}
                 <div class="preloader">
@@ -34,8 +52,6 @@ export default function Home7() {
                         <div class="bar bar8"></div>
                     </div>
                 </div>
-
-
 
                 {/* Switcher Area Start  */}
                 <div class="switcher__area">
@@ -70,8 +86,6 @@ export default function Home7() {
                 </div>
                 {/* Switcher Area End  */}
 
-
-
                 {/* Scroll Smoother  */}
                 <div class="has-smooth" id="has_smooth"></div>
 
@@ -84,12 +98,12 @@ export default function Home7() {
                 <header class="header__area-7">
                     <div class="header__inner-2">
                         <div class="header__logo-2">
-                            <Link href="/" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></a>
-                            <Link href="/" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></a>
+                            <Link href="/" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></Link>
+                            <Link href="/" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></Link>
                         </div>
                         <div class="header__nav-2">
                             <ul class="main-menu-4 menu-anim">
-                                <li><Link href="#">home</a>
+                                <li><Link href="#">home</Link>
                                     <ul class="mega-menu-2">
                                         <li>
                                             <ul>
@@ -117,7 +131,7 @@ export default function Home7() {
                                     </ul>
                                 </li>
                                 <li><Link href="/about">About</Link></li>
-                                <li class="has-megamenu"><Link href="/about">Pages</a>
+                                <li class="has-megamenu"><Link href="/about">Pages</Link>
                                     <ul class="mega-menu">
                                         <li>
                                             <a>Home</a>
@@ -151,8 +165,8 @@ export default function Home7() {
                                                 <li><Link href="/service-4-dark">service V.4 dark</Link></li>
                                                 <li><Link href="/service-5">service V.5</Link></li>
                                                 <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                                                <li><Link href="service-6.html">service V.6</Link></li>
-                                                <li><Link href="service-6-dark.html">service V.6 dark</Link></li>
+                                                <li><Link href="/service-6">service V.6</Link></li>
+                                                <li><Link href="/service-6-dark">service V.6 dark</Link></li>
                                                 <li><Link href="/service-details">service details</Link></li>
                                                 <li><Link href="/service-details-dark">service details dark</Link></li>
                                             </ul>
@@ -213,16 +227,16 @@ export default function Home7() {
                                         </li>
                                     </ul>
                                 </li>
-                                <li><Link href="/portfolio">services</a>
+                                <li><Link href="/portfolio">services</Link>
                                     <ul class="main-dropdown">
-                                        <li><Link href="/service">service</a>
+                                        <li><Link href="/service">service</Link>
                                             <ul class="sub-dropdown">
                                                 <li><Link href="/service-dark">service dark</Link></li>
                                                 <li><Link href="/service-2-dark">service V.2 dark</Link></li>
                                                 <li><Link href="/service-3-dark">service V.3 dark</Link></li>
                                                 <li><Link href="/service-4-dark">service V.4 dark</Link></li>
                                                 <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                                                <li><Link href="service-6-dark.html">service V.6 dark</Link></li>
+                                                <li><Link href="/service-6-dark">service V.6 dark</Link></li>
                                                 <li><Link href="/service-details-dark">service details dark</Link></li>
                                             </ul>
                                         </li>
@@ -230,17 +244,17 @@ export default function Home7() {
                                         <li><Link href="/service-3">service V.3</Link></li>
                                         <li><Link href="/service-4">service V.4</Link></li>
                                         <li><Link href="/service-5">service V.5</Link></li>
-                                        <li><Link href="service-6.html">service V.6</Link></li>
+                                        <li><Link href="/service-6">service V.6</Link></li>
                                         <li><Link href="/service-details">service details</Link></li>
                                     </ul>
                                 </li>
-                                <li><Link href="/team">team</a>
+                                <li><Link href="/team">team</Link>
                                     <ul class="main-dropdown">
                                         <li><Link href="/team">team</Link></li>
                                         <li><Link href="/team-details">team details</Link></li>
                                     </ul>
                                 </li>
-                                <li><Link href="/blog">Blog</a>
+                                <li><Link href="/blog">Blog</Link>
                                     <ul class="main-dropdown">
                                         <li><Link href="/blog">blog</Link></li>
                                         <li><Link href="/blog-2">blog v.2</Link></li>
@@ -265,7 +279,7 @@ export default function Home7() {
                     <div class="offcanvas__body">
                         <div class="offcanvas__left">
                             <div class="offcanvas__logo">
-                                <Link href="/"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></a>
+                                <Link href="/"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></Link>
                             </div>
                             <div class="offcanvas__social">
                                 <h3 class="social-title">Follow Us</h3>
@@ -323,8 +337,8 @@ export default function Home7() {
                                                 <li><Link href="/service-4-dark">service V.4 dark</Link></li>
                                                 <li><Link href="/service-5">service V.5</Link></li>
                                                 <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                                                <li><Link href="service-6.html">service V.6</Link></li>
-                                                <li><Link href="service-6-dark.html">service V.6 dark</Link></li>
+                                                <li><Link href="/service-6">service V.6</Link></li>
+                                                <li><Link href="/service-6-dark">service V.6 dark</Link></li>
                                                 <li><Link href="/service-details">service details</Link></li>
                                                 <li><Link href="/service-details-dark">service details dark</Link></li>
                                             </ul>
@@ -363,8 +377,8 @@ export default function Home7() {
                                                         <li><Link href="/service-4-dark">service V.4 dark</Link></li>
                                                         <li><Link href="/service-5">service V.5</Link></li>
                                                         <li><Link href="/service-5-dark">service V.5 dark</Link></li>
-                                                        <li><Link href="service-6.html">service V.6</Link></li>
-                                                        <li><Link href="service-6-dark.html">service V.6 dark</Link></li>
+                                                        <li><Link href="/service-6">service V.6</Link></li>
+                                                        <li><Link href="/service-6-dark">service V.6 dark</Link></li>
                                                         <li><Link href="/service-details">service details</Link></li>
                                                         <li><Link href="/service-details-dark">service details dark</Link></li>
                                                     </ul>
@@ -559,7 +573,7 @@ export default function Home7() {
                                                 <div class="service__item-7">
                                                     <Link href="/service-details">
                                                         <h3 class="service__title-7">Branding <span>design</span></h3>
-                                                    </a>
+                                                    </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
                                                     <ul>
@@ -571,7 +585,7 @@ export default function Home7() {
                                                 <div class="service__item-7">
                                                     <Link href="/service-details">
                                                         <h3 class="service__title-7">Interactive <span>Design</span> </h3>
-                                                    </a>
+                                                    </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
                                                     <ul>
@@ -583,7 +597,7 @@ export default function Home7() {
                                                 <div class="service__item-7">
                                                     <Link href="/service-details">
                                                         <h3 class="service__title-7">Web & Mobile <span>Development</span> </h3>
-                                                    </a>
+                                                    </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
                                                     <ul>
@@ -595,7 +609,7 @@ export default function Home7() {
                                                 <div class="service__item-7">
                                                     <Link href="/service-details">
                                                         <h3 class="service__title-7">Digital <span> Marketing</span> </h3>
-                                                    </a>
+                                                    </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
                                                     <ul>
@@ -607,7 +621,7 @@ export default function Home7() {
                                                 <div class="service__item-7">
                                                     <Link href="/service-details">
                                                         <h3 class="service__title-7">Business <span>Strategy</span></h3>
-                                                    </a>
+                                                    </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
                                                     <ul>
@@ -619,7 +633,7 @@ export default function Home7() {
                                                 <div class="service__item-7">
                                                     <Link href="/service-details">
                                                         <h3 class="service__title-7">Illustration <span>Modelling</span> </h3>
-                                                    </a>
+                                                    </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
                                                     <ul>
@@ -717,12 +731,12 @@ export default function Home7() {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-7">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content">
                                                     <Link href="/portfolio-details">
                                                         <h2 class="title"> Lionpro <span>Agency</span> </h2>
-                                                    </a>
+                                                    </Link>
                                                     <h4 class="date">02 May 2021</h4>
                                                 </div>
                                             </div>
@@ -730,12 +744,12 @@ export default function Home7() {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-7">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content">
                                                     <Link href="/portfolio-details">
                                                         <h2 class="title"> Lionpro <span>Agency</span> </h2>
-                                                    </a>
+                                                    </Link>
                                                     <h4 class="date">02 May 2021</h4>
                                                 </div>
                                             </div>
@@ -743,12 +757,12 @@ export default function Home7() {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-7">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content">
                                                     <Link href="/portfolio-details">
                                                         <h2 class="title"> Lionpro <span>Agency</span> </h2>
-                                                    </a>
+                                                    </Link>
                                                     <h4 class="date">02 May 2021</h4>
                                                 </div>
                                             </div>
@@ -756,12 +770,12 @@ export default function Home7() {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-7">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content">
                                                     <Link href="/portfolio-details">
                                                         <h2 class="title"> Lionpro <span>Agency</span> </h2>
-                                                    </a>
+                                                    </Link>
                                                     <h4 class="date">02 May 2021</h4>
                                                 </div>
                                             </div>
@@ -769,12 +783,12 @@ export default function Home7() {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-7">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content">
                                                     <Link href="/portfolio-details">
                                                         <h2 class="title"> Lionpro <span>Agency</span> </h2>
-                                                    </a>
+                                                    </Link>
                                                     <h4 class="date">02 May 2021</h4>
                                                 </div>
                                             </div>
@@ -782,12 +796,12 @@ export default function Home7() {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-7">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content">
                                                     <Link href="/portfolio-details">
                                                         <h2 class="title"> Lionpro <span>Agency</span> </h2>
-                                                    </a>
+                                                    </Link>
                                                     <h4 class="date">02 May 2021</h4>
                                                 </div>
                                             </div>
@@ -824,7 +838,7 @@ export default function Home7() {
                                                         <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
                                                         <div class="team__hover-7" style="background-image: url(assets/imgs/team/1.jpg);"></div>
                                                     </div>
-                                                </a>
+                                                </Link>
 
                                                 <Link href="/team-details">
                                                     <div class="team__item-7 fade_bottom_3">
@@ -837,7 +851,7 @@ export default function Home7() {
                                                         <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
                                                         <div class="team__hover-7" style="background-image: url(assets/imgs/team/2.jpg);"></div>
                                                     </div>
-                                                </a>
+                                                </Link>
 
                                                 <Link href="/team-details">
                                                     <div class="team__item-7 fade_bottom_3">
@@ -849,7 +863,7 @@ export default function Home7() {
                                                         <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
                                                         <div class="team__hover-7" style="background-image: url(assets/imgs/team/3.jpg);"></div>
                                                     </div>
-                                                </a>
+                                                </Link>
                                                 <Link href="/team-details">
                                                     <div class="team__item-7 fade_bottom_3">
                                                         <div class="team__name-wrap-7">
@@ -860,7 +874,7 @@ export default function Home7() {
                                                         <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
                                                         <div class="team__hover-7" style="background-image: url(assets/imgs/team/4.jpg);"></div>
                                                     </div>
-                                                </a>
+                                                </Link>
                                                 <Link href="/team-details">
                                                     <div class="team__item-7 fade_bottom_3">
                                                         <div class="team__name-wrap-7">
@@ -871,7 +885,7 @@ export default function Home7() {
                                                         <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
                                                         <div class="team__hover-7" style="background-image: url(assets/imgs/team/5.jpg);"></div>
                                                     </div>
-                                                </a>
+                                                </Link>
                                                 <Link href="/team-details">
                                                     <div class="team__item-7 fade_bottom_3">
                                                         <div class="team__name-wrap-7">
@@ -882,7 +896,7 @@ export default function Home7() {
                                                         <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
                                                         <div class="team__hover-7" style="background-image: url(assets/imgs/team/6.jpg);"></div>
                                                     </div>
-                                                </a>
+                                                </Link>
                                                 <Link href="/team-details">
                                                     <div class="team__item-7 fade_bottom_3">
                                                         <div class="team__name-wrap-7">
@@ -893,7 +907,7 @@ export default function Home7() {
                                                         <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
                                                         <div class="team__hover-7" style="background-image: url(assets/imgs/team/7.jpg);"></div>
                                                     </div>
-                                                </a>
+                                                </Link>
                                                 <div class="team7__img-wrap">
                                                     <div class="team7__img"></div>
                                                 </div>
@@ -956,13 +970,13 @@ export default function Home7() {
                                                             <img class="image-box__item" src="assets/imgs/blog/1/1.jpg" alt="" />
                                                             <img class="image-box__item" src="assets/imgs/blog/1/1.jpg" alt="" />
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
-                                                <h4 class="blog__meta"><Link href="/category">UI Design</a> . 02 May 2019</h4>
+                                                <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
                                                 <h5><Link href="/blog-details" class="blog__title">Ways of lying to yourself about your new
                                                     relationship.</Link></h5>
                                                 <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></a>
+                                                    class="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
 
@@ -974,13 +988,13 @@ export default function Home7() {
                                                             <img class="image-box__item" src="assets/imgs/blog/1/2.jpg" alt="" />
                                                             <img class="image-box__item" src="assets/imgs/blog/1/2.jpg" alt="" />
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
-                                                <h4 class="blog__meta"><Link href="/category">UI Design</a> . 02 May 2019</h4>
+                                                <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
                                                 <h5><Link href="/blog-details" class="blog__title">How to manage a talented and successful de sign
                                                     team</Link></h5>
                                                 <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></a>
+                                                    class="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
 
@@ -992,13 +1006,13 @@ export default function Home7() {
                                                             <img class="image-box__item" src="assets/imgs/blog/1/3.jpg" alt="Blog Thumbnail" />
                                                             <img class="image-box__item" src="assets/imgs/blog/1/3.jpg" alt="BLog Thumbnail" />
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
-                                                <h4 class="blog__meta"><Link href="/category">UI Design</a> . 02 May 2019</h4>
+                                                <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
                                                 <h5><Link href="/blog-details" class="blog__title">How to bring fold to your startup company with
                                                     Axtra</Link></h5>
                                                 <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></a>
+                                                    class="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
                                     </div>
@@ -1008,28 +1022,10 @@ export default function Home7() {
 
 
                             {/* CTA area start  */}
-                            <section class="cta__area cta__area-7 pt-130">
-                                <div class="container pb-110">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="cta__content">
-                                                <p class="cta__sub-title">Work with us</p>
-                                                <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
-                                                <div id="btn_wrapper">
-                                                    <Link href="/contact" class="wc-btn-primary btn-hover btn-item"><span></span>Let’s talk us <i
-                                                        class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
+                            <CtaArea />
                             {/* CTA area end  */}
 
-
                         </main>
-
-
 
                         {/* Footer area start  */}
                         <footer class="footer__area-2 pt-130">
@@ -1077,7 +1073,7 @@ export default function Home7() {
                                     <div class="row">
                                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5">
                                             <div class="footer__copyright-2">
-                                                <p>© 2022 - 2025 | Alrights reserved by <Link href="https://wealcoder.com/" target="_blank" rel="noreferrer">Wealcoder</a>
+                                                <p>© 2022 - 2025 | Alrights reserved by <Link href="https://wealcoder.com/" target="_blank" rel="noreferrer">Wealcoder</Link>
                                                 </p>
                                             </div>
                                         </div>

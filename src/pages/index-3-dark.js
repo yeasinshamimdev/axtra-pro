@@ -3,7 +3,8 @@ import Link from "next/link";
 import CtaArea from "../components/ctaArea";
 import Footer from "../components/footer";
 import Offcanvas from "../components/offcanvas";
-import SwitcherArea from "../components/switcherArea";
+import OffcanvasDark from "../components/offcanvasDark";
+import SwitcherAreaDark from "../components/switcherAreaDark";
 
 export default function Home3Dark() {
     return (
@@ -62,7 +63,7 @@ export default function Home3Dark() {
 
 
                 {/* Switcher Area Start  */}
-                <SwitcherArea />
+                <SwitcherAreaDark />
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother  */}
@@ -93,7 +94,7 @@ export default function Home3Dark() {
                 {/* Header area end  */}
 
                 {/* Offcanvas area start  */}
-                <Offcanvas />
+                <OffcanvasDark />
                 {/* Offcanvas area end  */}
 
                 <div id="smooth-wrapper">

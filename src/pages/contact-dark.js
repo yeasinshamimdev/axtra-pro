@@ -3,7 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import Footer from '../components/footer'
 import Offcanvas from '../components/offcanvas';
-import SwitcherArea from '../components/switcherArea';
+import OffcanvasDark from '../components/offcanvasDark';
+import SwitcherAreaDark from '../components/switcherAreaDark';
 
 const ContactDark = () => {
     return (
@@ -59,7 +60,7 @@ const ContactDark = () => {
 
 
                 {/* Switcher Area Start    */}
-                <SwitcherArea />
+                <SwitcherAreaDark />
                 {/* Switcher Area End    */}
 
 
@@ -92,7 +93,7 @@ const ContactDark = () => {
 
 
                 {/* Offcanvas area start    */}
-                <Offcanvas />
+                <OffcanvasDark />
                 {/* Offcanvas area end    */}
 
                 <div id="smooth-wrapper">

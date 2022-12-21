@@ -3,7 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import Footer from '../components/footer';
 import Offcanvas from '../components/offcanvas';
-import SwitcherArea from '../components/switcherArea';
+import OffcanvasDark from '../components/offcanvasDark';
+import SwitcherAreaDark from '../components/switcherAreaDark';
 
 const CareerDark = () => {
   return (
@@ -60,7 +61,7 @@ const CareerDark = () => {
 
 
         {/* Switcher Area Start  */}
-        <SwitcherArea />
+        <SwitcherAreaDark />
         {/* Switcher Area End  */}
 
 
@@ -92,7 +93,7 @@ const CareerDark = () => {
         {/* Header area end  */}
 
         {/* Offcanvas area start */}
-        <Offcanvas />
+        <OffcanvasDark />
         {/* Offcanvas area end  */}
 
 

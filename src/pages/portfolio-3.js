@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
 import CTAArea from '../Components/CTAArea';
 import Footer from '../Components/footer';
@@ -46,17 +47,17 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/1.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/1.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <Link href="/portfolio-details">Lionpro <span>Agency</span></a>
+                                                    <h2 class="sec-title title-anim"> <Link href="/portfolio-details">Lionpro <span>Agency</span></Link>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
                                                         <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
+                                                            class="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -65,17 +66,17 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/2.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/2.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"><Link href="/portfolio-details">crodyflw <span>Website</span></a>
+                                                    <h2 class="sec-title title-anim"><Link href="/portfolio-details">crodyflw <span>Website</span></Link>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
                                                         <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
+                                                            class="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -84,7 +85,7 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/3.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/3.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content text-anim">
                                                     <h2 class="sec-title title-anim"> <Link href="/portfolio-details">developers
@@ -94,7 +95,7 @@ const PortfolioThree = () => {
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
                                                         <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
+                                                            class="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,7 +104,7 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/4.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/4.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content text-anim">
                                                     <h2 class="sec-title title-anim"> <Link href="/portfolio-details">Lionpro
@@ -113,7 +114,7 @@ const PortfolioThree = () => {
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
                                                         <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
+                                                            class="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -122,17 +123,17 @@ const PortfolioThree = () => {
                                         <div class="swiper-slide">
                                             <div class="portfolio__slide-2">
                                                 <div class="slide-img">
-                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/5.jpg" alt="Portfolio Image" /></a>
+                                                    <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/5.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
                                                 <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <Link href="/portfolio-details">Lionpro <span>Agency</span></a>
+                                                    <h2 class="sec-title title-anim"> <Link href="/portfolio-details">Lionpro <span>Agency</span></Link>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
                                                     <div class="btn-common-wrap">
                                                         <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
+                                                            class="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>

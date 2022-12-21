@@ -2,7 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Footer from "../components/footer";
 import Offcanvas from "../components/offcanvas";
-import SwitcherArea from "../components/switcherArea";
+import OffcanvasDark from "../components/offcanvasDark";
+import SwitcherAreaDark from "../components/switcherAreaDark";
 
 export default function FaqDark() {
     return (
@@ -56,10 +57,8 @@ export default function FaqDark() {
                     </div>
                 </div>
 
-
-
                 {/* Switcher Area Start */}
-                <SwitcherArea />
+                <SwitcherAreaDark />
                 {/* Switcher Area End */}
 
 
@@ -92,7 +91,7 @@ export default function FaqDark() {
                 {/* Header area end */}
 
                 {/* Offcanvas area start */}
-                <Offcanvas />
+                <OffcanvasDark />
                 {/* Offcanvas area end */}
 
 

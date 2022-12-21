@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import Script from "next/script";
-import Offcanvas from "../components/offcanvas";
-import SwitcherArea from "../components/switcherArea";
+import OffcanvasDark from "../components/offcanvasDark";
+import SwitcherAreaDark from "../components/switcherAreaDark";
 
 export default function NotFoundDark() {
     return (
@@ -57,7 +56,7 @@ export default function NotFoundDark() {
                 </div>
 
                 {/* Switcher Area Start  */}
-                <SwitcherArea />
+                <SwitcherAreaDark />
                 {/* Switcher Area End  */}
 
 
@@ -75,7 +74,7 @@ export default function NotFoundDark() {
                 <header class="header__area">
                     <div class="header__inner">
                         <div class="header__logo">
-                            <Link href="index.html">
+                            <Link href="/">
                                 <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
                                 <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
@@ -84,14 +83,14 @@ export default function NotFoundDark() {
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
                         <div class="header__support">
-                            <p>Support center <a href="tel:+9587325902">+9 587 325 902</a></p>
+                            <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
                 </header>
                 {/* Header area end  */}
 
                 {/* Offcanvas area start */}
-                <Offcanvas />
+                <OffcanvasDark />
                 {/* Offcanvas area end  */}
 
                 <div id="smooth-wrapper">

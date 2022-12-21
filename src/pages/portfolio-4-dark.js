@@ -1,8 +1,9 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
-import CTAArea from '../Components/CTAArea';
-import Footer from '../Components/footer';
-import TopHead from '../Components/topHead';
+import CtaArea from '../components/CtaArea';
+import Footer from '../components/footer';
+import TopHeadDark from '../components/indexHeadDark';
 
 const PortfolioFourDark = () => {
     return (
@@ -20,7 +21,7 @@ const PortfolioFourDark = () => {
             </Head>
             <main class="dark">
                 {/* top header start */}
-                <TopHead />
+                <TopHeadDark />
                 {/* top header end */}
 
                 <div id="smooth-wrapper">
@@ -61,7 +62,7 @@ const PortfolioFourDark = () => {
                                                             <Link href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/1.jpg" alt="Portfolio Image" />
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
@@ -69,7 +70,7 @@ const PortfolioFourDark = () => {
                                                             <Link href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/2.jpg" alt="Portfolio Image" />
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
@@ -77,7 +78,7 @@ const PortfolioFourDark = () => {
                                                             <Link href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/3.jpg" alt="Portfolio Image" />
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
@@ -85,7 +86,7 @@ const PortfolioFourDark = () => {
                                                             <Link href="/service-details">
                                                                 <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                                 <img src="assets/imgs/portfolio/3/4.jpg" alt="Portfolio Image" />
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -103,12 +104,10 @@ const PortfolioFourDark = () => {
                             {/* Portfolio area end  */}
 
                             {/* CTA area start  */}
-                            <CTAArea />
+                            <CtaArea />
                             {/*  CTA area end  */}
 
                         </main>
-
-
 
                         {/* Footer area start  */}
                         <Footer />

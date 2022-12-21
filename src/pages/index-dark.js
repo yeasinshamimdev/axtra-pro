@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Script from 'next/script'
 import HomeFooter from '../components/indexFooter'
-import TopHead from '../components/indexHead'
+import TopHeadDark from '../components/indexHeadDark'
 
 export default function HomeDark() {
     return (
@@ -39,7 +38,7 @@ export default function HomeDark() {
 
             <main class="dark">
                 {/* Header area start  */}
-                <TopHead />
+                <TopHeadDark />
                 {/* Header area end  */}
 
                 <div id="smooth-wrapper">

@@ -75,7 +75,7 @@ export default function NotFound() {
                 <header class="header__area">
                     <div class="header__inner">
                         <div class="header__logo">
-                            <Link href="index.html">
+                            <Link href="/">
                                 <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
                                 <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
@@ -84,7 +84,7 @@ export default function NotFound() {
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
                         <div class="header__support">
-                            <p>Support center <a href="tel:+9587325902">+9 587 325 902</a></p>
+                            <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
                 </header>

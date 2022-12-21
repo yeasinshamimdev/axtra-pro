@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import CtaArea from "../components/ctaArea";
 import HomeFooter from "../components/indexFooter";
-import TopHead from "../components/indexHead";
+import TopHeadDark from "../components/indexHeadDark";
 import SwitcherArea from "../components/switcherArea";
 
 export default function Home2Dark() {
@@ -40,7 +40,7 @@ export default function Home2Dark() {
 
             <main class="dark">
 
-                <TopHead />
+                <TopHeadDark />
 
                 <div id="smooth-wrapper">
                     <div id="smooth-content">

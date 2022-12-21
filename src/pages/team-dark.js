@@ -65,7 +65,6 @@ const TeamDark = () => {
                 {/* Scroll Smoother   */}
                 <div class="has-smooth" id="has_smooth"></div>
 
-
                 {/* Team Cursor   */}
                 <div class="cursor" id="team_cursor">Drag</div>
 
@@ -91,12 +90,9 @@ const TeamDark = () => {
                 </header>
                 {/* Header area end   */}
 
-
                 {/* Offcanvas area start   */}
                 <OffcanvasDark />
                 {/* Offcanvas area end   */}
-
-
 
                 <div id="smooth-wrapper">
                     <div id="smooth-content">

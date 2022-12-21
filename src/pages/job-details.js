@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import Footer from '../Components/footer';
+import Footer from '../components/footer';
 import Offcanvas from '../components/offcanvas';
 import SwitcherArea from '../components/switcherArea';
 
@@ -212,17 +212,10 @@ const JobDetails = () => {
                                 </div>
                             </section>
                             {/* Job detail end   */}
-
-
                         </main>
-
-
                         {/* Footer area start  */}
                         <Footer />
                         {/* Footer area end   */}
-
-
-
                     </div>
                 </div>
 

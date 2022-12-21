@@ -1,8 +1,10 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
-import CTAArea from '../components/CtaArea';
+import CtaArea from '../components/ctaArea';
 import Footer from '../components/footer';
-import TopHead from '../components/indexHead';
+import OffcanvasDark from '../components/offcanvasDark';
+import SwitcherAreaDark from '../components/switcherAreaDark';
 
 const PortfolioSecondDark = () => {
     return (
@@ -39,10 +41,59 @@ const PortfolioSecondDark = () => {
             </Head>
             <main class="dark">
 
-                {/* Top head start */}
+                {/* Cursor Animation  */}
+                <div class="cursor1"></div>
+                <div class="cursor2"></div>
 
-                {/* Top head end */}
+                {/* Preloader  */}
+                <div class="preloader">
+                    <div class="loading">
+                        <div class="bar bar1"></div>
+                        <div class="bar bar2"></div>
+                        <div class="bar bar3"></div>
+                        <div class="bar bar4"></div>
+                        <div class="bar bar5"></div>
+                        <div class="bar bar6"></div>
+                        <div class="bar bar7"></div>
+                        <div class="bar bar8"></div>
+                    </div>
+                </div>
 
+                {/* Switcher Area Start  */}
+                <SwitcherAreaDark />
+                {/* Switcher Area End  */}
+
+                {/* Scroll Smoother  */}
+                <div class="has-smooth" id="has_smooth"></div>
+
+                {/* Go Top Button  */}
+                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+                {/* Porfolio Cursor  */}
+                <div class="cursor" id="portf_cursor_6">View <br />Project</div>
+
+                {/* Header area start  */}
+                <header class="header__area">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <Link href="/">
+                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                            </Link>
+                        </div>
+                        <div class="header__nav-icon">
+                            <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
+                        </div>
+                        <div class="header__support">
+                            <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
+                        </div>
+                    </div>
+                </header>
+                {/* Header area end  */}
+
+                {/* Offcanvas area start */}
+                <OffcanvasDark />
+                {/* Offcanvas area end */}
 
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
@@ -75,42 +126,42 @@ const PortfolioSecondDark = () => {
                                         <div class="portfolio__list-1">
                                             <div class="portfolio__item">
                                                 <Link href="/portfolio-details"><img class="mover" src="assets/imgs/portfolio/1/1.jpg"
-                                                    alt="Portfolio Image" /></a>
+                                                    alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
                                                 </div>
                                             </div>
                                             <div class="portfolio__item">
-                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></a>
+                                                <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image" /></Link>
                                                 <div class="portfolio__info">
                                                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                                                     <p>02 May 2021</p>
@@ -123,7 +174,7 @@ const PortfolioSecondDark = () => {
                                     <div class="row row_bottom">
                                         <div class="col-xxl-12">
                                             <div class="portfolio__btn" id="btn_wrapper" data-speed="1" data-lag="0.2">
-                                                <a class="wc-btn-secondary btn-hover btn-item" href="/portfolio"><span></span>Load More</a>
+                                                <Link class="wc-btn-secondary btn-hover btn-item" href="/portfolio"><span></span>Load More</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -132,13 +183,14 @@ const PortfolioSecondDark = () => {
                             {/* Portfolio area end   */}
 
                             {/* CTA area start   */}
-                            <CTAArea />
+                            <CtaArea />
                             {/* CTA area end   */}
+
                         </main>
+
                         {/* Footer area start   */}
                         <Footer />
                         {/* Footer area end   */}
-
 
                     </div>
                 </div>

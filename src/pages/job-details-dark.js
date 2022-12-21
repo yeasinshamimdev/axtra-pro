@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import Footer from '../Components/footer';
+import Footer from '../components/footer';
 import OffcanvasDark from '../components/offcanvasDark';
 import SwitcherAreaDark from '../components/switcherAreaDark';
 
@@ -210,13 +210,10 @@ const JobDetailsDark = () => {
                                 </div>
                             </section>
                             {/* Job detail end  */}
-
                         </main>
-
                         {/* Footer area start  */}
                         <Footer />
                         {/* Footer area end  */}
-
                     </div>
                 </div>
 

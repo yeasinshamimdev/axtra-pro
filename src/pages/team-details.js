@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import CtaArea from '../components/ctaArea';
-import Footer from '../Components/Footer';
+import Footer from '../components/footer';
 import Offcanvas from '../components/offcanvas';
 import SwitcherArea from '../components/switcherArea';
 

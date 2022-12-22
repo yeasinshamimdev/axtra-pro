@@ -38,21 +38,21 @@ const Career = () => {
       </Head>
       <main>
         {/* Cursor Animation  */}
-        <div class="cursor1"></div>
-        <div class="cursor2"></div>
+        <div className="cursor1"></div>
+        <div className="cursor2"></div>
 
 
         {/* Preloader  */}
-        <div class="preloader">
-          <div class="loading">
-            <div class="bar bar1"></div>
-            <div class="bar bar2"></div>
-            <div class="bar bar3"></div>
-            <div class="bar bar4"></div>
-            <div class="bar bar5"></div>
-            <div class="bar bar6"></div>
-            <div class="bar bar7"></div>
-            <div class="bar bar8"></div>
+        <div className="preloader">
+          <div className="loading">
+            <div className="bar bar1"></div>
+            <div className="bar bar2"></div>
+            <div className="bar bar3"></div>
+            <div className="bar bar4"></div>
+            <div className="bar bar5"></div>
+            <div className="bar bar6"></div>
+            <div className="bar bar7"></div>
+            <div className="bar bar8"></div>
           </div>
         </div>
 
@@ -64,26 +64,26 @@ const Career = () => {
 
 
         {/* Scroll Smoother  */}
-        <div class="has-smooth" id="has_smooth"></div>
+        <div className="has-smooth" id="has_smooth"></div>
 
 
         {/* Go Top Button  */}
-        <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+        <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
 
         {/* Header area start  */}
-        <header class="header__area">
-          <div class="header__inner">
-            <div class="header__logo">
+        <header className="header__area">
+          <div className="header__inner">
+            <div className="header__logo">
               <Link href="/index-dark">
-                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
               </Link>
             </div>
-            <div class="header__nav-icon">
+            <div className="header__nav-icon">
               <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
             </div>
-            <div class="header__support">
+            <div className="header__support">
               <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
             </div>
           </div>
@@ -101,31 +101,31 @@ const Career = () => {
 
 
               {/* Career hero area start  */}
-              <section class="career__top">
-                <div class="career__top-title">
-                  <div class="container pt-120">
-                    <div class="row pb-120">
-                      <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-9">
-                        <div class="sec-title-wrapper">
-                          <h2 class="sec-title-2 animation__char_come">Join our team & let’s work together</h2>
+              <section className="career__top">
+                <div className="career__top-title">
+                  <div className="container pt-120">
+                    <div className="row pb-120">
+                      <div className="col-xxl-10 col-xl-9 col-lg-9 col-md-9">
+                        <div className="sec-title-wrapper">
+                          <h2 className="sec-title-2 animation__char_come">Join our team & let’s work together</h2>
                         </div>
                       </div>
-                      <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
+                      <div className="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
                         <div id="btn_wrapper">
-                          <Link href="#job_list" class="wc-btn-secondary btn-hover btn-item"><span></span> Explore job
-                            <br />vacancies <i class="fa-solid fa-arrow-right"></i></Link>
+                          <Link href="#job_list" className="wc-btn-secondary btn-hover btn-item"><span></span> Explore job
+                            <br />vacancies <i className="fa-solid fa-arrow-right"></i></Link>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="career__thumb">
-                  <div class="container g-0">
-                    <div class="row inherit">
-                      <div class="col-xxl-12">
-                        <div class="career__top-img">
-                          <video autoplay muted loop>
+                <div className="career__thumb">
+                  <div className="container g-0">
+                    <div className="row inherit">
+                      <div className="col-xxl-12">
+                        <div className="career__top-img">
+                          <video autoPlay muted loop>
                             <source src="assets/video/video.mp4" type="video/mp4" />
                           </video>
                         </div>
@@ -138,11 +138,11 @@ const Career = () => {
 
 
               {/* Career gallery start   */}
-              <section class="career__gallery">
-                <div class="container g-0 line pt-140 pb-140">
-                  <span class="line-3"></span>
-                  <div class="row">
-                    <div class="col-xxl-12">
+              <section className="career__gallery">
+                <div className="container g-0 line pt-140 pb-140">
+                  <span className="line-3"></span>
+                  <div className="row">
+                    <div className="col-xxl-12">
                       <ul>
                         <li>Future</li>
                         <li>Community</li>
@@ -155,19 +155,19 @@ const Career = () => {
                     </div>
                   </div>
 
-                  <div class="row">
-                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                      <div class="career__gallery-img">
+                  <div className="row">
+                    <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                      <div className="career__gallery-img">
                         <img src="assets/imgs/career/2.jpg" alt="Image" />
                       </div>
                     </div>
-                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                      <div class="career__gallery-img img-anim">
+                    <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                      <div className="career__gallery-img img-anim">
                         <img src="assets/imgs/career/3.jpg" alt="Image" data-speed="auto" />
                       </div>
                     </div>
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                      <div class="career__gallery-img">
+                    <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                      <div className="career__gallery-img">
                         <img src="assets/imgs/career/4.jpg" alt="Image" />
                         <img src="assets/imgs/career/5.jpg" alt="Image" />
                       </div>
@@ -178,54 +178,54 @@ const Career = () => {
               {/* Career gallery end   */}
 
               {/* Career area start   */}
-              <section class="job__area pt-130 pb-150" id="job_list">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xxl-12">
-                      <div class="sec-title-wrapper">
-                        <h2 class="sec-title title-anim">We’re Currently <br />hiring</h2>
+              <section className="job__area pt-130 pb-150" id="job_list">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xxl-12">
+                      <div className="sec-title-wrapper">
+                        <h2 className="sec-title title-anim">We’re Currently <br />hiring</h2>
                       </div>
                     </div>
-                    <div class="col-xxl-12">
-                      <div class="job__list">
+                    <div className="col-xxl-12">
+                      <div className="job__list">
                         <Link href="/job-details">
-                          <div class="job__item">
-                            <p class="job__no">01</p>
-                            <h3 class="job__title">UI/UX Designer</h3>
-                            <h4 class="job__open">(02 Open Roles)</h4>
-                            <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
+                          <div className="job__item">
+                            <p className="job__no">01</p>
+                            <h3 className="job__title">UI/UX Designer</h3>
+                            <h4 className="job__open">(02 Open Roles)</h4>
+                            <h5 className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </Link>
                         <Link href="/job-details">
-                          <div class="job__item">
-                            <p class="job__no">02</p>
-                            <h3 class="job__title">Frontend Developer</h3>
-                            <h4 class="job__open">(07 Open Roles)</h4>
-                            <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
+                          <div className="job__item">
+                            <p className="job__no">02</p>
+                            <h3 className="job__title">Frontend Developer</h3>
+                            <h4 className="job__open">(07 Open Roles)</h4>
+                            <h5 className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </Link>
                         <Link href="/job-details">
-                          <div class="job__item">
-                            <p class="job__no">03</p>
-                            <h3 class="job__title">Product Manager</h3>
-                            <h4 class="job__open">(15 Open Roles)</h4>
-                            <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
+                          <div className="job__item">
+                            <p className="job__no">03</p>
+                            <h3 className="job__title">Product Manager</h3>
+                            <h4 className="job__open">(15 Open Roles)</h4>
+                            <h5 className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </Link>
                         <Link href="/job-details">
-                          <div class="job__item">
-                            <p class="job__no">04</p>
-                            <h3 class="job__title">JavaScript Engineer</h3>
-                            <h4 class="job__open">(03 Open Roles)</h4>
-                            <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
+                          <div className="job__item">
+                            <p className="job__no">04</p>
+                            <h3 className="job__title">JavaScript Engineer</h3>
+                            <h4 className="job__open">(03 Open Roles)</h4>
+                            <h5 className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </Link>
                         <Link href="/job-details">
-                          <div class="job__item">
-                            <p class="job__no">05</p>
-                            <h3 class="job__title">Joomla Developer</h3>
-                            <h4 class="job__open">(09 Open Roles)</h4>
-                            <h5 class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></h5>
+                          <div className="job__item">
+                            <p className="job__no">05</p>
+                            <h3 className="job__title">Joomla Developer</h3>
+                            <h4 className="job__open">(09 Open Roles)</h4>
+                            <h5 className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></h5>
                           </div>
                         </Link>
                       </div>
@@ -236,13 +236,13 @@ const Career = () => {
               {/* Career area end   */}
 
               {/* Career benefit area start   */}
-              <section class="career__benefits">
-                <div class="container line g-0 pt-140 pb-150">
-                  <span class="line-3"></span>
+              <section className="career__benefits">
+                <div className="container line g-0 pt-140 pb-150">
+                  <span className="line-3"></span>
 
-                  <div class="row">
-                    <div class="col-xxl-7 col-xl-7 col-lg-7">
-                      <ul class="career__benefits-list">
+                  <div className="row">
+                    <div className="col-xxl-7 col-xl-7 col-lg-7">
+                      <ul className="career__benefits-list">
                         <li>Vacation & Paid <br />Time Off</li>
                         <li>Work-life <br /> Integration</li>
                         <li>Maternity/Paternity <br />Benefits</li>
@@ -251,9 +251,9 @@ const Career = () => {
                         <li>Healthy <br /> Food & Snacks</li>
                       </ul>
                     </div>
-                    <div class="col-xxl-5 col-xl-5 col-lg-5">
-                      <div class="sec-title-wrapper">
-                        <h2 class="sec-title title-anim">Global Perks & Benefits</h2>
+                    <div className="col-xxl-5 col-xl-5 col-lg-5">
+                      <div className="sec-title-wrapper">
+                        <h2 className="sec-title title-anim">Global Perks & Benefits</h2>
                         <p>We want you to love working here as much as we do. To inspire our team to be creative, productive,
                           and most importantly – feel valued as employees, we offer endless perks and de-stressors. How fun it
                           is to unwind while at work!

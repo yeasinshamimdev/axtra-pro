@@ -18,10 +18,7 @@ export default function ServiceDark() {
 
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -37,23 +34,23 @@ export default function ServiceDark() {
                 <script type="text/javascript" src="assets/js/main.js" async />
 
             </Head>
-            <main class="dark">
+            <main className="dark">
 
                 {/* Cursor Animation  */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
                 {/* Preloader  */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
@@ -62,24 +59,24 @@ export default function ServiceDark() {
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother  */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
                 {/* Go Top Button  */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
                 {/* Header area start  */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -95,34 +92,34 @@ export default function ServiceDark() {
                         <main>
 
                             {/* Hero area start  */}
-                            <section class="solution__area">
-                                <div class="solution__wrapper">
-                                    <div class="solution__left">
-                                        <div class="solution__img-1">
+                            <section className="solution__area">
+                                <div className="solution__wrapper">
+                                    <div className="solution__left">
+                                        <div className="solution__img-1">
                                             <img src="assets/imgs/thumb/solution.png" alt="Solution Image" />
                                         </div>
-                                        <div class="solution__img-2">
+                                        <div className="solution__img-2">
                                             <img src="assets/imgs/thumb/solution-2.png" alt="Solution Image" />
                                         </div>
                                     </div>
 
-                                    <div class="solution__mid">
-                                        <h1 class="solution__title animation__char_come">Digital Solution</h1>
+                                    <div className="solution__mid">
+                                        <h1 className="solution__title animation__char_come">Digital Solution</h1>
                                         <p>We’re designing digital experiences that enrich human lives and it helps to grow your business
                                             globally trends.</p>
                                     </div>
 
-                                    <div class="solution__right">
-                                        <div class="solution__img-3">
+                                    <div className="solution__right">
+                                        <div className="solution__img-3">
                                             <img src="assets/imgs/thumb/solution-3.png" alt="Solution Image" />
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="container pb-130">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="solution__btm">
+                                <div className="container pb-130">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="solution__btm">
                                                 <ul>
                                                     <li>Approch</li>
                                                     <li>Creativity</li>
@@ -133,26 +130,26 @@ export default function ServiceDark() {
                                     </div>
                                 </div>
 
-                                <div class="solution__shape">
-                                    <img src="assets/imgs/icon/1.png" alt="Shape Image" class="shape-1" />
-                                    <img src="assets/imgs/icon/2.png" alt="Shape Image" class="shape-2" />
-                                    <img src="assets/imgs/icon/3.png" alt="Shape Image" class="shape-3" />
-                                    <img src="assets/imgs/icon/4.png" alt="Shape Image" class="shape-4" />
-                                    <img src="assets/imgs/icon/5.png" alt="Shape Image" class="shape-5" />
+                                <div className="solution__shape">
+                                    <img src="assets/imgs/icon/1.png" alt="Shape Image" className="shape-1" />
+                                    <img src="assets/imgs/icon/2.png" alt="Shape Image" className="shape-2" />
+                                    <img src="assets/imgs/icon/3.png" alt="Shape Image" className="shape-3" />
+                                    <img src="assets/imgs/icon/4.png" alt="Shape Image" className="shape-4" />
+                                    <img src="assets/imgs/icon/5.png" alt="Shape Image" className="shape-5" />
                                 </div>
                             </section>
                             {/* Hero area end  */}
 
 
                             {/* Service area start  */}
-                            <section class="service__area-6">
-                                <div class="container">
-                                    <div class="row inherit-row">
-                                        <div class="col-xxl-12">
-                                            <div class="content-wrapper">
-                                                <div class="left-content">
-                                                    <ul class="service__list-6">
-                                                        <li class="active"><Link href="#service_1">Interaction <br />Design</Link></li>
+                            <section className="service__area-6">
+                                <div className="container">
+                                    <div className="row inherit-row">
+                                        <div className="col-xxl-12">
+                                            <div className="content-wrapper">
+                                                <div className="left-content">
+                                                    <ul className="service__list-6">
+                                                        <li className="active"><Link href="#service_1">Interaction <br />Design</Link></li>
                                                         <li><Link href="#service_2">Web & Mobile <br />Development</Link></li>
                                                         <li><Link href="#service_3">Motion & Branding <br />Design</Link></li>
                                                         <li><Link href="#service_4">Digital <br /> Maketing</Link></li>
@@ -161,37 +158,37 @@ export default function ServiceDark() {
                                                     </ul>
                                                 </div>
 
-                                                <div class="mid-content">
-                                                    <div class="service__image">
+                                                <div className="mid-content">
+                                                    <div className="service__image">
                                                         <img src="assets/imgs/service/1.jpg" alt="Service Image" />
                                                     </div>
-                                                    <div class="service__image">
+                                                    <div className="service__image">
                                                         <img src="assets/imgs/service/2.jpg" alt="Service Image" />
                                                     </div>
-                                                    <div class="service__image">
+                                                    <div className="service__image">
                                                         <img src="assets/imgs/service/3.jpg" alt="Service Image" />
                                                     </div>
-                                                    <div class="service__image">
+                                                    <div className="service__image">
                                                         <img src="assets/imgs/service/4.jpg" alt="Service Image" />
                                                     </div>
-                                                    <div class="service__image">
+                                                    <div className="service__image">
                                                         <img src="assets/imgs/service/5.jpg" alt="Service Image" />
                                                     </div>
-                                                    <div class="service__image">
+                                                    <div className="service__image">
                                                         <img src="assets/imgs/service/4.jpg" alt="Service Image" />
                                                     </div>
                                                 </div>
 
-                                                <div class="right-content">
-                                                    <div class="service__items-6">
+                                                <div className="right-content">
+                                                    <div className="service__items-6">
 
-                                                        <div class="service__item-6" id="service_1" data-secid="1">
-                                                            <div class="image-tab">
+                                                        <div className="service__item-6" id="service_1" data-secid="1">
+                                                            <div className="image-tab">
                                                                 <img src="assets/imgs/service/1.jpg" alt="Service Image" />
                                                             </div>
 
                                                             <div>
-                                                                <h2 class="service__title-6 title-anim">User paths or user flows functional models</h2>
+                                                                <h2 className="service__title-6 title-anim">User paths or user flows functional models</h2>
                                                                 <p>This is the second workshop of the UX design methodology. Given all the conclusions drawn
                                                                     in
                                                                     the
@@ -208,20 +205,20 @@ export default function ServiceDark() {
                                                                     <li>+ Fluter Framework</li>
                                                                 </ul>
                                                                 <div id="btn_wrapper">
-                                                                    <Link href="/service-details" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
+                                                                    <Link href="/service-details" className="wc-btn-secondary btn-item btn-hover"><span></span>Get
                                                                         free
-                                                                        <br />qoutes <i class="fa-solid fa-arrow-right"></i></Link>
+                                                                        <br />qoutes <i className="fa-solid fa-arrow-right"></i></Link>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="service__item-6" id="service_2" data-secid="2">
-                                                            <div class="image-tab">
+                                                        <div className="service__item-6" id="service_2" data-secid="2">
+                                                            <div className="image-tab">
                                                                 <img src="assets/imgs/service/2.jpg" alt="Service Image" />
                                                             </div>
 
                                                             <div>
-                                                                <h2 class="service__title-6 title-anim">Web & Mobile Development</h2>
+                                                                <h2 className="service__title-6 title-anim">Web & Mobile Development</h2>
                                                                 <p>This is the second workshop of the UX design methodology. Given all the conclusions drawn
                                                                     in
                                                                     the
@@ -238,21 +235,21 @@ export default function ServiceDark() {
                                                                     <li>+ Fluter Framework</li>
                                                                 </ul>
                                                                 <div id="btn_wrapper">
-                                                                    <Link href="/service-details" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
+                                                                    <Link href="/service-details" className="wc-btn-secondary btn-item btn-hover"><span></span>Get
                                                                         free
-                                                                        <br />qoutes <i class="fa-solid fa-arrow-right"></i></Link>
+                                                                        <br />qoutes <i className="fa-solid fa-arrow-right"></i></Link>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="service__item-6" id="service_3" data-secid="3">
+                                                        <div className="service__item-6" id="service_3" data-secid="3">
 
-                                                            <div class="image-tab">
+                                                            <div className="image-tab">
                                                                 <img src="assets/imgs/service/3.jpg" alt="Service Image" />
                                                             </div>
 
                                                             <div>
-                                                                <h2 class="service__title-6 title-anim">UMotion & Branding Design</h2>
+                                                                <h2 className="service__title-6 title-anim">UMotion & Branding Design</h2>
                                                                 <p>This is the second workshop of the UX design methodology. Given all the conclusions drawn
                                                                     in
                                                                     the
@@ -269,20 +266,20 @@ export default function ServiceDark() {
                                                                     <li>+ Fluter Framework</li>
                                                                 </ul>
                                                                 <div id="btn_wrapper">
-                                                                    <Link href="/service-details" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
+                                                                    <Link href="/service-details" className="wc-btn-secondary btn-item btn-hover"><span></span>Get
                                                                         free
-                                                                        <br />qoutes <i class="fa-solid fa-arrow-right"></i></Link>
+                                                                        <br />qoutes <i className="fa-solid fa-arrow-right"></i></Link>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="s/ervice__item-6" id="service_4" data-secid="4">
-                                                            <div class="image-tab">
+                                                        <div className="s/ervice__item-6" id="service_4" data-secid="4">
+                                                            <div className="image-tab">
                                                                 <img src="assets/imgs/service/4.jpg" alt="Service Image" />
                                                             </div>
 
                                                             <div>
-                                                                <h2 class="service__title-6 title-anim">User paths or user flows functional models</h2>
+                                                                <h2 className="service__title-6 title-anim">User paths or user flows functional models</h2>
                                                                 <p>This is the second workshop of the UX design methodology. Given all the conclusions drawn
                                                                     in
                                                                     the
@@ -299,20 +296,20 @@ export default function ServiceDark() {
                                                                     <li>+ Fluter Framework</li>
                                                                 </ul>
                                                                 <div id="btn_wrapper">
-                                                                    <Link href="/service-details" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
+                                                                    <Link href="/service-details" className="wc-btn-secondary btn-item btn-hover"><span></span>Get
                                                                         free
-                                                                        <br />qoutes <i class="fa-solid fa-arrow-right"></i></Link>
+                                                                        <br />qoutes <i className="fa-solid fa-arrow-right"></i></Link>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="service__item-6" id="service_5" data-secid="5">
-                                                            <div class="image-tab">
+                                                        <div className="service__item-6" id="service_5" data-secid="5">
+                                                            <div className="image-tab">
                                                                 <img src="assets/imgs/service/5.jpg" alt="Service Image" />
                                                             </div>
 
                                                             <div>
-                                                                <h2 class="service__title-6 title-anim">User paths or user flows functional models</h2>
+                                                                <h2 className="service__title-6 title-anim">User paths or user flows functional models</h2>
                                                                 <p>This is the second workshop of the UX design methodology. Given all the conclusions drawn
                                                                     in
                                                                     the
@@ -329,20 +326,20 @@ export default function ServiceDark() {
                                                                     <li>+ Fluter Framework</li>
                                                                 </ul>
                                                                 <div id="btn_wrapper">
-                                                                    <Link href="/service-details" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
+                                                                    <Link href="/service-details" className="wc-btn-secondary btn-item btn-hover"><span></span>Get
                                                                         free
-                                                                        <br />qoutes <i class="fa-solid fa-arrow-right"></i></Link>
+                                                                        <br />qoutes <i className="fa-solid fa-arrow-right"></i></Link>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="service__item-6" id="service_6" data-secid="6">
-                                                            <div class="image-tab">
+                                                        <div className="service__item-6" id="service_6" data-secid="6">
+                                                            <div className="image-tab">
                                                                 <img src="assets/imgs/service/4.jpg" alt="Service Image" />
                                                             </div>
 
                                                             <div>
-                                                                <h2 class="service__title-6 title-anim">Illustrations & Prototype</h2>
+                                                                <h2 className="service__title-6 title-anim">Illustrations & Prototype</h2>
                                                                 <p>This is the second workshop of the UX design methodology. Given all the conclusions drawn
                                                                     in
                                                                     the
@@ -359,9 +356,9 @@ export default function ServiceDark() {
                                                                     <li>+ Fluter Framework</li>
                                                                 </ul>
                                                                 <div id="btn_wrapper">
-                                                                    <Link href="/service-details" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
+                                                                    <Link href="/service-details" className="wc-btn-secondary btn-item btn-hover"><span></span>Get
                                                                         free
-                                                                        <br />qoutes <i class="fa-solid fa-arrow-right"></i></Link>
+                                                                        <br />qoutes <i className="fa-solid fa-arrow-right"></i></Link>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -377,30 +374,30 @@ export default function ServiceDark() {
 
 
                             {/* Brand area start  */}
-                            <section class="brand__area">
-                                <div class="container line pt-140 pb-100">
-                                    <span class="line-3"></span>
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <h2 class="brand__title-3 title-anim">We are happy to work with global
+                            <section className="brand__area">
+                                <div className="container line pt-140 pb-100">
+                                    <span className="line-3"></span>
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <h2 className="brand__title-3 title-anim">We are happy to work with global
                                                 largest brands</h2>
-                                            <div class="brand__list brand-gap">
-                                                <div class="brand__item-2 fade_bottom">
+                                            <div className="brand__list brand-gap">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/1.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/2.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/3.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/4.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/5.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/6.png" alt="Brand Logo" />
                                                 </div>
                                             </div>

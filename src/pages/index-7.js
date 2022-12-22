@@ -15,10 +15,7 @@ export default function Home7() {
 
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -36,49 +33,49 @@ export default function Home7() {
 
             <main>
                 {/* Cursor Animation  */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
                 {/* Preloader  */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
                 {/* Switcher Area Start  */}
-                <div class="switcher__area">
-                    <div class="switcher__icon">
-                        <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
-                        <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+                <div className="switcher__area">
+                    <div className="switcher__icon">
+                        <button id="switcher_open"><i className="fa-solid fa-gear"></i></button>
+                        <button id="switcher_close"><i className="fa-solid fa-xmark"></i></button>
                     </div>
 
-                    <div class="switcher__items">
-                        <div class="switcher__item">
-                            <div class="switch__title-wrap">
-                                <h2 class="switcher__title">Cursor</h2>
+                    <div className="switcher__items">
+                        <div className="switcher__item">
+                            <div className="switch__title-wrap">
+                                <h2 className="switcher__title">Cursor</h2>
                             </div>
-                            <div class="switcher__btn">
+                            <div className="switcher__btn">
                                 <select name="cursor-style" id="cursor_style">
                                     <option value="1">default</option>
-                                    <option selected value="2">animated</option>
+                                    <option defaultValue value="2">animated</option>
                                 </select>
                             </div>
                         </div>
 
-                        <div class="switcher__item">
-                            <div class="switch__title-wrap">
-                                <h2 class="switcher__title">mode</h2>
+                        <div className="switcher__item">
+                            <div className="switch__title-wrap">
+                                <h2 className="switcher__title">mode</h2>
                             </div>
-                            <div class="switcher__btn mode-type wc-col-2">
-                                <button class="active" data-mode="light">light</button>
+                            <div className="switcher__btn mode-type wc-col-2">
+                                <button className="active" data-mode="light">light</button>
                                 <button data-mode="dark">dark</button>
                             </div>
                         </div>
@@ -87,24 +84,24 @@ export default function Home7() {
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother  */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
 
                 {/* Go Top Button  */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
 
                 {/* Header area start  */}
-                <header class="header__area-7">
-                    <div class="header__inner-2">
-                        <div class="header__logo-2">
-                            <Link href="/" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></Link>
-                            <Link href="/" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></Link>
+                <header className="header__area-7">
+                    <div className="header__inner-2">
+                        <div className="header__logo-2">
+                            <Link href="/" className="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></Link>
+                            <Link href="/" className="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></Link>
                         </div>
-                        <div class="header__nav-2">
-                            <ul class="main-menu-4 menu-anim">
+                        <div className="header__nav-2">
+                            <ul className="main-menu-4 menu-anim">
                                 <li><Link href="#">home</Link>
-                                    <ul class="mega-menu-2">
+                                    <ul className="mega-menu-2">
                                         <li>
                                             <ul>
                                                 <li><Link href="/">Digital Maketing</Link></li>
@@ -131,8 +128,8 @@ export default function Home7() {
                                     </ul>
                                 </li>
                                 <li><Link href="/about">About</Link></li>
-                                <li class="has-megamenu"><Link href="/about">Pages</Link>
-                                    <ul class="mega-menu">
+                                <li className="has-megamenu"><Link href="/about">Pages</Link>
+                                    <ul className="mega-menu">
                                         <li>
                                             <a>Home</a>
                                             <ul>
@@ -228,9 +225,9 @@ export default function Home7() {
                                     </ul>
                                 </li>
                                 <li><Link href="/portfolio">services</Link>
-                                    <ul class="main-dropdown">
+                                    <ul className="main-dropdown">
                                         <li><Link href="/service">service</Link>
-                                            <ul class="sub-dropdown">
+                                            <ul className="sub-dropdown">
                                                 <li><Link href="/service-dark">service dark</Link></li>
                                                 <li><Link href="/service-2-dark">service V.2 dark</Link></li>
                                                 <li><Link href="/service-3-dark">service V.3 dark</Link></li>
@@ -249,13 +246,13 @@ export default function Home7() {
                                     </ul>
                                 </li>
                                 <li><Link href="/team">team</Link>
-                                    <ul class="main-dropdown">
+                                    <ul className="main-dropdown">
                                         <li><Link href="/team">team</Link></li>
                                         <li><Link href="/team-details">team details</Link></li>
                                     </ul>
                                 </li>
                                 <li><Link href="/blog">Blog</Link>
-                                    <ul class="main-dropdown">
+                                    <ul className="main-dropdown">
                                         <li><Link href="/blog">blog</Link></li>
                                         <li><Link href="/blog-2">blog v.2</Link></li>
                                         <li><Link href="/category">category</Link></li>
@@ -265,8 +262,8 @@ export default function Home7() {
                                 <li><Link href="/contact">Contact</Link></li>
                             </ul>
                         </div>
-                        <div class="header__nav-icon-7">
-                            <button class="menu-icon-2" id="open_offcanvas"><img src="assets/imgs/icon/menu-dark.png"
+                        <div className="header__nav-icon-7">
+                            <button className="menu-icon-2" id="open_offcanvas"><img src="assets/imgs/icon/menu-dark.png"
                                 alt="Menubar Icon" /></button>
                         </div>
                     </div>
@@ -275,14 +272,14 @@ export default function Home7() {
 
 
                 {/* Offcanvas area start  */}
-                <div class="offcanvas__area">
-                    <div class="offcanvas__body">
-                        <div class="offcanvas__left">
-                            <div class="offcanvas__logo">
+                <div className="offcanvas__area">
+                    <div className="offcanvas__body">
+                        <div className="offcanvas__left">
+                            <div className="offcanvas__logo">
                                 <Link href="/"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></Link>
                             </div>
-                            <div class="offcanvas__social">
-                                <h3 class="social-title">Follow Us</h3>
+                            <div className="offcanvas__social">
+                                <h3 className="social-title">Follow Us</h3>
                                 <ul>
                                     <li><Link href="#">Dribbble</Link></li>
                                     <li><Link href="#">Behance</Link></li>
@@ -292,7 +289,7 @@ export default function Home7() {
                                     <li><Link href="#">YouTube</Link></li>
                                 </ul>
                             </div>
-                            <div class="offcanvas__links">
+                            <div className="offcanvas__links">
                                 <ul>
                                     <li><Link href="/about">About</Link></li>
                                     <li><Link href="/contact">contact</Link></li>
@@ -301,10 +298,10 @@ export default function Home7() {
                                 </ul>
                             </div>
                         </div>
-                        <div class="offcanvas__mid">
-                            <div class="offcanvas__menu-wrapper">
-                                <nav class="offcanvas__menu">
-                                    <ul class="menu-anim">
+                        <div className="offcanvas__mid">
+                            <div className="offcanvas__menu-wrapper">
+                                <nav className="offcanvas__menu">
+                                    <ul className="menu-anim">
                                         <li><a>home</a>
                                             <ul>
                                                 <li><Link href="/">Digital Maketing</Link></li>
@@ -456,14 +453,14 @@ export default function Home7() {
                                 </nav>
                             </div>
                         </div>
-                        <div class="offcanvas__right">
-                            <div class="offcanvas__search">
+                        <div className="offcanvas__right">
+                            <div className="offcanvas__search">
                                 <form action="#">
                                     <input type="text" name="search" placeholder="Search keyword" />
-                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    <button><i className="fa-solid fa-magnifying-glass"></i></button>
                                 </form>
                             </div>
-                            <div class="offcanvas__contact">
+                            <div className="offcanvas__contact">
                                 <h3>Get in touch</h3>
                                 <ul>
                                     <li><Link href="tel:02094980547">+(02) - 094 980 547</Link></li>
@@ -471,11 +468,11 @@ export default function Home7() {
                                     <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
                                 </ul>
                             </div>
-                            <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1" />
-                            <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2" />
+                            <img src="assets/imgs/shape/11.png" alt="shape" className="shape-1" />
+                            <img src="assets/imgs/shape/12.png" alt="shape" className="shape-2" />
                         </div>
-                        <div class="offcanvas__close">
-                            <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+                        <div className="offcanvas__close">
+                            <button type="button" id="close_offcanvas"><i className="fa-solid fa-xmark"></i></button>
                         </div>
                     </div>
                 </div>
@@ -487,59 +484,59 @@ export default function Home7() {
                         <main>
 
                             {/* Hero area start  */}
-                            <section class="service__hero-2">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="service__hero-inner-2">
-                                                <div class="service__hero-left-2">
-                                                    <img src="assets/imgs/home-7/sh-1.jpg" alt="Image" class="image-1" />
-                                                    <img src="assets/imgs/home-7/sh-2.jpg" alt="Image" class="image-2" />
-                                                    <img src="assets/imgs/home-7/sh-3.jpg" alt="Image" class="image-3" />
-                                                    <img src="assets/imgs/home-7/sh-4.jpg" alt="Image" class="image-4" />
+                            <section className="service__hero-2">
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="service__hero-inner-2">
+                                                <div className="service__hero-left-2">
+                                                    <img src="assets/imgs/home-7/sh-1.jpg" alt="Image" className="image-1" />
+                                                    <img src="assets/imgs/home-7/sh-2.jpg" alt="Image" className="image-2" />
+                                                    <img src="assets/imgs/home-7/sh-3.jpg" alt="Image" className="image-3" />
+                                                    <img src="assets/imgs/home-7/sh-4.jpg" alt="Image" className="image-4" />
                                                 </div>
-                                                <div class="service__hero-right-2 hero7__thum-anim">
-                                                    <h1 class="title creative">Creative <span class="solution">Solution</span> </h1>
-                                                    <p class="animate_content"> We take a similar approach to design commercial we do impactfully
+                                                <div className="service__hero-right-2 hero7__thum-anim">
+                                                    <h1 className="title creative">Creative <span className="solution">Solution</span> </h1>
+                                                    <p className="animate_content"> We take a similar approach to design commercial we do impactfully
                                                         approches over the flowchart
                                                         of
                                                         user friendly wireframe.</p>
-                                                    <img src="assets/imgs/home-7/scroll.png" alt="scroll Image" class="scroll" />
+                                                    <img src="assets/imgs/home-7/scroll.png" alt="scroll Image" className="scroll" />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <img src="assets/imgs/home-7/shape-6.png" alt="Shape Image" class="shape-1" />
+                                <img src="assets/imgs/home-7/shape-6.png" alt="Shape Image" className="shape-1" />
                             </section>
                             {/* Hero area end  */}
 
 
-                            <div class="video__area about__img-2">
+                            <div className="video__area about__img-2">
                                 <img src="assets/imgs/home-7/video.jpg" alt="Video Image" data-speed="0.2" />
                             </div>
 
 
                             {/* About area start  */}
-                            <section class="about__area-7">
-                                <div class="container pt-130 pb-110">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="sec-title-wrapper">
-                                                <h2 class="sec-title title-anim">We want to bring <br /> business and the digital <br /> world together
+                            <section className="about__area-7">
+                                <div className="container pt-130 pb-110">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="sec-title-wrapper">
+                                                <h2 className="sec-title title-anim">We want to bring <br /> business and the digital <br /> world together
                                                 </h2>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                            <div class="about__left-7">
+                                    <div className="row">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                            <div className="about__left-7">
                                                 <img src="assets/imgs/home-7/a1.jpg" alt="Image" data-speed="auto" />
                                             </div>
                                         </div>
-                                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                                            <div class="about__mid-7 text-anim">
+                                        <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                                            <div className="about__mid-7 text-anim">
                                                 <p>We believe that we’ve managed to achieve what we set out to do. Today, we’re proud to bring
                                                     together people who share our passion for change. This is how Outcrowd began. We were just a bunch
                                                     of talented Ukrainians united by a common vision: creating a synergy of business and the digital
@@ -547,32 +544,32 @@ export default function Home7() {
                                                 </p>
                                                 <p>We were tired of stale design solutions. We felt strongly that design was more than pretty
                                                     pictures: it was a powerful tool that could really transform business.</p>
-                                                <img src="assets/imgs/home-7/shape-5.png" alt="Shape" class="signature" />
-                                                <img src="assets/imgs/home-7/a2.jpg" alt="Image" class="image-1" />
+                                                <img src="assets/imgs/home-7/shape-5.png" alt="Shape" className="signature" />
+                                                <img src="assets/imgs/home-7/a2.jpg" alt="Image" className="image-1" />
                                             </div>
                                         </div>
-                                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                                            <div class="about__right-7">
+                                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                                            <div className="about__right-7">
                                                 <img src="assets/imgs/home-7/a3.jpg" alt="Image" data-speed="0.7" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <img src="assets/imgs/home-7/shape-4.png" alt="Shape" class="shape-1" />
+                                <img src="assets/imgs/home-7/shape-4.png" alt="Shape" className="shape-1" />
                             </section>
                             {/* About area end  */}
 
 
                             {/* Service area start  */}
-                            <section class="service__area-7 pt-130">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="service__items-7 animation_service_7">
-                                                <div class="service__item-7">
+                            <section className="service__area-7 pt-130">
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="service__items-7 animation_service_7">
+                                                <div className="service__item-7">
                                                     <Link href="/service-details">
-                                                        <h3 class="service__title-7">Branding <span>design</span></h3>
+                                                        <h3 className="service__title-7">Branding <span>design</span></h3>
                                                     </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
@@ -582,9 +579,9 @@ export default function Home7() {
                                                         <li>+ Promotion</li>
                                                     </ul>
                                                 </div>
-                                                <div class="service__item-7">
+                                                <div className="service__item-7">
                                                     <Link href="/service-details">
-                                                        <h3 class="service__title-7">Interactive <span>Design</span> </h3>
+                                                        <h3 className="service__title-7">Interactive <span>Design</span> </h3>
                                                     </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
@@ -594,9 +591,9 @@ export default function Home7() {
                                                         <li>+ Promotion</li>
                                                     </ul>
                                                 </div>
-                                                <div class="service__item-7">
+                                                <div className="service__item-7">
                                                     <Link href="/service-details">
-                                                        <h3 class="service__title-7">Web & Mobile <span>Development</span> </h3>
+                                                        <h3 className="service__title-7">Web & Mobile <span>Development</span> </h3>
                                                     </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
@@ -606,9 +603,9 @@ export default function Home7() {
                                                         <li>+ Promotion</li>
                                                     </ul>
                                                 </div>
-                                                <div class="service__item-7">
+                                                <div className="service__item-7">
                                                     <Link href="/service-details">
-                                                        <h3 class="service__title-7">Digital <span> Marketing</span> </h3>
+                                                        <h3 className="service__title-7">Digital <span> Marketing</span> </h3>
                                                     </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
@@ -618,9 +615,9 @@ export default function Home7() {
                                                         <li>+ Promotion</li>
                                                     </ul>
                                                 </div>
-                                                <div class="service__item-7">
+                                                <div className="service__item-7">
                                                     <Link href="/service-details">
-                                                        <h3 class="service__title-7">Business <span>Strategy</span></h3>
+                                                        <h3 className="service__title-7">Business <span>Strategy</span></h3>
                                                     </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
@@ -630,9 +627,9 @@ export default function Home7() {
                                                         <li>+ Promotion</li>
                                                     </ul>
                                                 </div>
-                                                <div class="service__item-7">
+                                                <div className="service__item-7">
                                                     <Link href="/service-details">
-                                                        <h3 class="service__title-7">Illustration <span>Modelling</span> </h3>
+                                                        <h3 className="service__title-7">Illustration <span>Modelling</span> </h3>
                                                     </Link>
                                                     <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.
                                                     </p>
@@ -651,17 +648,17 @@ export default function Home7() {
 
 
                             {/* Award area start  */}
-                            <section class="award__area-7 pb-140">
-                                <div class="container">
-                                    <div class="row inherit_row">
-                                        <div class="col-xxl-12">
-                                            <div class="award__top-7">
-                                                <div class="award__counter fade_bottom_2">
-                                                    <h2 class="counter__number">25k</h2>
+                            <section className="award__area-7 pb-140">
+                                <div className="container">
+                                    <div className="row inherit_row">
+                                        <div className="col-xxl-12">
+                                            <div className="award__top-7">
+                                                <div className="award__counter fade_bottom_2">
+                                                    <h2 className="counter__number">25k</h2>
                                                     <p>Project completed</p>
                                                 </div>
-                                                <div class="award-video-7">
-                                                    <video loop muted autoplay playsinline>
+                                                <div className="award-video-7">
+                                                    <video loop muted autoPlay playsInline>
                                                         <source src="assets/video/video.mp4" type="video/mp4" />
                                                     </video>
                                                 </div>
@@ -669,37 +666,37 @@ export default function Home7() {
                                         </div>
                                     </div>
 
-                                    <div class="award__btm-7">
-                                        <div class="row">
-                                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
-                                                <div class="award__left-7">
-                                                    <h2 class="sec-title title-anim">Projects <br /> awards</h2>
+                                    <div className="award__btm-7">
+                                        <div className="row">
+                                            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
+                                                <div className="award__left-7">
+                                                    <h2 className="sec-title title-anim">Projects <br /> awards</h2>
                                                 </div>
                                             </div>
-                                            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-8">
-                                                <div class="award__mid-7 text-anim">
+                                            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-8">
+                                                <div className="award__mid-7 text-anim">
                                                     <p>Holisticly actualize magnetic testing procedures for high-quality initiatives for ompellingly
                                                         enhance users whereas.</p>
                                                 </div>
                                             </div>
-                                            <div class="col-xxl-4 col-xl-4 col-lg-4">
-                                                <div class="award__right-7">
-                                                    <div class="award__list-7">
-                                                        <div class="award__item-7 zoom_in">
+                                            <div className="col-xxl-4 col-xl-4 col-lg-4">
+                                                <div className="award__right-7">
+                                                    <div className="award__list-7">
+                                                        <div className="award__item-7 zoom_in">
                                                             <img src="assets/imgs/home-7/m.png" alt="Image" />
-                                                            <h3 class="title">1x Mobile Award</h3>
+                                                            <h3 className="title">1x Mobile Award</h3>
                                                         </div>
-                                                        <div class="award__item-7 zoom_in">
+                                                        <div className="award__item-7 zoom_in">
                                                             <img src="assets/imgs/home-7/w.png" alt="Image" />
-                                                            <h3 class="title">2x Best Website</h3>
+                                                            <h3 className="title">2x Best Website</h3>
                                                         </div>
-                                                        <div class="award__item-7 zoom_in">
+                                                        <div className="award__item-7 zoom_in">
                                                             <img src="assets/imgs/home-7/fwa.png" alt="Image" />
-                                                            <h3 class="title">2x Web the Day</h3>
+                                                            <h3 className="title">2x Web the Day</h3>
                                                         </div>
-                                                        <div class="award__item-7 zoom_in">
+                                                        <div className="award__item-7 zoom_in">
                                                             <img src="assets/imgs/home-7/webby.png" alt="Image" />
-                                                            <h3 class="title">3x Web Animation</h3>
+                                                            <h3 className="title">3x Web Animation</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -712,13 +709,13 @@ export default function Home7() {
 
 
                             {/* Portfolio area start  */}
-                            <section class="portfolio__area-7">
-                                <div class="container pt-100 pb-140">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="sec-title-wrapper text-anim">
-                                                <h2 class="sec-title title-anim">work</h2>
-                                                <p class="sec-text">Worked with global brands & agency at the
+                            <section className="portfolio__area-7">
+                                <div className="container pt-100 pb-140">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="sec-title-wrapper text-anim">
+                                                <h2 className="sec-title title-anim">work</h2>
+                                                <p className="sec-text">Worked with global brands & agency at the
                                                     intersection of flat design and digital
                                                     technology.</p>
                                             </div>
@@ -726,83 +723,83 @@ export default function Home7() {
                                     </div>
                                 </div>
 
-                                <div class="swiper portfolio__slider-7">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-7">
-                                                <div class="slide-img">
+                                <div className="swiper portfolio__slider-7">
+                                    <div className="swiper-wrapper">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-7">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content">
+                                                <div className="slide-content">
                                                     <Link href="/portfolio-details">
-                                                        <h2 class="title"> Lionpro <span>Agency</span> </h2>
+                                                        <h2 className="title"> Lionpro <span>Agency</span> </h2>
                                                     </Link>
-                                                    <h4 class="date">02 May 2021</h4>
+                                                    <h4 className="date">02 May 2021</h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-7">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-7">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content">
+                                                <div className="slide-content">
                                                     <Link href="/portfolio-details">
-                                                        <h2 class="title"> Lionpro <span>Agency</span> </h2>
+                                                        <h2 className="title"> Lionpro <span>Agency</span> </h2>
                                                     </Link>
-                                                    <h4 class="date">02 May 2021</h4>
+                                                    <h4 className="date">02 May 2021</h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-7">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-7">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content">
+                                                <div className="slide-content">
                                                     <Link href="/portfolio-details">
-                                                        <h2 class="title"> Lionpro <span>Agency</span> </h2>
+                                                        <h2 className="title"> Lionpro <span>Agency</span> </h2>
                                                     </Link>
-                                                    <h4 class="date">02 May 2021</h4>
+                                                    <h4 className="date">02 May 2021</h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-7">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-7">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content">
+                                                <div className="slide-content">
                                                     <Link href="/portfolio-details">
-                                                        <h2 class="title"> Lionpro <span>Agency</span> </h2>
+                                                        <h2 className="title"> Lionpro <span>Agency</span> </h2>
                                                     </Link>
-                                                    <h4 class="date">02 May 2021</h4>
+                                                    <h4 className="date">02 May 2021</h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-7">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-7">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/home-7/p1.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content">
+                                                <div className="slide-content">
                                                     <Link href="/portfolio-details">
-                                                        <h2 class="title"> Lionpro <span>Agency</span> </h2>
+                                                        <h2 className="title"> Lionpro <span>Agency</span> </h2>
                                                     </Link>
-                                                    <h4 class="date">02 May 2021</h4>
+                                                    <h4 className="date">02 May 2021</h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-7">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-7">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/home-7/p2.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content">
+                                                <div className="slide-content">
                                                     <Link href="/portfolio-details">
-                                                        <h2 class="title"> Lionpro <span>Agency</span> </h2>
+                                                        <h2 className="title"> Lionpro <span>Agency</span> </h2>
                                                     </Link>
-                                                    <h4 class="date">02 May 2021</h4>
+                                                    <h4 className="date">02 May 2021</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -813,103 +810,103 @@ export default function Home7() {
 
 
                             {/* Team area start  */}
-                            <section class="team__area-7">
-                                <h2 class="team__title-7 title-anim">Team</h2>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="sec-text pb-140 text-anim">
+                            <section className="team__area-7">
+                                <h2 className="team__title-7 title-anim">Team</h2>
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="sec-text pb-140 text-anim">
                                                 <p>We are here to help you achieve your business goals and the team create an amazing outstanding
                                                     product for your business.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="team__items-7">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="team__items-7">
                                                 <Link href="/team-details">
-                                                    <div class="team__item-7 fade_bottom_3">
-                                                        <div class="team__name-wrap-7">
-                                                            <p class="tm-serial">01</p>
+                                                    <div className="team__item-7 fade_bottom_3">
+                                                        <div className="team__name-wrap-7">
+                                                            <p className="tm-serial">01</p>
 
-                                                            <h3 class="tm-name">Saymon D. Halk</h3>
+                                                            <h3 className="tm-name">Saymon D. Halk</h3>
                                                         </div>
-                                                        <h4 class="tm-role">Web <br /> Developer</h4>
-                                                        <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
-                                                        <div class="team__hover-7" style="background-image: url(assets/imgs/team/1.jpg);"></div>
-                                                    </div>
-                                                </Link>
-
-                                                <Link href="/team-details">
-                                                    <div class="team__item-7 fade_bottom_3">
-                                                        <div class="team__name-wrap-7">
-                                                            <p class="tm-serial">02</p>
-
-                                                            <h3 class="tm-name">Aliya D. Albert</h3>
-                                                        </div>
-                                                        <h4 class="tm-role">Founder <br /> CEO</h4>
-                                                        <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
-                                                        <div class="team__hover-7" style="background-image: url(assets/imgs/team/2.jpg);"></div>
+                                                        <h4 className="tm-role">Web <br /> Developer</h4>
+                                                        <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
+                                                        <div className="team__hover-7" style="background-image: url(assets/imgs/team/1.jpg);"></div>
                                                     </div>
                                                 </Link>
 
                                                 <Link href="/team-details">
-                                                    <div class="team__item-7 fade_bottom_3">
-                                                        <div class="team__name-wrap-7">
-                                                            <p class="tm-serial">03</p>
-                                                            <h3 class="tm-name">Jassica Oliver</h3>
+                                                    <div className="team__item-7 fade_bottom_3">
+                                                        <div className="team__name-wrap-7">
+                                                            <p className="tm-serial">02</p>
+
+                                                            <h3 className="tm-name">Aliya D. Albert</h3>
                                                         </div>
-                                                        <h4 class="tm-role">Creative <br /> Content Writer </h4>
-                                                        <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
-                                                        <div class="team__hover-7" style="background-image: url(assets/imgs/team/3.jpg);"></div>
+                                                        <h4 className="tm-role">Founder <br /> CEO</h4>
+                                                        <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
+                                                        <div className="team__hover-7" style="background-image: url(assets/imgs/team/2.jpg);"></div>
+                                                    </div>
+                                                </Link>
+
+                                                <Link href="/team-details">
+                                                    <div className="team__item-7 fade_bottom_3">
+                                                        <div className="team__name-wrap-7">
+                                                            <p className="tm-serial">03</p>
+                                                            <h3 className="tm-name">Jassica Oliver</h3>
+                                                        </div>
+                                                        <h4 className="tm-role">Creative <br /> Content Writer </h4>
+                                                        <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
+                                                        <div className="team__hover-7" style="background-image: url(assets/imgs/team/3.jpg);"></div>
                                                     </div>
                                                 </Link>
                                                 <Link href="/team-details">
-                                                    <div class="team__item-7 fade_bottom_3">
-                                                        <div class="team__name-wrap-7">
-                                                            <p class="tm-serial">04</p>
-                                                            <h3 class="tm-name">Daniyel Adamson</h3>
+                                                    <div className="team__item-7 fade_bottom_3">
+                                                        <div className="team__name-wrap-7">
+                                                            <p className="tm-serial">04</p>
+                                                            <h3 className="tm-name">Daniyel Adamson</h3>
                                                         </div>
-                                                        <h4 class="tm-role">Head of <br /> Researcher</h4>
-                                                        <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
-                                                        <div class="team__hover-7" style="background-image: url(assets/imgs/team/4.jpg);"></div>
+                                                        <h4 className="tm-role">Head of <br /> Researcher</h4>
+                                                        <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
+                                                        <div className="team__hover-7" style="background-image: url(assets/imgs/team/4.jpg);"></div>
                                                     </div>
                                                 </Link>
                                                 <Link href="/team-details">
-                                                    <div class="team__item-7 fade_bottom_3">
-                                                        <div class="team__name-wrap-7">
-                                                            <p class="tm-serial">05</p>
-                                                            <h3 class="tm-name">Hardiya Kethrine</h3>
+                                                    <div className="team__item-7 fade_bottom_3">
+                                                        <div className="team__name-wrap-7">
+                                                            <p className="tm-serial">05</p>
+                                                            <h3 className="tm-name">Hardiya Kethrine</h3>
                                                         </div>
-                                                        <h4 class="tm-role">Digital <br /> Marketer</h4>
-                                                        <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
-                                                        <div class="team__hover-7" style="background-image: url(assets/imgs/team/5.jpg);"></div>
+                                                        <h4 className="tm-role">Digital <br /> Marketer</h4>
+                                                        <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
+                                                        <div className="team__hover-7" style="background-image: url(assets/imgs/team/5.jpg);"></div>
                                                     </div>
                                                 </Link>
                                                 <Link href="/team-details">
-                                                    <div class="team__item-7 fade_bottom_3">
-                                                        <div class="team__name-wrap-7">
-                                                            <p class="tm-serial">06</p>
-                                                            <h3 class="tm-name">Julian B. Folder</h3>
+                                                    <div className="team__item-7 fade_bottom_3">
+                                                        <div className="team__name-wrap-7">
+                                                            <p className="tm-serial">06</p>
+                                                            <h3 className="tm-name">Julian B. Folder</h3>
                                                         </div>
-                                                        <h4 class="tm-role">Creative <br /> Designer</h4>
-                                                        <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
-                                                        <div class="team__hover-7" style="background-image: url(assets/imgs/team/6.jpg);"></div>
+                                                        <h4 className="tm-role">Creative <br /> Designer</h4>
+                                                        <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
+                                                        <div className="team__hover-7" style="background-image: url(assets/imgs/team/6.jpg);"></div>
                                                     </div>
                                                 </Link>
                                                 <Link href="/team-details">
-                                                    <div class="team__item-7 fade_bottom_3">
-                                                        <div class="team__name-wrap-7">
-                                                            <p class="tm-serial">07</p>
-                                                            <h3 class="tm-name">Denial Karlos</h3>
+                                                    <div className="team__item-7 fade_bottom_3">
+                                                        <div className="team__name-wrap-7">
+                                                            <p className="tm-serial">07</p>
+                                                            <h3 className="tm-name">Denial Karlos</h3>
                                                         </div>
-                                                        <h4 class="tm-role">Backend <br /> Developer</h4>
-                                                        <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
-                                                        <div class="team__hover-7" style="background-image: url(assets/imgs/team/7.jpg);"></div>
+                                                        <h4 className="tm-role">Backend <br /> Developer</h4>
+                                                        <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
+                                                        <div className="team__hover-7" style="background-image: url(assets/imgs/team/7.jpg);"></div>
                                                     </div>
                                                 </Link>
-                                                <div class="team7__img-wrap">
-                                                    <div class="team7__img"></div>
+                                                <div className="team7__img-wrap">
+                                                    <div className="team7__img"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -920,29 +917,29 @@ export default function Home7() {
 
 
                             {/* Brand area start  */}
-                            <section class="brand__area">
-                                <div class="container pt-140 pb-140">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <h2 class="brand__title-3 title-anim">We worked with global largest brands
+                            <section className="brand__area">
+                                <div className="container pt-140 pb-140">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <h2 className="brand__title-3 title-anim">We worked with global largest brands
                                             </h2>
-                                            <div class="brand__list-3">
-                                                <div class="brand__item-2 fade_bottom">
+                                            <div className="brand__list-3">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/1.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/2.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/3.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/4.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/5.png" alt="Brand Logo" />
                                                 </div>
-                                                <div class="brand__item-2 fade_bottom">
+                                                <div className="brand__item-2 fade_bottom">
                                                     <img src="assets/imgs/brand/6.png" alt="Brand Logo" />
                                                 </div>
                                             </div>
@@ -954,65 +951,65 @@ export default function Home7() {
 
 
                             {/* Blog area start  */}
-                            <section class="blog__area-7 blog__animation">
-                                <div class="container g-0 pb-140">
-                                    <div class="row">
-                                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
-                                            <div class="sec-title-wrapper">
-                                                <h3 class="sec-title title-anim">News insignt</h3>
+                            <section className="blog__area-7 blog__animation">
+                                <div className="container g-0 pb-140">
+                                    <div className="row">
+                                        <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                                            <div className="sec-title-wrapper">
+                                                <h3 className="sec-title title-anim">News insignt</h3>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                            <article class="blog__item">
-                                                <div class="blog__img-wrapper">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                            <article className="blog__item">
+                                                <div className="blog__img-wrapper">
                                                     <Link href="/blog-details">
-                                                        <div class="img-box">
-                                                            <img class="image-box__item" src="assets/imgs/blog/1/1.jpg" alt="" />
-                                                            <img class="image-box__item" src="assets/imgs/blog/1/1.jpg" alt="" />
+                                                        <div className="img-box">
+                                                            <img className="image-box__item" src="assets/imgs/blog/1/1.jpg" alt="" />
+                                                            <img className="image-box__item" src="assets/imgs/blog/1/1.jpg" alt="" />
                                                         </div>
                                                     </Link>
                                                 </div>
-                                                <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
-                                                <h5><Link href="/blog-details" class="blog__title">Ways of lying to yourself about your new
+                                                <h4 className="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
+                                                <h5><Link href="/blog-details" className="blog__title">Ways of lying to yourself about your new
                                                     relationship.</Link></h5>
-                                                <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></Link>
+                                                <Link href="/blog-details" className="blog__btn">Read More <span><i
+                                                    className="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
 
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                            <article class="blog__item">
-                                                <div class="blog__img-wrapper">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                            <article className="blog__item">
+                                                <div className="blog__img-wrapper">
                                                     <Link href="/blog-details">
-                                                        <div class="img-box">
-                                                            <img class="image-box__item" src="assets/imgs/blog/1/2.jpg" alt="" />
-                                                            <img class="image-box__item" src="assets/imgs/blog/1/2.jpg" alt="" />
+                                                        <div className="img-box">
+                                                            <img className="image-box__item" src="assets/imgs/blog/1/2.jpg" alt="" />
+                                                            <img className="image-box__item" src="assets/imgs/blog/1/2.jpg" alt="" />
                                                         </div>
                                                     </Link>
                                                 </div>
-                                                <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
-                                                <h5><Link href="/blog-details" class="blog__title">How to manage a talented and successful de sign
+                                                <h4 className="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
+                                                <h5><Link href="/blog-details" className="blog__title">How to manage a talented and successful de sign
                                                     team</Link></h5>
-                                                <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></Link>
+                                                <Link href="/blog-details" className="blog__btn">Read More <span><i
+                                                    className="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
 
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                            <article class="blog__item">
-                                                <div class="blog__img-wrapper">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                            <article className="blog__item">
+                                                <div className="blog__img-wrapper">
                                                     <Link href="/blog-details">
-                                                        <div class="img-box">
-                                                            <img class="image-box__item" src="assets/imgs/blog/1/3.jpg" alt="Blog Thumbnail" />
-                                                            <img class="image-box__item" src="assets/imgs/blog/1/3.jpg" alt="BLog Thumbnail" />
+                                                        <div className="img-box">
+                                                            <img className="image-box__item" src="assets/imgs/blog/1/3.jpg" alt="Blog Thumbnail" />
+                                                            <img className="image-box__item" src="assets/imgs/blog/1/3.jpg" alt="BLog Thumbnail" />
                                                         </div>
                                                     </Link>
                                                 </div>
-                                                <h4 class="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
-                                                <h5><Link href="/blog-details" class="blog__title">How to bring fold to your startup company with
+                                                <h4 className="blog__meta"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
+                                                <h5><Link href="/blog-details" className="blog__title">How to bring fold to your startup company with
                                                     Axtra</Link></h5>
-                                                <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></Link>
+                                                <Link href="/blog-details" className="blog__btn">Read More <span><i
+                                                    className="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
                                     </div>
@@ -1028,40 +1025,40 @@ export default function Home7() {
                         </main>
 
                         {/* Footer area start  */}
-                        <footer class="footer__area-2 pt-130">
-                            <div class="container">
-                                <div class="footer__top-2 text-anim">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <h2 class="sec-title-3 title-anim">Get started <br /> now</h2>
-                                            <p class="footer__sub-title">If you would like to work with us or
+                        <footer className="footer__area-2 pt-130">
+                            <div className="container">
+                                <div className="footer__top-2 text-anim">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <h2 className="sec-title-3 title-anim">Get started <br /> now</h2>
+                                            <p className="footer__sub-title">If you would like to work with us or
                                                 just want to get in touch, we’d love
                                                 to hear from you!</p>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="footer__middle-2">
-                                    <div class="row">
-                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                            <div class="footer__location-2">
-                                                <div class="location">
+                                <div className="footer__middle-2">
+                                    <div className="row">
+                                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                            <div className="footer__location-2">
+                                                <div className="location">
                                                     <h3>London</h3>
                                                     <p>Baltia Squar, Mark Street, <br />
                                                         London</p>
                                                 </div>
-                                                <div class="location">
+                                                <div className="location">
                                                     <h3>New York</h3>
                                                     <p>Nenuya Centre, Elia Street <br />
                                                         New York, USA</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                            <div class="footer__subscribe-2">
+                                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                            <div className="footer__subscribe-2">
                                                 <form action="#">
                                                     <input type="text" name="email" placeholder="Enter your email" />
-                                                    <button type="submit" class="submit"><img src="assets/imgs/icon/arrow-black.png"
+                                                    <button type="submit" className="submit"><img src="assets/imgs/icon/arrow-black.png"
                                                         alt="Arrow Icon" /></button>
                                                 </form>
                                             </div>
@@ -1069,17 +1066,17 @@ export default function Home7() {
                                     </div>
                                 </div>
 
-                                <div class="footer__btm-2">
-                                    <div class="row">
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5">
-                                            <div class="footer__copyright-2">
+                                <div className="footer__btm-2">
+                                    <div className="row">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-5">
+                                            <div className="footer__copyright-2">
                                                 <p>© 2022 - 2025 | Alrights reserved by <Link href="https://wealcoder.com/" target="_blank" rel="noreferrer">Wealcoder</Link>
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7">
-                                            <div class="footer__nav">
-                                                <ul class="footer-menu menu-anim">
+                                        <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-7">
+                                            <div className="footer__nav">
+                                                <ul className="footer-menu menu-anim">
                                                     <li><Link href="/about">about us</Link></li>
                                                     <li><Link href="/contact">contact</Link></li>
                                                     <li><Link href="/career">Career</Link></li>

@@ -20,10 +20,7 @@ const PortfolioFive = () => {
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
 
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -41,20 +38,20 @@ const PortfolioFive = () => {
             </Head>
             <main>
                 {/* Cursor Animation  */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
                 {/* Preloader  */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
@@ -63,27 +60,27 @@ const PortfolioFive = () => {
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother  */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
                 {/* Go Top Button  */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
                 {/* Porfolio Cursor  */}
-                <div class="cursor" id="portf_cursor_6">View <br />Project</div>
+                <div className="cursor" id="portf_cursor_6">View <br />Project</div>
 
                 {/* Header area start  */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -99,55 +96,55 @@ const PortfolioFive = () => {
                         <main>
 
                             {/* Portfolio area start   */}
-                            <section class="portfolio-v5 portfolio__project">
-                                <div class="container line">
-                                    <div class="line-3"></div>
-                                    <div class="row pt-130 pb-100">
-                                        <div class="col-xxl-8 col-xl-7 col-lg-6 col-md-6">
-                                            <div class="sec-title-wrapper">
-                                                <h2 class="sec-title-2 animation__char_come">Awesome <br />Projects</h2>
+                            <section className="portfolio-v5 portfolio__project">
+                                <div className="container line">
+                                    <div className="line-3"></div>
+                                    <div className="row pt-130 pb-100">
+                                        <div className="col-xxl-8 col-xl-7 col-lg-6 col-md-6">
+                                            <div className="sec-title-wrapper">
+                                                <h2 className="sec-title-2 animation__char_come">Awesome <br />Projects</h2>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-6">
-                                            <div class="blog__text">
+                                        <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-6">
+                                            <div className="blog__text">
                                                 <p>Crafting new bright brands, unique visual systems and digital experience focused on a wide range of
                                                     original collabs. </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="pp-title-wrap">
-                                                <h2 class="pp-title">Selected <br /> Work</h2>
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="pp-title-wrap">
+                                                <h2 className="pp-title">Selected <br /> Work</h2>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-8">
-                                            <div class="pp-slider-wrapper">
-                                                <div class="swiper portfolio__project-slider">
-                                                    <div class="swiper-wrapper">
-                                                        <div class="swiper-slide pp-slide">
-                                                            <div class="pp-slide-img">
+                                    <div className="row">
+                                        <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-8">
+                                            <div className="pp-slider-wrapper">
+                                                <div className="swiper portfolio__project-slider">
+                                                    <div className="swiper-wrapper">
+                                                        <div className="swiper-slide pp-slide">
+                                                            <div className="pp-slide-img">
                                                                 <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/1.jpg"
                                                                     alt="Portfolio Thumbnail" /></Link>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide pp-slide">
-                                                            <div class="pp-slide-img">
+                                                        <div className="swiper-slide pp-slide">
+                                                            <div className="pp-slide-img">
                                                                 <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/2.jpg"
                                                                     alt="Portfolio Thumbnail" /></Link>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide pp-slide">
-                                                            <div class="pp-slide-img">
+                                                        <div className="swiper-slide pp-slide">
+                                                            <div className="pp-slide-img">
                                                                 <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/3.jpg"
                                                                     alt="Portfolio Thumbnail" /></Link>
                                                             </div>
                                                         </div>
-                                                        <div class="swiper-slide pp-slide">
-                                                            <div class="pp-slide-img">
+                                                        <div className="swiper-slide pp-slide">
+                                                            <div className="pp-slide-img">
                                                                 <Link href="/portfolio-details"><img src="assets/imgs/portfolio/1/4.jpg"
                                                                     alt="Portfolio Thumbnail" /></Link>
                                                             </div>
@@ -155,35 +152,35 @@ const PortfolioFive = () => {
                                                     </div>
                                                 </div>
 
-                                                <div class="pp-next swipper-btn">prev</div>
-                                                <div class="pp-prev swipper-btn">Next</div>
+                                                <div className="pp-next swipper-btn">prev</div>
+                                                <div className="pp-prev swipper-btn">Next</div>
                                             </div>
                                         </div>
 
-                                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
-                                            <div class="swiper portfolio__project-thumbs">
-                                                <div class="swiper-wrapper">
-                                                    <div class="swiper-slide">
-                                                        <div class="pp-slide-thumb">
-                                                            <h3 class="pp-slide-title">Apple book cover</h3>
+                                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
+                                            <div className="swiper portfolio__project-thumbs">
+                                                <div className="swiper-wrapper">
+                                                    <div className="swiper-slide">
+                                                        <div className="pp-slide-thumb">
+                                                            <h3 className="pp-slide-title">Apple book cover</h3>
                                                             <p>March 2021</p>
                                                         </div>
                                                     </div>
-                                                    <div class="swiper-slide">
-                                                        <div class="pp-slide-thumb">
-                                                            <h3 class="pp-slide-title">Apple book cover</h3>
+                                                    <div className="swiper-slide">
+                                                        <div className="pp-slide-thumb">
+                                                            <h3 className="pp-slide-title">Apple book cover</h3>
                                                             <p>March 2021</p>
                                                         </div>
                                                     </div>
-                                                    <div class="swiper-slide">
-                                                        <div class="pp-slide-thumb">
-                                                            <h3 class="pp-slide-title">Apple book cover</h3>
+                                                    <div className="swiper-slide">
+                                                        <div className="pp-slide-thumb">
+                                                            <h3 className="pp-slide-title">Apple book cover</h3>
                                                             <p>March 2021</p>
                                                         </div>
                                                     </div>
-                                                    <div class="swiper-slide">
-                                                        <div class="pp-slide-thumb">
-                                                            <h3 class="pp-slide-title">Apple book cover</h3>
+                                                    <div className="swiper-slide">
+                                                        <div className="pp-slide-thumb">
+                                                            <h3 className="pp-slide-title">Apple book cover</h3>
                                                             <p>March 2021</p>
                                                         </div>
                                                     </div>

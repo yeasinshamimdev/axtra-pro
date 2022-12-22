@@ -18,10 +18,7 @@ export default function ServiceDetails() {
 
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -39,20 +36,20 @@ export default function ServiceDetails() {
             </Head>
             <main>
                 {/* Cursor Animation */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
                 {/* Preloader */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
@@ -61,24 +58,24 @@ export default function ServiceDetails() {
                 {/* Switcher Area End */}
 
                 {/* Scroll Smoother */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
                 {/* Go Top Button */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
                 {/* Header area start */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -94,18 +91,18 @@ export default function ServiceDetails() {
                         <main>
 
                             {/* Development area start */}
-                            <section class="development__area">
-                                <div class="container g-0 line pt-130 pb-150">
-                                    <div class="line-3"></div>
-                                    <div class="row">
-                                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                                            <div class="sec-title-wrapper">
-                                                <h2 class="sec-title animation__char_come">Web and mobile development</h2>
+                            <section className="development__area">
+                                <div className="container g-0 line pt-130 pb-150">
+                                    <div className="line-3"></div>
+                                    <div className="row">
+                                        <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                                            <div className="sec-title-wrapper">
+                                                <h2 className="sec-title animation__char_come">Web and mobile development</h2>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                                            <div class="development__wrapper">
-                                                <div class="development__content">
+                                        <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                                            <div className="development__wrapper">
+                                                <div className="development__content">
                                                     <p>Every decision we make needs to answer the million-dollar question: how will this benefit our
                                                         partner’s goal best? We work to develop solutions</p>
                                                     <p>We like to be different, in the same way that every mission is different. Every project is an
@@ -121,13 +118,13 @@ export default function ServiceDetails() {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
-                                            <div class="development__img">
+                                        <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
+                                            <div className="development__img">
                                                 <img src="assets/imgs/thumb/dev-1.jpg" alt="Development Image" data-speed="auto" />
                                             </div>
                                         </div>
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                            <div class="development__img">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                            <div className="development__img">
                                                 <img src="assets/imgs/thumb/dev-2.jpg" alt="Development Image" />
                                             </div>
                                         </div>
@@ -137,38 +134,38 @@ export default function ServiceDetails() {
                             {/* Development area end */}
 
                             {/* Workflow area start */}
-                            <section class="workflow__area-6">
-                                <div class="container g-0 line pb-130">
-                                    <div class="line-3"></div>
-                                    <div class="workflow__wrapper-6">
-                                        <div class="row">
-                                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                                                <div class="workflow__slide-6">
-                                                    <h6 class="workflow__title-6">Planning and <br />sketching</h6>
+                            <section className="workflow__area-6">
+                                <div className="container g-0 line pb-130">
+                                    <div className="line-3"></div>
+                                    <div className="workflow__wrapper-6">
+                                        <div className="row">
+                                            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                                                <div className="workflow__slide-6">
+                                                    <h6 className="workflow__title-6">Planning and <br />sketching</h6>
                                                     <p>Modern and unique design practically point of view, it risks not meeting the huge expectations
                                                     </p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                                                <div class="workflow__slide-6">
-                                                    <h6 class="workflow__title-6">Team <br />working</h6>
+                                            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                                                <div className="workflow__slide-6">
+                                                    <h6 className="workflow__title-6">Team <br />working</h6>
                                                     <p>Modern and unique design practically point of view, it risks not meeting the huge expectations
                                                     </p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                                                <div class="workflow__slide-6">
-                                                    <h6 class="workflow__title-6">Flowchart and <br />wireframe</h6>
+                                            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                                                <div className="workflow__slide-6">
+                                                    <h6 className="workflow__title-6">Flowchart and <br />wireframe</h6>
                                                     <p>Modern and unique design practically point of view, it risks not meeting the huge expectations
                                                     </p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                                                <div class="workflow__slide-6">
-                                                    <h6 class="workflow__title-6">User experience <br />Testing</h6>
+                                            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                                                <div className="workflow__slide-6">
+                                                    <h6 className="workflow__title-6">User experience <br />Testing</h6>
                                                     <p>Modern and unique design practically point of view, it risks not meeting the huge expectations
                                                     </p>
                                                 </div>
@@ -180,28 +177,28 @@ export default function ServiceDetails() {
                             {/* Workflow area end */}
 
                             {/* Service detail area start */}
-                            <section class="service__detail">
-                                <div class="container g-0 line pb-140">
-                                    <div class="line-3"></div>
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="sec-title-wrapper">
-                                                <h2 class="sec-title title-anim">We replace unreliable wirefreme and expensive agencies for one of the
+                            <section className="service__detail">
+                                <div className="container g-0 line pb-140">
+                                    <div className="line-3"></div>
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="sec-title-wrapper">
+                                                <h2 className="sec-title title-anim">We replace unreliable wirefreme and expensive agencies for one of the
                                                     best
                                                     organized layer.</h2>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                                            <div class="service__detail-circle">
+                                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                                            <div className="service__detail-circle">
                                                 <span></span>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
-                                            <div class="service__detail-img">
+                                        <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
+                                            <div className="service__detail-img">
                                                 <img src="assets/imgs/thumb/service-detail.png" alt="Service detail image" />
-                                                <img src="assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape" />
+                                                <img src="assets/imgs/icon/shape-6.png" alt="Service shape image" className="sd-shape" />
                                             </div>
-                                            <div class="service__detail-content">
+                                            <div className="service__detail-content">
                                                 <p>Receive your design within a few business days, and be updated on the process. Everything you
                                                     need
                                                     for a digitally driven brand. Defined proposition. Conceptual realisation. Logo, type, look, feel,
@@ -218,31 +215,31 @@ export default function ServiceDetails() {
 
 
                             {/* FAQ area start */}
-                            <section class="faq__area">
-                                <div class="container g-0 line pb-140">
-                                    <div class="line-3"></div>
-                                    <div class="row">
-                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                            <div class="faq__img">
+                            <section className="faq__area">
+                                <div className="container g-0 line pb-140">
+                                    <div className="line-3"></div>
+                                    <div className="row">
+                                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                            <div className="faq__img">
                                                 <img src="assets/imgs/thumb/faq.jpg" alt="FAQ Image" data-speed="auto" />
                                             </div>
                                         </div>
-                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                            <div class="faq__content">
-                                                <h2 class="faq__title title-anim">Product making for friendly users</h2>
+                                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                            <div className="faq__content">
+                                                <h2 className="faq__title title-anim">Product making for friendly users</h2>
 
-                                                <div class="faq__list">
-                                                    <div class="accordion" id="accordionExample">
-                                                        <div class="accordion-item">
-                                                            <h2 class="accordion-header" id="headingOne">
-                                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                <div className="faq__list">
+                                                    <div className="accordion" id="accordionExample">
+                                                        <div className="accordion-item">
+                                                            <h2 className="accordion-header" id="headingOne">
+                                                                <button className="accordion-button" type="button" data-bs-toggle="collapse"
                                                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                                     Design should enrich our day
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
                                                                 data-bs-parent="#accordionExample">
-                                                                <div class="accordion-body">
+                                                                <div className="accordion-body">
                                                                     <p>Our design services starts and ends with a best-in-class experience strategy that
                                                                         builds brands. Through a process of iteration and prototyping design interfaces that
                                                                         bring joy to people</p>
@@ -250,16 +247,16 @@ export default function ServiceDetails() {
                                                             </div>
                                                         </div>
 
-                                                        <div class="accordion-item">
-                                                            <h2 class="accordion-header" id="headingTwo">
-                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        <div className="accordion-item">
+                                                            <h2 className="accordion-header" id="headingTwo">
+                                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                                     Bring their individual experience and creative
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                                            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                                                                 data-bs-parent="#accordionExample">
-                                                                <div class="accordion-body">
+                                                                <div className="accordion-body">
                                                                     <p>This is the second items accordion body. It is hidden by default, until the
                                                                         collapse plugin adds the appropriate classes that we use to style each element. These
                                                                         classes
@@ -270,16 +267,16 @@ export default function ServiceDetails() {
                                                             </div>
                                                         </div>
 
-                                                        <div class="accordion-item">
-                                                            <h2 class="accordion-header" id="headingThree">
-                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        <div className="accordion-item">
+                                                            <h2 className="accordion-header" id="headingThree">
+                                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                                     Human centred design to challenges
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                                                                 data-bs-parent="#accordionExample">
-                                                                <div class="accordion-body">
+                                                                <div className="accordion-body">
                                                                     <p>Our design services starts and ends with a best-in-class experience strategy that
                                                                         builds brands. Through a process of iteration and prototyping design interfaces that
                                                                         bring joy to people</p>
@@ -287,16 +284,16 @@ export default function ServiceDetails() {
                                                             </div>
                                                         </div>
 
-                                                        <div class="accordion-item">
-                                                            <h2 class="accordion-header" id="headingFour">
-                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        <div className="accordion-item">
+                                                            <h2 className="accordion-header" id="headingFour">
+                                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                                                     Design should enrich our day
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                                            <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour"
                                                                 data-bs-parent="#accordionExample">
-                                                                <div class="accordion-body">
+                                                                <div className="accordion-body">
                                                                     <p>Our design services starts and ends with a best-in-class experience strategy that
                                                                         builds brands. Through a process of iteration and prototyping design interfaces that
                                                                         bring joy to people</p>
@@ -304,16 +301,16 @@ export default function ServiceDetails() {
                                                             </div>
                                                         </div>
 
-                                                        <div class="accordion-item">
-                                                            <h2 class="accordion-header" id="headingFive">
-                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        <div className="accordion-item">
+                                                            <h2 className="accordion-header" id="headingFive">
+                                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                                                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                                                     Developing core web applications
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                                            <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
                                                                 data-bs-parent="#accordionExample">
-                                                                <div class="accordion-body">
+                                                                <div className="accordion-body">
                                                                     <p>Our design services starts and ends with a best-in-class experience strategy that
                                                                         builds brands. Through a process of iteration and prototyping design interfaces that
                                                                         bring joy to people</p>

@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function OffcanvasDark() {
     return (
         <>
-            <div class="offcanvas__area">
-                <div class="offcanvas__body">
-                    <div class="offcanvas__left">
-                        <div class="offcanvas__logo">
+            <div className="offcanvas__area">
+                <div className="offcanvas__body">
+                    <div className="offcanvas__left">
+                        <div className="offcanvas__logo">
                             <Link href="/"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></Link>
                         </div>
-                        <div class="offcanvas__social">
-                            <h3 class="social-title">Follow Us</h3>
+                        <div className="offcanvas__social">
+                            <h3 className="social-title">Follow Us</h3>
                             <ul>
                                 <li><Link href="#">Dribbble</Link></li>
                                 <li><Link href="#">Behance</Link></li>
@@ -20,7 +20,7 @@ export default function OffcanvasDark() {
                                 <li><Link href="#">YouTube</Link></li>
                             </ul>
                         </div>
-                        <div class="offcanvas__links">
+                        <div className="offcanvas__links">
                             <ul>
                                 <li><Link href="/about">About</Link></li>
                                 <li><Link href="/contact">contact</Link></li>
@@ -29,10 +29,10 @@ export default function OffcanvasDark() {
                             </ul>
                         </div>
                     </div>
-                    <div class="offcanvas__mid">
-                        <div class="offcanvas__menu-wrapper">
-                            <nav class="offcanvas__menu">
-                                <ul class="menu-anim">
+                    <div className="offcanvas__mid">
+                        <div className="offcanvas__menu-wrapper">
+                            <nav className="offcanvas__menu">
+                                <ul className="menu-anim">
                                     <li><a>home</a>
                                         <ul>
                                             <li><Link href="/">Digital Maketing</Link></li>
@@ -184,14 +184,14 @@ export default function OffcanvasDark() {
                             </nav>
                         </div>
                     </div>
-                    <div class="offcanvas__right">
-                        <div class="offcanvas__search">
+                    <div className="offcanvas__right">
+                        <div className="offcanvas__search">
                             <form action="#">
                                 <input type="text" name="search" placeholder="Search keyword" />
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button><i className="fa-solid fa-magnifying-glass"></i></button>
                             </form>
                         </div>
-                        <div class="offcanvas__contact">
+                        <div className="offcanvas__contact">
                             <h3>Get in touch</h3>
                             <ul>
                                 <li><Link href="tel:02094980547">+(02) - 094 980 547</Link></li>
@@ -199,11 +199,11 @@ export default function OffcanvasDark() {
                                 <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
                             </ul>
                         </div>
-                        <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1" />
-                        <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2" />
+                        <img src="assets/imgs/shape/11.png" alt="shape" className="shape-1" />
+                        <img src="assets/imgs/shape/12.png" alt="shape" className="shape-2" />
                     </div>
-                    <div class="offcanvas__close">
-                        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+                    <div className="offcanvas__close">
+                        <button type="button" id="close_offcanvas"><i className="fa-solid fa-xmark"></i></button>
                     </div>
                 </div>
             </div>

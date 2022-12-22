@@ -20,10 +20,7 @@ const BlogDetailsDark = () => {
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
 
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -38,24 +35,24 @@ const BlogDetailsDark = () => {
                 <script type="text/javascript" src="assets/js/jquery.meanmenu.min.js" async />
                 <script type="text/javascript" src="assets/js/main.js" async />
             </Head>
-            <main class="dark">
+            <main className="dark">
 
                 {/* Cursor Animation   */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
 
                 {/* Preloader   */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
@@ -67,26 +64,26 @@ const BlogDetailsDark = () => {
 
 
                 {/* Scroll Smoother   */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
 
                 {/* Go Top Button   */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
 
                 {/* Header area start   */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -104,34 +101,34 @@ const BlogDetailsDark = () => {
                         <main>
 
                             {/* Blog detail start */}
-                            <section class="blog__detail">
-                                <div class="container g-0 line pt-140">
-                                    <span class="line-3"></span>
-                                    <div class="row">
-                                        <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
-                                            <div class="blog__detail-top">
-                                                <h2 class="blog__detail-date animation__word_come">Design, Marketing <span>25 Jan 2019</span></h2>
-                                                <h3 class="blog__detail-title animation__word_come">Donate your design for newest designers to try
+                            <section className="blog__detail">
+                                <div className="container g-0 line pt-140">
+                                    <span className="line-3"></span>
+                                    <div className="row">
+                                        <div className="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
+                                            <div className="blog__detail-top">
+                                                <h2 className="blog__detail-date animation__word_come">Design, Marketing <span>25 Jan 2019</span></h2>
+                                                <h3 className="blog__detail-title animation__word_come">Donate your design for newest designers to try
                                                     better
                                                 </h3>
-                                                <div class="blog__detail-metalist">
-                                                    <div class="blog__detail-meta">
+                                                <div className="blog__detail-metalist">
+                                                    <div className="blog__detail-meta">
                                                         <img src="assets/imgs/blog/detail/author.png" alt="Author Picture" />
                                                         <p>Writen by <span>Codexpand</span></p>
                                                     </div>
-                                                    <div class="blog__detail-meta">
+                                                    <div className="blog__detail-meta">
                                                         <p>Viewed <span>3 min read</span></p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-12">
-                                            <div class="blog__detail-thumb">
+                                        <div className="col-xxl-12">
+                                            <div className="blog__detail-thumb">
                                                 <img src="assets/imgs/blog/detail/1.jpg" alt="Blog Thumbnail" data-speed="0.5" />
                                             </div>
                                         </div>
-                                        <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
-                                            <div class="blog__detail-content">
+                                        <div className="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
+                                            <div className="blog__detail-content">
                                                 <p>We love to bring designs to life as a developer, and I aim to do this using whatever front end
                                                     tools are necessary. My preferred tools are more modern javascript libraries like React.js but I
                                                     like to use whatever is best for the websites needs. There are several reasons why a business would
@@ -163,8 +160,8 @@ const BlogDetailsDark = () => {
                                                     that do not have a .old class name, using the ::after pseudo-element:</p>
                                                 <img src="assets/imgs/blog/detail/3.jpg" alt="Code" />
                                             </div>
-                                            <div class="blog__detail-tags">
-                                                <p class="sub-title-anim">tags: <Link href="/category">design</Link>, <Link href="/category">figma</Link>,
+                                            <div className="blog__detail-tags">
+                                                <p className="sub-title-anim">tags: <Link href="/category">design</Link>, <Link href="/category">figma</Link>,
                                                     <Link href="/category">update</Link>
                                                 </p>
                                             </div>
@@ -176,73 +173,73 @@ const BlogDetailsDark = () => {
 
 
                             {/* Related blog start   */}
-                            <section class="blog__related blog__animation">
-                                <div class="container g-0 line pt-130 pb-140">
-                                    <span class="line-3"></span>
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="sec-title-wrapper">
-                                                <h2 class="sec-title title-anim">Related Aricles</h2>
+                            <section className="blog__related blog__animation">
+                                <div className="container g-0 line pt-130 pb-140">
+                                    <span className="line-3"></span>
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="sec-title-wrapper">
+                                                <h2 className="sec-title title-anim">Related Aricles</h2>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="row reset-grid">
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                            <article class="blog__item">
-                                                <div class="blog__img-wrapper">
+                                    <div className="row reset-grid">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                            <article className="blog__item">
+                                                <div className="blog__img-wrapper">
                                                     <Link href="/blog-details">
-                                                        <div class="img-box">
-                                                            <img class="image-box__item" src="assets/imgs/blog/1.jpg" alt="Blog Thumbnail" />
-                                                            <img class="image-box__item" src="assets/imgs/blog/1.jpg" alt="BLog Thumbnail" />
+                                                        <div className="img-box">
+                                                            <img className="image-box__item" src="assets/imgs/blog/1.jpg" alt="Blog Thumbnail" />
+                                                            <img className="image-box__item" src="assets/imgs/blog/1.jpg" alt="BLog Thumbnail" />
                                                         </div>
                                                     </Link>
                                                 </div>
-                                                <h4 class="blog__meta sub-title-anim"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
-                                                <h5><Link href="/blog-details" class="blog__title sub-title-anim">Ways of lying to yourself about
+                                                <h4 className="blog__meta sub-title-anim"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
+                                                <h5><Link href="/blog-details" className="blog__title sub-title-anim">Ways of lying to yourself about
                                                     your new
                                                     relationship.</Link></h5>
-                                                <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></Link>
+                                                <Link href="/blog-details" className="blog__btn">Read More <span><i
+                                                    className="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
 
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                            <article class="blog__item" data-speed="auto">
-                                                <div class="blog__img-wrapper">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                            <article className="blog__item" data-speed="auto">
+                                                <div className="blog__img-wrapper">
                                                     <Link href="/blog-details">
-                                                        <div class="img-box">
-                                                            <img class="image-box__item" src="assets/imgs/blog/2.jpg" alt="Blog Thumbnail" />
-                                                            <img class="image-box__item" src="assets/imgs/blog/2.jpg" alt="BLog Thumbnail" />
+                                                        <div className="img-box">
+                                                            <img className="image-box__item" src="assets/imgs/blog/2.jpg" alt="Blog Thumbnail" />
+                                                            <img className="image-box__item" src="assets/imgs/blog/2.jpg" alt="BLog Thumbnail" />
                                                         </div>
                                                     </Link>
                                                 </div>
-                                                <h4 class="blog__meta sub-title-anim"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
-                                                <h5><Link href="/blog-details" class="blog__title sub-title-anim">How to manage a talented and
+                                                <h4 className="blog__meta sub-title-anim"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
+                                                <h5><Link href="/blog-details" className="blog__title sub-title-anim">How to manage a talented and
                                                     successful de sign
                                                     team</Link></h5>
-                                                <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></Link>
+                                                <Link href="/blog-details" className="blog__btn">Read More <span><i
+                                                    className="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
 
-                                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                            <article class="blog__item" data-speed="auto">
-                                                <div class="blog__img-wrapper">
+                                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                            <article className="blog__item" data-speed="auto">
+                                                <div className="blog__img-wrapper">
                                                     <Link href="/blog-details">
-                                                        <div class="img-box">
-                                                            <img class="image-box__item" src="assets/imgs/blog/3.jpg" alt="Blog Thumbnail" />
-                                                            <img class="image-box__item" src="assets/imgs/blog/3.jpg" alt="BLog Thumbnail" />
+                                                        <div className="img-box">
+                                                            <img className="image-box__item" src="assets/imgs/blog/3.jpg" alt="Blog Thumbnail" />
+                                                            <img className="image-box__item" src="assets/imgs/blog/3.jpg" alt="BLog Thumbnail" />
                                                         </div>
                                                     </Link>
                                                 </div>
-                                                <h4 class="blog__meta sub-title-anim"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
-                                                <h5><Link href="/blog-details" class="blog__title sub-title-anim">How to bring fold to your
+                                                <h4 className="blog__meta sub-title-anim"><Link href="/category">UI Design</Link> . 02 May 2019</h4>
+                                                <h5><Link href="/blog-details" className="blog__title sub-title-anim">How to bring fold to your
                                                     startup
                                                     company with
                                                     Axtra</Link></h5>
-                                                <Link href="/blog-details" class="blog__btn">Read More <span><i
-                                                    class="fa-solid fa-arrow-right"></i></span></Link>
+                                                <Link href="/blog-details" className="blog__btn">Read More <span><i
+                                                    className="fa-solid fa-arrow-right"></i></span></Link>
                                             </article>
                                         </div>
                                     </div>

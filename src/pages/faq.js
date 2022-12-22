@@ -18,10 +18,7 @@ export default function Faq() {
 
                 {/* Fav Icon */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -40,21 +37,21 @@ export default function Faq() {
 
             <main>
                 {/* Cursor Animation */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
 
                 {/* Preloader */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
@@ -67,27 +64,27 @@ export default function Faq() {
 
 
                 {/* Scroll Smoother */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
 
                 {/* Go Top Button */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
 
 
                 {/* Header area start */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -106,33 +103,33 @@ export default function Faq() {
                         <main>
 
                             {/* FAQ area start */}
-                            <section class="faq__area-6">
-                                <div class="container g-0 line pt-130 pb-140">
-                                    <div class="line-3"></div>
+                            <section className="faq__area-6">
+                                <div className="container g-0 line pt-130 pb-140">
+                                    <div className="line-3"></div>
 
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="sec-title-wrapper">
-                                                <h2 class="sec-title-2 animation__char_come">FAQ</h2>
-                                                <p class="">Frequently asked question (FAQ) <br /> pages to find answars.</p>
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="sec-title-wrapper">
+                                                <h2 className="sec-title-2 animation__char_come">FAQ</h2>
+                                                <p className="">Frequently asked question (FAQ) <br /> pages to find answars.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="faq__list-6">
-                                                <div class="accordion" id="accordionExample">
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingOne">
-                                                            <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="faq__list-6">
+                                                <div className="accordion" id="accordionExample">
+                                                    <div className="accordion-item">
+                                                        <h2 className="accordion-header" id="headingOne">
+                                                            <button className="accordion-button " type="button" data-bs-toggle="collapse"
                                                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                                 Design should enrich our day
                                                             </button>
                                                         </h2>
-                                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                                        <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
                                                             data-bs-parent="#accordionExample">
-                                                            <div class="accordion-body">
+                                                            <div className="accordion-body">
                                                                 <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by
                                                                     calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked
                                                                     questions section on their Contact page, but you can create your own page and put it right
@@ -144,16 +141,16 @@ export default function Faq() {
                                                         </div>
                                                     </div>
 
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingTwo">
-                                                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                                    <div className="accordion-item">
+                                                        <h2 className="accordion-header" id="headingTwo">
+                                                            <button className="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
                                                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                                 Bring their individual experience and creative
                                                             </button>
                                                         </h2>
-                                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                                        <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                                                             data-bs-parent="#accordionExample">
-                                                            <div class="accordion-body">
+                                                            <div className="accordion-body">
                                                                 <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by
                                                                     calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked
                                                                     questions section on their Contact page, but you can create your own page and put it right
@@ -165,16 +162,16 @@ export default function Faq() {
                                                         </div>
                                                     </div>
 
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingThree">
-                                                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                                    <div className="accordion-item">
+                                                        <h2 className="accordion-header" id="headingThree">
+                                                            <button className="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
                                                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                                 Human centred design to challenges
                                                             </button>
                                                         </h2>
-                                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                                        <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                                                             data-bs-parent="#accordionExample">
-                                                            <div class="accordion-body">
+                                                            <div className="accordion-body">
                                                                 <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by
                                                                     calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked
                                                                     questions section on their Contact page, but you can create your own page and put it right
@@ -186,16 +183,16 @@ export default function Faq() {
                                                         </div>
                                                     </div>
 
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingFour">
-                                                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                                    <div className="accordion-item">
+                                                        <h2 className="accordion-header" id="headingFour">
+                                                            <button className="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
                                                                 data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                                                 Design should enrich our day
                                                             </button>
                                                         </h2>
-                                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                                        <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour"
                                                             data-bs-parent="#accordionExample">
-                                                            <div class="accordion-body">
+                                                            <div className="accordion-body">
                                                                 <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by
                                                                     calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked
                                                                     questions section on their Contact page, but you can create your own page and put it right
@@ -207,16 +204,16 @@ export default function Faq() {
                                                         </div>
                                                     </div>
 
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingFive">
-                                                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                                                    <div className="accordion-item">
+                                                        <h2 className="accordion-header" id="headingFive">
+                                                            <button className="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
                                                                 data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                                                 Developing core web applications
                                                             </button>
                                                         </h2>
-                                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                                        <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
                                                             data-bs-parent="#accordionExample">
-                                                            <div class="accordion-body">
+                                                            <div className="accordion-body">
                                                                 <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by
                                                                     calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked
                                                                     questions section on their Contact page, but you can create your own page and put it right

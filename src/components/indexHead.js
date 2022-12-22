@@ -4,50 +4,50 @@ export default function TopHead() {
     return (
         <>
             {/* Cursor Animation */}
-            <div class="cursor1"></div>
-            <div class="cursor2"></div>
+            <div className="cursor1"></div>
+            <div className="cursor2"></div>
 
 
             {/* Preloader */}
-            <div class="preloader">
-                <div class="loading">
-                    <div class="bar bar1"></div>
-                    <div class="bar bar2"></div>
-                    <div class="bar bar3"></div>
-                    <div class="bar bar4"></div>
-                    <div class="bar bar5"></div>
-                    <div class="bar bar6"></div>
-                    <div class="bar bar7"></div>
-                    <div class="bar bar8"></div>
+            <div className="preloader">
+                <div className="loading">
+                    <div className="bar bar1"></div>
+                    <div className="bar bar2"></div>
+                    <div className="bar bar3"></div>
+                    <div className="bar bar4"></div>
+                    <div className="bar bar5"></div>
+                    <div className="bar bar6"></div>
+                    <div className="bar bar7"></div>
+                    <div className="bar bar8"></div>
                 </div>
             </div>
 
             {/* Switcher Area Start */}
-            <div class="switcher__area">
-                <div class="switcher__icon">
-                    <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
-                    <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+            <div className="switcher__area">
+                <div className="switcher__icon">
+                    <button id="switcher_open"><i className="fa-solid fa-gear"></i></button>
+                    <button id="switcher_close"><i className="fa-solid fa-xmark"></i></button>
                 </div>
 
-                <div class="switcher__items">
-                    <div class="switcher__item">
-                        <div class="switch__title-wrap">
-                            <h2 class="switcher__title">Cursor</h2>
+                <div className="switcher__items">
+                    <div className="switcher__item">
+                        <div className="switch__title-wrap">
+                            <h2 className="switcher__title">Cursor</h2>
                         </div>
-                        <div class="switcher__btn">
+                        <div className="switcher__btn">
                             <select name="cursor-style" id="cursor_style">
                                 <option value="1">default</option>
-                                <option selected value="2">animated</option>
+                                <option defaultValue value="2">animated</option>
                             </select>
                         </div>
                     </div>
 
-                    <div class="switcher__item">
-                        <div class="switch__title-wrap">
-                            <h2 class="switcher__title">mode</h2>
+                    <div className="switcher__item">
+                        <div className="switch__title-wrap">
+                            <h2 className="switcher__title">mode</h2>
                         </div>
-                        <div class="switcher__btn mode-type wc-col-2">
-                            <button class="active" data-mode="light">light</button>
+                        <div className="switcher__btn mode-type wc-col-2">
+                            <button className="active" data-mode="light">light</button>
                             <button data-mode="dark">dark</button>
                         </div>
                     </div>
@@ -56,24 +56,24 @@ export default function TopHead() {
             {/* Switcher Area End */}
 
             {/* Scroll Smoother */}
-            <div class="has-smooth" id="has_smooth"></div>
+            <div className="has-smooth" id="has_smooth"></div>
 
 
             {/* Go Top Button */}
-            <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+            <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
 
             {/* Header area start */}
-            <header class="header__area-3">
-                <div class="header__inner-3">
-                    <div class="header__logo-2">
-                        <Link href="/" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></Link>
-                        <Link href="/" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></Link>
+            <header className="header__area-3">
+                <div className="header__inner-3">
+                    <div className="header__logo-2">
+                        <Link href="/" className="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo" /></Link>
+                        <Link href="/" className="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo" /></Link>
                     </div>
-                    <div class="header__nav-2">
-                        <ul class="main-menu-3 menu-anim">
+                    <div className="header__nav-2">
+                        <ul className="main-menu-3 menu-anim">
                             <li><Link href="#">home</Link>
-                                <ul class="mega-menu-2">
+                                <ul className="mega-menu-2">
                                     <li>
                                         <ul>
                                             <li><Link href="/">Digital Maketing</Link></li>
@@ -100,8 +100,8 @@ export default function TopHead() {
                                 </ul>
                             </li>
                             <li><Link href="/about">About</Link></li>
-                            <li class="has-megamenu"><Link href="/about">Pages</Link>
-                                <ul class="mega-menu">
+                            <li className="has-megamenu"><Link href="/about">Pages</Link>
+                                <ul className="mega-menu">
                                     <li>
                                         <a>Home</a>
                                         <ul>
@@ -197,9 +197,9 @@ export default function TopHead() {
                                 </ul>
                             </li>
                             <li><Link href="/service">services</Link>
-                                <ul class="main-dropdown">
+                                <ul className="main-dropdown">
                                     <li><Link href="/service">service</Link>
-                                        <ul class="sub-dropdown">
+                                        <ul className="sub-dropdown">
                                             <li><Link href="/service-dark">service dark</Link></li>
                                             <li><Link href="/service-2-dark">service V.2 dark</Link></li>
                                             <li><Link href="/service-3-dark">service V.3 dark</Link></li>
@@ -218,13 +218,13 @@ export default function TopHead() {
                                 </ul>
                             </li>
                             <li><Link href="/team">team</Link>
-                                <ul class="main-dropdown">
+                                <ul className="main-dropdown">
                                     <li><Link href="/team">Team</Link></li>
                                     <li><Link href="/team-details">Team Details</Link></li>
                                 </ul>
                             </li>
                             <li><Link href="/blog">Blog</Link>
-                                <ul class="main-dropdown">
+                                <ul className="main-dropdown">
                                     <li><Link href="/blog"> blog </Link></li>
                                     <li><Link href="/blog-2">blog v.2</Link></li>
                                     <li><Link href="/category">category</Link></li>
@@ -234,14 +234,14 @@ export default function TopHead() {
                             <li><Link href="/contact">CONTACT</Link></li>
                         </ul>
                     </div>
-                    <div class="header__nav-icon-3">
-                        <button class="search-icon" id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <button class="search-icon" id="search_close"><i class="fa-solid fa-xmark"></i></button>
+                    <div className="header__nav-icon-3">
+                        <button className="search-icon" id="search_icon"><i className="fa-solid fa-magnifying-glass"></i></button>
+                        <button className="search-icon" id="search_close"><i className="fa-solid fa-xmark"></i></button>
                         <button id="open_offcanvas"><img src="assets/imgs/icon/menu-black.png" alt="Menubar Icon" /></button>
                     </div>
                 </div>
             </header>
-            <div class="header__search">
+            <div className="header__search">
                 <form action="#">
                     <input type="text" name="s" id="s" placeholder="Search.." />
                 </form>
@@ -250,14 +250,14 @@ export default function TopHead() {
 
 
             {/* Offcanvas area start */}
-            <div class="offcanvas__area">
-                <div class="offcanvas__body">
-                    <div class="offcanvas__left">
-                        <div class="offcanvas__logo">
+            <div className="offcanvas__area">
+                <div className="offcanvas__body">
+                    <div className="offcanvas__left">
+                        <div className="offcanvas__logo">
                             <Link href="/"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo" /></Link>
                         </div>
-                        <div class="offcanvas__social">
-                            <h3 class="social-title">Follow Us</h3>
+                        <div className="offcanvas__social">
+                            <h3 className="social-title">Follow Us</h3>
                             <ul>
                                 <li><Link href="#">Dribbble</Link></li>
                                 <li><Link href="#">Behance</Link></li>
@@ -267,7 +267,7 @@ export default function TopHead() {
                                 <li><Link href="#">YouTube</Link></li>
                             </ul>
                         </div>
-                        <div class="offcanvas__links">
+                        <div className="offcanvas__links">
                             <ul>
                                 <li><Link href="/about">About</Link></li>
                                 <li><Link href="/contact">contact</Link></li>
@@ -276,10 +276,10 @@ export default function TopHead() {
                             </ul>
                         </div>
                     </div>
-                    <div class="offcanvas__mid">
-                        <div class="offcanvas__menu-wrapper">
-                            <nav class="offcanvas__menu">
-                                <ul class="menu-anim">
+                    <div className="offcanvas__mid">
+                        <div className="offcanvas__menu-wrapper">
+                            <nav className="offcanvas__menu">
+                                <ul className="menu-anim">
                                     <li><a>home</a>
                                         <ul>
                                             <li><Link href="/">Digital Maketing</Link></li>
@@ -432,14 +432,14 @@ export default function TopHead() {
                             </nav>
                         </div>
                     </div>
-                    <div class="offcanvas__right">
-                        <div class="offcanvas__search">
+                    <div className="offcanvas__right">
+                        <div className="offcanvas__search">
                             <form action="#">
                                 <input type="text" name="search" placeholder="Search keyword" />
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button><i className="fa-solid fa-magnifying-glass"></i></button>
                             </form>
                         </div>
-                        <div class="offcanvas__contact">
+                        <div className="offcanvas__contact">
                             <h3>Get in touch</h3>
                             <ul>
                                 <li><Link href="tel:02094980547">+(02) - 094 980 547</Link></li>
@@ -447,11 +447,11 @@ export default function TopHead() {
                                 <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
                             </ul>
                         </div>
-                        <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1" />
-                        <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2" />
+                        <img src="assets/imgs/shape/11.png" alt="shape" className="shape-1" />
+                        <img src="assets/imgs/shape/12.png" alt="shape" className="shape-2" />
                     </div>
-                    <div class="offcanvas__close">
-                        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+                    <div className="offcanvas__close">
+                        <button type="button" id="close_offcanvas"><i className="fa-solid fa-xmark"></i></button>
                     </div>
                 </div>
             </div>

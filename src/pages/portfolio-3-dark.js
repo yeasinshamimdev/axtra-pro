@@ -20,10 +20,7 @@ const PortfolioThirdDark = () => {
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
 
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -39,22 +36,22 @@ const PortfolioThirdDark = () => {
                 <script type="text/javascript" src="assets/js/main.js" async />
 
             </Head>
-            <main class="dark">
+            <main className="dark">
                 {/* Cursor Animation  */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
                 {/* Preloader  */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
@@ -63,28 +60,28 @@ const PortfolioThirdDark = () => {
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother  */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
 
                 {/* Go Top Button  */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
                 {/* Porfolio Cursor  */}
-                <div class="cursor" id="portf_cursor_6">View <br />Project</div>
+                <div className="cursor" id="portf_cursor_6">View <br />Project</div>
 
                 {/* Header area start  */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -100,13 +97,13 @@ const PortfolioThirdDark = () => {
                         <main>
 
                             {/* Portfolio area start   */}
-                            <section class="portfolio__area-2 portfolio-v3">
-                                <div class="container g-0 line pt-100 pb-140">
-                                    <div class="row">
-                                        <div class="col-xxl-12">
-                                            <div class="sec-title-wrapper text-anim">
-                                                <h2 class="sec-title-3 title-anim">Selected <span>Projects</span></h2>
-                                                <p class="sec-text">Worked with global brands & agency at the
+                            <section className="portfolio__area-2 portfolio-v3">
+                                <div className="container g-0 line pt-100 pb-140">
+                                    <div className="row">
+                                        <div className="col-xxl-12">
+                                            <div className="sec-title-wrapper text-anim">
+                                                <h2 className="sec-title-3 title-anim">Selected <span>Projects</span></h2>
+                                                <p className="sec-text">Worked with global brands & agency at the
                                                     intersection of flat design and digital
                                                     technology.</p>
                                             </div>
@@ -114,106 +111,106 @@ const PortfolioThirdDark = () => {
                                     </div>
                                 </div>
 
-                                <div class="swiper portfolio__slider-2">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-2">
-                                                <div class="slide-img">
+                                <div className="swiper portfolio__slider-2">
+                                    <div className="swiper-wrapper">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-2">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/1.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <Link href="/portfolio-details">Lionpro <span>Agency</span></Link>
+                                                <div className="slide-content text-anim">
+                                                    <h2 className="sec-title title-anim"> <Link href="/portfolio-details">Lionpro <span>Agency</span></Link>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
-                                                    <div class="btn-common-wrap">
-                                                        <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></Link>
+                                                    <div className="btn-common-wrap">
+                                                        <Link href="/portfolio-details" className="btn-common">View details <i
+                                                            className="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-2">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-2">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/2.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"><Link href="/portfolio-details">crodyflw <span>Website</span></Link>
+                                                <div className="slide-content text-anim">
+                                                    <h2 className="sec-title title-anim"><Link href="/portfolio-details">crodyflw <span>Website</span></Link>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
-                                                    <div class="btn-common-wrap">
-                                                        <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></Link>
+                                                    <div className="btn-common-wrap">
+                                                        <Link href="/portfolio-details" className="btn-common">View details <i
+                                                            className="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-2">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-2">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/3.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <Link href="/portfolio-details">developers
+                                                <div className="slide-content text-anim">
+                                                    <h2 className="sec-title title-anim"> <Link href="/portfolio-details">developers
                                                         <span>digital</span></Link></h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
-                                                    <div class="btn-common-wrap">
-                                                        <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></Link>
+                                                    <div className="btn-common-wrap">
+                                                        <Link href="/portfolio-details" className="btn-common">View details <i
+                                                            className="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-2">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-2">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/4.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <Link href="/portfolio-details">Lionpro
+                                                <div className="slide-content text-anim">
+                                                    <h2 className="sec-title title-anim"> <Link href="/portfolio-details">Lionpro
                                                         <span>marketeers</span></Link></h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
-                                                    <div class="btn-common-wrap">
-                                                        <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></Link>
+                                                    <div className="btn-common-wrap">
+                                                        <Link href="/portfolio-details" className="btn-common">View details <i
+                                                            className="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="swiper-slide">
-                                            <div class="portfolio__slide-2">
-                                                <div class="slide-img">
+                                        <div className="swiper-slide">
+                                            <div className="portfolio__slide-2">
+                                                <div className="slide-img">
                                                     <Link href="/portfolio-details"><img src="assets/imgs/portfolio/2/5.jpg" alt="Portfolio Image" /></Link>
                                                 </div>
-                                                <div class="slide-content text-anim">
-                                                    <h2 class="sec-title title-anim"> <Link href="/portfolio-details">Lionpro <span>Agency</span></Link>
+                                                <div className="slide-content text-anim">
+                                                    <h2 className="sec-title title-anim"> <Link href="/portfolio-details">Lionpro <span>Agency</span></Link>
                                                     </h2>
                                                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                                                         both
                                                         ourselves</p>
-                                                    <div class="btn-common-wrap">
-                                                        <Link href="/portfolio-details" class="btn-common">View details <i
-                                                            class="fa-solid fa-arrow-right"></i></Link>
+                                                    <div className="btn-common-wrap">
+                                                        <Link href="/portfolio-details" className="btn-common">View details <i
+                                                            className="fa-solid fa-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="portfolio__slider-2-pagination--">
-                                        <div class="swiper-pagination circle-pagination right"></div>
+                                    <div className="portfolio__slider-2-pagination--">
+                                        <div className="swiper-pagination circle-pagination right"></div>
                                     </div>
                                 </div>
                             </section>

@@ -19,10 +19,7 @@ const JobDetailsDark = () => {
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
 
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -38,22 +35,22 @@ const JobDetailsDark = () => {
                 <script type="text/javascript" src="assets/js/main.js" async />
 
             </Head>
-            <main class="dark">
+            <main className="dark">
                 {/* Cursor Animation  */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
                 {/* Preloader  */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
@@ -62,25 +59,25 @@ const JobDetailsDark = () => {
                 {/* Switch area end  */}
 
                 {/* Scroll Smoother */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
 
                 {/* Go Top Button */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
                 {/* Header top start */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -96,26 +93,26 @@ const JobDetailsDark = () => {
                         <main>
 
                             {/* Job details top start   */}
-                            <section class="job__detail-top">
+                            <section className="job__detail-top">
                                 <img src="assets/imgs/career/6.jpg" alt="Image" data-speed="auto" />
                             </section>
                             {/* Job details top end  */}
 
                             {/* Job detail start   */}
-                            <section class="job__detail">
-                                <div class="container g-0 line pb-110">
-                                    <span class="line-3"></span>
+                            <section className="job__detail">
+                                <div className="container g-0 line pb-110">
+                                    <span className="line-3"></span>
 
-                                    <div class="row">
-                                        <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-8">
-                                            <div class="job__detail-wrapper">
-                                                <h2 class="sec-title">Frontend Developer</h2>
-                                                <ul class="job__detail-meta">
+                                    <div className="row">
+                                        <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-8">
+                                            <div className="job__detail-wrapper">
+                                                <h2 className="sec-title">Frontend Developer</h2>
+                                                <ul className="job__detail-meta">
                                                     <li><span>Location</span> 2541, Austin, New York</li>
                                                     <li><span>Date</span> 24, June 2022</li>
                                                     <li><span>Job Type</span> Full time (Remote)</li>
                                                 </ul>
-                                                <div class="job__detail-content">
+                                                <div className="job__detail-content">
                                                     <p>We’re looking for a Junior - Mid-level Designer to join our team. You’ll support the execution of
                                                         graphic and digital design projects, working closely with the internal team of creatives, project
                                                         managers, the Creative Director and development team to blend user needs and business goals into
@@ -188,14 +185,14 @@ const JobDetailsDark = () => {
                                                         regard to race, color, ancestry, religion.</p>
                                                 </div>
 
-                                                <div class="job__apply" id="btn_wrapper">
-                                                    <button class="wc-btn-primary btn-hover btn-item"><span></span> Apply this <br />Position <i
-                                                        class="fa-solid fa-arrow-right"></i></button>
+                                                <div className="job__apply" id="btn_wrapper">
+                                                    <button className="wc-btn-primary btn-hover btn-item"><span></span> Apply this <br />Position <i
+                                                        className="fa-solid fa-arrow-right"></i></button>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4">
-                                            <div class="job__detail-sidebar">
+                                        <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4">
+                                            <div className="job__detail-sidebar">
                                                 <ul>
                                                     <li><span>Experience</span> 5+ Years Experience</li>
                                                     <li><span>Working Hours</span> 08 AM to 05 PM</li>
@@ -218,92 +215,92 @@ const JobDetailsDark = () => {
                 </div>
 
                 {/* Modal 1   */}
-                <div class="modal__application" id="application_form">
-                    <div class="modal__apply">
-                        <button class="modal__close-2" id="apply_close"><i class="fa-solid fa-xmark"></i></button>
-                        <div class="form-top">
+                <div className="modal__application" id="application_form">
+                    <div className="modal__apply">
+                        <button className="modal__close-2" id="apply_close"><i className="fa-solid fa-xmark"></i></button>
+                        <div className="form-top">
                             <img src="assets/imgs/logo/logo-black.png" alt="Site logo" />
-                            <h2 class="sec-title">Frontend Developer</h2>
+                            <h2 className="sec-title">Frontend Developer</h2>
                             <p>Full time</p>
                         </div>
-                        <div class="form-apply">
+                        <div className="form-apply">
                             <form action="#">
-                                <div class="input-apply">
+                                <div className="input-apply">
                                     <p>Why you decided to apply here and why should we select you? *</p>
                                     <textarea name="question" required></textarea>
                                 </div>
-                                <div class="input-apply">
+                                <div className="input-apply">
                                     <p>Tell us about a project that you worked on and felt proud of it.</p>
                                     <textarea name="question-2" required></textarea>
                                 </div>
-                                <div class="input-apply">
+                                <div className="input-apply">
                                     <p>Share your portfolios. (Behance, Dribbble, etc) *</p>
                                     <textarea name="question-3" required></textarea>
                                 </div>
-                                <div class="input-apply">
+                                <div className="input-apply">
                                     <p>Who’s your favorite designer? *</p>
                                     <textarea name="question-4" required></textarea>
                                 </div>
-                                <div class="input-apply">
+                                <div className="input-apply">
                                     <p>Do you have any other designs which you want to show us? or this is not available on your
                                         portfolio.</p>
                                     <textarea name="question-5" required></textarea>
                                 </div>
-                                <div class="input-apply">
+                                <div className="input-apply">
                                     <p>What are you looking for in your next job/journey? *</p>
                                     <textarea name="question-6" required></textarea>
                                 </div>
-                                <div class="input-apply">
+                                <div className="input-apply">
                                     <p>What makes you angry? and what makes you smile?</p>
                                     <textarea name="question-7" required></textarea>
                                 </div>
-                                <div class="input-apply">
+                                <div className="input-apply">
                                     <p>Your current salary & what are your salary expectations? *</p>
                                     <textarea name="question-8" required></textarea>
                                 </div>
                             </form>
                         </div>
 
-                        <div class="form-btn apply-trigger">
-                            <button class="wc-btn-primary btn-hover"><span></span> next <i class="fa-solid fa-arrow-right"></i></button>
+                        <div className="form-btn apply-trigger">
+                            <button className="wc-btn-primary btn-hover"><span></span> next <i className="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>
 
                 {/* Modal 2   */}
-                <div class="modal__application" id="application_form2">
-                    <div class="modal__apply">
-                        <button class="modal__close-2" id="apply_close2"><i class="fa-solid fa-xmark"></i></button>
-                        <div class="form-top">
+                <div className="modal__application" id="application_form2">
+                    <div className="modal__apply">
+                        <button className="modal__close-2" id="apply_close2"><i className="fa-solid fa-xmark"></i></button>
+                        <div className="form-top">
                             <img src="assets/imgs/logo/logo-black.png" alt="Site logo" />
-                            <h2 class="sec-title">Frontend Developer</h2>
+                            <h2 className="sec-title">Frontend Developer</h2>
                             <p>Full time</p>
                         </div>
-                        <div class="form-apply">
+                        <div className="form-apply">
                             <form action="#">
-                                <div class="input-apply-2">
+                                <div className="input-apply-2">
                                     <p>Name *</p>
                                     <input type="text" name="name" required />
                                 </div>
-                                <div class="input-apply-2">
+                                <div className="input-apply-2">
                                     <p>Email *</p>
                                     <input type="email" name="email" required />
                                 </div>
-                                <div class="input-apply-2">
+                                <div className="input-apply-2">
                                     <p>Phone *</p>
                                     <input type="tel" name="phone" required />
                                 </div>
-                                <div class="input-apply-2">
+                                <div className="input-apply-2">
                                     <p>Upload CV *</p>
                                     <input type="file" name="cv" />
                                 </div>
                             </form>
                         </div>
-                        <div class="form-btn-2">
-                            <button class="wc-btn-primary btn-hover" id="back_form1"><span></span> back <i
-                                class="fa-solid fa-arrow-right"></i></button>
-                            <button type="submit" class="wc-btn-primary btn-hover"><span></span> Submit <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <div className="form-btn-2">
+                            <button className="wc-btn-primary btn-hover" id="back_form1"><span></span> back <i
+                                className="fa-solid fa-arrow-right"></i></button>
+                            <button type="submit" className="wc-btn-primary btn-hover"><span></span> Submit <i
+                                className="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>

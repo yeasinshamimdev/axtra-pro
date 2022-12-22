@@ -19,10 +19,7 @@ const Portfolio = () => {
 
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -41,20 +38,20 @@ const Portfolio = () => {
             <main>
 
                 {/* Cursor Animation  */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
 
                 {/* Preloader  */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
 
@@ -63,24 +60,24 @@ const Portfolio = () => {
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother  */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
                 {/* Go Top Button  */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
                 {/* Header area start  */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -96,95 +93,95 @@ const Portfolio = () => {
                         <main>
 
                             {/* Portfolio area start  */}
-                            <section class="portfolio__area-6">
-                                <div class="container line pt-100 pb-140">
-                                    <span class="line-3"></span>
-                                    <div class="zi-9">
-                                        <div class="row">
-                                            <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-6">
-                                                <div class="sec-title-wrapper portfolio__title-wrap-6">
-                                                    <div class="">
-                                                        <h2 class="sec-sub-title animation__char_come">Featured</h2>
-                                                        <h3 class="sec-title animation__char_come_long">Work</h3>
+                            <section className="portfolio__area-6">
+                                <div className="container line pt-100 pb-140">
+                                    <span className="line-3"></span>
+                                    <div className="zi-9">
+                                        <div className="row">
+                                            <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-6">
+                                                <div className="sec-title-wrapper portfolio__title-wrap-6">
+                                                    <div className="">
+                                                        <h2 className="sec-sub-title animation__char_come">Featured</h2>
+                                                        <h3 className="sec-title animation__char_come_long">Work</h3>
                                                         <p>View the full case study of our recent featured and awesome works that we created for our
                                                             clients.
                                                         </p>
                                                     </div>
-                                                    <div class="portfolio__pagination-6">
-                                                        <span class="portfolio__current">01</span> / 0<span class="portfolio__total"></span>
+                                                    <div className="portfolio__pagination-6">
+                                                        <span className="portfolio__current">01</span> / 0<span className="portfolio__total"></span>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="col-xxl-8 col-xl-7 col-lg-7 col-md-6">
-                                                <div class="portfolio__wrapper-6">
-                                                    <div class="portfolio__list-6">
-                                                        <div class="portfolio__item-6" data-portfitem="1">
+                                            <div className="col-xxl-8 col-xl-7 col-lg-7 col-md-6">
+                                                <div className="portfolio__wrapper-6">
+                                                    <div className="portfolio__list-6">
+                                                        <div className="portfolio__item-6" data-portfitem="1">
                                                             <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/1.jpg" alt="Portfolio Image" data-speed="0.4" />
-                                                                <div class="portfolio__content-6">
-                                                                    <h4 class="portfolio__title-6">Lionpro Agency</h4>
-                                                                    <h5 class="portfolio__date">02 May 2021</h5>
+                                                                <div className="portfolio__content-6">
+                                                                    <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                                                                    <h5 className="portfolio__date">02 May 2021</h5>
                                                                 </div>
                                                             </Link>
                                                         </div>
 
-                                                        <div class="portfolio__item-6" data-portfitem="2">
+                                                        <div className="portfolio__item-6" data-portfitem="2">
                                                             <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/2.jpg" alt="Portfolio Image" data-speed="0.4" />
-                                                                <div class="portfolio__content-6">
-                                                                    <h4 class="portfolio__title-6">Lionpro Agency</h4>
-                                                                    <h5 class="portfolio__date">02 May 2021</h5>
+                                                                <div className="portfolio__content-6">
+                                                                    <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                                                                    <h5 className="portfolio__date">02 May 2021</h5>
                                                                 </div>
                                                             </Link>
                                                         </div>
 
-                                                        <div class="portfolio__item-6" data-portfitem="3">
+                                                        <div className="portfolio__item-6" data-portfitem="3">
                                                             <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/3.jpg" alt="Portfolio Image" data-speed="0.4" />
-                                                                <div class="portfolio__content-6">
-                                                                    <h4 class="portfolio__title-6">Lionpro Agency</h4>
-                                                                    <h5 class="portfolio__date">02 May 2021</h5>
+                                                                <div className="portfolio__content-6">
+                                                                    <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                                                                    <h5 className="portfolio__date">02 May 2021</h5>
                                                                 </div>
                                                             </Link>
                                                         </div>
 
-                                                        <div class="portfolio__item-6" data-portfitem="4">
+                                                        <div className="portfolio__item-6" data-portfitem="4">
                                                             <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/4.jpg" alt="Portfolio Image" data-speed="0.4" />
-                                                                <div class="portfolio__content-6">
-                                                                    <h4 class="portfolio__title-6">Lionpro Agency</h4>
-                                                                    <h5 class="portfolio__date">02 May 2021</h5>
+                                                                <div className="portfolio__content-6">
+                                                                    <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                                                                    <h5 className="portfolio__date">02 May 2021</h5>
                                                                 </div>
                                                             </Link>
                                                         </div>
 
-                                                        <div class="portfolio__item-6" data-portfitem="5">
+                                                        <div className="portfolio__item-6" data-portfitem="5">
                                                             <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/5.jpg" alt="Portfolio Image" data-speed="0.4" />
-                                                                <div class="portfolio__content-6">
-                                                                    <h4 class="portfolio__title-6">Lionpro Agency</h4>
-                                                                    <h5 class="portfolio__date">02 May 2021</h5>
+                                                                <div className="portfolio__content-6">
+                                                                    <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                                                                    <h5 className="portfolio__date">02 May 2021</h5>
                                                                 </div>
                                                             </Link>
                                                         </div>
 
-                                                        <div class="portfolio__item-6" data-portfitem="6">
+                                                        <div className="portfolio__item-6" data-portfitem="6">
                                                             <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/6.jpg" alt="Portfolio Image" data-speed="0.4" />
-                                                                <div class="portfolio__content-6">
-                                                                    <h4 class="portfolio__title-6">Lionpro Agency</h4>
-                                                                    <h5 class="portfolio__date">02 May 2021</h5>
+                                                                <div className="portfolio__content-6">
+                                                                    <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                                                                    <h5 className="portfolio__date">02 May 2021</h5>
                                                                 </div>
                                                             </Link>
                                                         </div>
 
-                                                        <div class="portfolio__item-6" data-portfitem="7">
+                                                        <div className="portfolio__item-6" data-portfitem="7">
                                                             <Link href="/portfolio-details">
                                                                 <img src="assets/imgs/portfolio/6/7.jpg" alt="Portfolio Image" data-speed="0.4" />
-                                                                <div class="portfolio__content-6">
-                                                                    <h4 class="portfolio__title-6">Lionpro Agency</h4>
-                                                                    <h5 class="portfolio__date">02 May 2021</h5>
+                                                                <div className="portfolio__content-6">
+                                                                    <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                                                                    <h5 className="portfolio__date">02 May 2021</h5>
                                                                 </div>
                                                             </Link>
                                                         </div>

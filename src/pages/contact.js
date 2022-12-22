@@ -20,10 +20,7 @@ const Contact = () => {
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
 
-                {/* Google Fonts  */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
 
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
@@ -40,19 +37,19 @@ const Contact = () => {
             </Head>
             <main>
                 {/* Cursor Animation  */}
-                <div class="cursor1"></div>
-                <div class="cursor2"></div>
+                <div className="cursor1"></div>
+                <div className="cursor2"></div>
                 {/* Preloader  */}
-                <div class="preloader">
-                    <div class="loading">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                        <div class="bar bar4"></div>
-                        <div class="bar bar5"></div>
-                        <div class="bar bar6"></div>
-                        <div class="bar bar7"></div>
-                        <div class="bar bar8"></div>
+                <div className="preloader">
+                    <div className="loading">
+                        <div className="bar bar1"></div>
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div>
+                        <div className="bar bar4"></div>
+                        <div className="bar bar5"></div>
+                        <div className="bar bar6"></div>
+                        <div className="bar bar7"></div>
+                        <div className="bar bar8"></div>
                     </div>
                 </div>
                 {/* Switcher Area Start  */}
@@ -60,26 +57,26 @@ const Contact = () => {
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother   */}
-                <div class="has-smooth" id="has_smooth"></div>
+                <div className="has-smooth" id="has_smooth"></div>
 
 
                 {/* Go Top Button  */}
-                <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="scroll_top" className="scroll-top"><i className="fa-solid fa-arrow-up"></i></button>
 
 
                 {/* Header area start  */}
-                <header class="header__area">
-                    <div class="header__inner">
-                        <div class="header__logo">
+                <header className="header__area">
+                    <div className="header__inner">
+                        <div className="header__logo">
                             <Link href="/">
-                                <img class="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
-                                <img class="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
+                                <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
+                                <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
                             </Link>
                         </div>
-                        <div class="header__nav-icon">
+                        <div className="header__nav-icon">
                             <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" /></button>
                         </div>
-                        <div class="header__support">
+                        <div className="header__support">
                             <p>Support center <Link href="tel:+9587325902">+9 587 325 902</Link></p>
                         </div>
                     </div>
@@ -97,26 +94,26 @@ const Contact = () => {
                         <main>
 
                             {/* Contact area start  */}
-                            <section class="contact__area-6">
-                                <div class="container g-0 line pt-120 pb-110">
-                                    <span class="line-3"></span>
-                                    <div class="row">
-                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                            <div class="sec-title-wrapper">
-                                                <h2 class="sec-title-2 animation__char_come">Let’s get in touch</h2>
+                            <section className="contact__area-6">
+                                <div className="container g-0 line pt-120 pb-110">
+                                    <span className="line-3"></span>
+                                    <div className="row">
+                                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                            <div className="sec-title-wrapper">
+                                                <h2 className="sec-title-2 animation__char_come">Let’s get in touch</h2>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                            <div class="contact__text">
+                                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                            <div className="contact__text">
                                                 <p>Great! We are excited to hear from you and let’s start
                                                     something special togerter. call us for any inquery.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row contact__btm">
-                                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                                            <div class="contact__info">
-                                                <h3 class="sub-title-anim-top animation__word_come">Don’t be afraid man ! <br />say hello</h3>
+                                    <div className="row contact__btm">
+                                        <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                                            <div className="contact__info">
+                                                <h3 className="sub-title-anim-top animation__word_come">Don’t be afraid man ! <br />say hello</h3>
                                                 <ul>
                                                     <li><Link href="tel:+(2)578365379">+(2) 578 - 365 - 379</Link></li>
                                                     <li><Link href="mailto:hello@example.com">hello@example.com</Link></li>
@@ -124,35 +121,35 @@ const Contact = () => {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                                            <div class="contact__form">
+                                        <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                                            <div className="contact__form">
                                                 <form action="#">
-                                                    <div class="row g-3">
-                                                        <div class="col-xxl-6 col-xl-6 col-12">
+                                                    <div className="row g-3">
+                                                        <div className="col-xxl-6 col-xl-6 col-12">
                                                             <input type="text" name="name" placeholder="Name *" />
                                                         </div>
-                                                        <div class="col-xxl-6 col-xl-6 col-12">
+                                                        <div className="col-xxl-6 col-xl-6 col-12">
                                                             <input type="email" name="email" placeholder="Email *" />
                                                         </div>
                                                     </div>
-                                                    <div class="row g-3">
-                                                        <div class="col-xxl-6 col-xl-6 col-12">
+                                                    <div className="row g-3">
+                                                        <div className="col-xxl-6 col-xl-6 col-12">
                                                             <input type="tel" name="phone" placeholder="Phone" />
                                                         </div>
-                                                        <div class="col-xxl-6 col-xl-6 col-12">
+                                                        <div className="col-xxl-6 col-xl-6 col-12">
                                                             <input type="text" name="subject" placeholder="Subject *" />
                                                         </div>
                                                     </div>
-                                                    <div class="row g-3">
-                                                        <div class="col-12">
+                                                    <div className="row g-3">
+                                                        <div className="col-12">
                                                             <textarea name="message" placeholder="Messages *"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="row g-3">
-                                                        <div class="col-12">
+                                                    <div className="row g-3">
+                                                        <div className="col-12">
                                                             <div id="btn_wrapper">
-                                                                <button class="wc-btn-primary btn-hover btn-item"><span></span> Send <br />Messages <i
-                                                                    class="fa-solid fa-arrow-right"></i></button>
+                                                                <button className="wc-btn-primary btn-hover btn-item"><span></span> Send <br />Messages <i
+                                                                    className="fa-solid fa-arrow-right"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>

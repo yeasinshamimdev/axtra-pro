@@ -14,8 +14,8 @@ export default function SwitcherAreaDark() {
                         </div>
                         <div className="switcher__btn">
                             <select name="cursor-style" id="cursor_style">
-                                <option value="1">default</option>
                                 <option defaultValue value="2">animated</option>
+                                <option value="1">default</option>
                             </select>
                         </div>
                     </div>

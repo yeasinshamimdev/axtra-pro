@@ -13,8 +13,8 @@ export default function SwitcherArea() {
                     </div>
                     <div className="switcher__btn">
                         <select name="cursor-style" id="cursor_style">
-                            <option value="1">default</option>
                             <option defaultValue value="2">animated</option>
+                            <option value="1">default</option>
                         </select>
                     </div>
                 </div>
@@ -24,8 +24,8 @@ export default function SwitcherArea() {
                         <h2 className="switcher__title">mode</h2>
                     </div>
                     <div className="switcher__btn mode-type wc-col-2">
-                        <button data-mode="light">light</button>
-                        <button className="active" data-mode="dark">dark</button>
+                        <button  className="active" data-mode="light">light</button>
+                        <button data-mode="dark">dark</button>
                     </div>
                 </div>
             </div>

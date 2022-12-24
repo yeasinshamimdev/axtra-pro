@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import CtaArea from "../components/ctaArea";
-import TopHead from "../components/indexHead";
+import CtaArea from "../components/common/ctaArea";
+import TopHead from "../components/home/indexHead";
 
 export default function Service6() {
     return (

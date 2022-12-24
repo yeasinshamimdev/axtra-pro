@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import TopHead from "../components/indexHead";
+import TopHead from "../components/home/indexHead";
 
 export default function Home6() {
     return (

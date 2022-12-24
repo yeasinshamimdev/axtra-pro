@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import Footer from '../components/footer';
-import Offcanvas from '../components/offcanvas';
-import OffcanvasDark from '../components/offcanvasDark';
-import SwitcherAreaDark from '../components/switcherAreaDark';
+import Footer from '../components/common/footer';
+import Offcanvas from '../components/common/offcanvas';
+import OffcanvasDark from '../components/common/offcanvasDark';
+import SwitcherAreaDark from '../components/common/switcherAreaDark';
 
 const CareerDark = () => {
   return (

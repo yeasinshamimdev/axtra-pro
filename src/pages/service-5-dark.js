@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import OffcanvasDark from "../components/offcanvasDark";
-import SwitcherAreaDark from "../components/switcherAreaDark";
-import Footer from "../components/footer";
-import CtaArea from "../components/ctaArea";
+import OffcanvasDark from "../components/common/offcanvasDark";
+import SwitcherAreaDark from "../components/common/switcherAreaDark";
+import Footer from "../components/common/footer";
+import CtaArea from "../components/common/ctaArea";
 
 export default function Service5Dark() {
     return (

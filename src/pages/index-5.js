@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import Offcanvas from "../components/offcanvas";
-import SwitcherArea from "../components/switcherArea";
+import Offcanvas from "../components/common/offcanvas";
+import SwitcherArea from "../components/common/switcherArea";
 
 export default function Home5() {
     return (

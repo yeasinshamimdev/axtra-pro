@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import OffcanvasDark from "../components/offcanvasDark";
-import SwitcherAreaDark from "../components/switcherAreaDark";
+import OffcanvasDark from "../components/common/offcanvasDark";
+import SwitcherAreaDark from "../components/common/switcherAreaDark";
 
 export default function NotFoundDark() {
     return (

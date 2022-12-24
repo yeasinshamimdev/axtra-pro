@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import HomeFooter from '../components/indexFooter'
-import TopHeadDark from '../components/indexHeadDark'
+import HomeFooter from '../components/home/indexFooter'
+import TopHeadDark from '../components/home/indexHeadDark'
 
 export default function HomeDark() {
     return (

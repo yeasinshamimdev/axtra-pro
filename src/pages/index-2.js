@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
-import CtaArea from "../components/ctaArea";
-import HomeFooter from "../components/indexFooter";
-import TopHead from "../components/indexHead";
+import CtaArea from "../components/common/ctaArea";
+import HomeFooter from "../components/home/indexFooter";
+import TopHead from "../components/home/indexHead";
 
 export default function Home2() {
     return (

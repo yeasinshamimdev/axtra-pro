@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
-import Offcanvas from "../components/offcanvas";
-import OffcanvasDark from "../components/offcanvasDark";
-import SwitcherAreaDark from "../components/switcherAreaDark";
+import Offcanvas from "../components/common/offcanvas";
+import OffcanvasDark from "../components/common/offcanvasDark";
+import SwitcherAreaDark from "../components/common/switcherAreaDark";
 
 export default function Home5Dark() {
     return (

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import CtaArea from "../components/ctaArea";
+import CtaArea from "../components/common/ctaArea";
 
 export default function Home7() {
     return (

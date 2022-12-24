@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import CtaArea from '../components/ctaArea';
-import Footer from '../components/footer'
-import OffcanvasDark from '../components/offcanvasDark';
-import SwitcherAreaDark from '../components/switcherAreaDark';
+import CtaArea from '../components/common/ctaArea';
+import Footer from '../components/common/footer'
+import OffcanvasDark from '../components/common/offcanvasDark';
+import SwitcherAreaDark from '../components/common/switcherAreaDark';
 const TeamDetailsDark = () => {
     return (
         <div>

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import TopHeadDark from "../components/indexHeadDark";
-import CtaArea from "../components/ctaArea";
+import TopHeadDark from "../components/home/indexHeadDark";
+import CtaArea from "../components/common/ctaArea";
 
 export default function Service6Dark() {
     return (

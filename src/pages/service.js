@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import CtaArea from "../components/ctaArea";
-import Offcanvas from "../components/offcanvas";
-import SwitcherArea from "../components/switcherArea";
-import Footer from "../components/footer";
+import CtaArea from "../components/common/ctaArea";
+import Offcanvas from "../components/common/offcanvas";
+import SwitcherArea from "../components/common/switcherArea";
+import Footer from "../components/common/footer";
 
 export default function Service() {
     return (

@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import CtaArea from "../components/ctaArea";
-import HomeFooter from "../components/indexFooter";
-import TopHeadDark from "../components/indexHeadDark";
-import SwitcherArea from "../components/switcherArea";
+import CtaArea from "../components/common/ctaArea";
+import HomeFooter from "../components/home/indexFooter";
+import TopHeadDark from "../components/home/indexHeadDark";
+import SwitcherArea from "../components/common/switcherArea";
 
 export default function Home2Dark() {
     return (

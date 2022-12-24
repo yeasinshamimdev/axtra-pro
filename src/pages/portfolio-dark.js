@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import React from 'react';
-import Footer from '../components/footer';
-import CtaArea from '../components/ctaArea';
-import OffcanvasDark from '../components/offcanvasDark';
-import SwitcherAreaDark from '../components/switcherAreaDark';
+import Footer from '../components/common/footer';
+import CtaArea from '../components/common/ctaArea';
+import OffcanvasDark from '../components/common/offcanvasDark';
+import SwitcherAreaDark from '../components/common/switcherAreaDark';
 import Link from 'next/link';
 
 const PortfolioDark = () => {

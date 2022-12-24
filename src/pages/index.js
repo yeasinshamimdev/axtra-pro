@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import HomeFooter from '../components/indexFooter'
-import TopHead from '../components/indexHead'
+import HomeFooter from '../components/home/indexFooter'
+import TopHead from '../components/home/indexHead'
 
 export default function Home() {
 

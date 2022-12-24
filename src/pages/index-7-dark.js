@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import TopHeadDark from "../components/indexHeadDark";
+import TopHeadDark from "../components/home/indexHeadDark";
 
 export default function Home7Dark() {
     return (

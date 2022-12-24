@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import TopHeadDark from "../components/indexHeadDark";
-import SwitcherArea from "../components/switcherArea";
+import TopHeadDark from "../components/home/indexHeadDark";
+import SwitcherArea from "../components/common/switcherArea";
 
 export default function Home6Dark() {
     return (

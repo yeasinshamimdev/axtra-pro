@@ -10,7 +10,7 @@ import PortfolioMain from '../components/portfolio/portfolio';
 const PortfolioDark = () => {
     return (
         <div>
-            <PortfolioMain dark={true}/>
+            <PortfolioMain dark={true} number={1}/>
         </div> 
     );
 };

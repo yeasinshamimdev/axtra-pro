@@ -2,9 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { portfolioContent } from '../constants'; 
-const PortfolioArea = () => {
 
-    console.log(portfolioContent);
+const PortfolioArea = () => { 
     return (
         <section className="portfolio__area-6">
             <div className="container line pt-100 pb-140">
@@ -33,14 +32,13 @@ const PortfolioArea = () => {
                                         portfolioContent.map((pC, i) =>  
                                             <div key={i} className="portfolio__item-6" data-portfitem={pC.dataPortfitem}>
                                                 <Link href="/portfolio-details">
-                                                    <Image src={pC.imageUrl} alt="Portfolio Image" data-speed="0.4" width="auto" height="auto"/>
+                                                    <img src={pC.imageUrl} alt="Portfolio Image" data-speed="0.4"/>
                                                     <div className="portfolio__content-6">
-                                                        <h4 className="portfolio__title-6">{pC.title}</h4>
-                                                        <h5 className="portfolio__date">{pC.subTitle}</h5>
+                                                        <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                                                        <h5 className="portfolio__date">02 May 2021</h5>
                                                     </div>
                                                 </Link>
-                                            </div>
-                                         
+                                            </div> 
                                         )
                                     }
                                 </div>

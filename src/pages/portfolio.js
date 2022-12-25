@@ -11,7 +11,7 @@ import PortfolioMain from '../components/portfolio/portfolio';
 const Portfolio = () => {
     return (
         <div>
-            <PortfolioMain dark={false}/> 
+            <PortfolioMain dark={false} number={1}/> 
         </div>
     );
 };

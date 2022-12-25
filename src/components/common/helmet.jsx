@@ -10,7 +10,7 @@ const PageHelmet = ({title}) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description" content="Axtra HTML5 Template" />
 
-                <title> {title} || Axtra - Your Digital Agency</title>
+                <title>{title}</title>
 
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />

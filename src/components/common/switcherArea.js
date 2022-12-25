@@ -1,4 +1,4 @@
-export default function SwitcherArea() {
+export default function SwitcherArea({ mode }) {
     return (
         <div className="switcher__area">
             <div className="switcher__icon">
@@ -24,8 +24,8 @@ export default function SwitcherArea() {
                         <h2 className="switcher__title">mode</h2>
                     </div>
                     <div className="switcher__btn mode-type wc-col-2">
-                        <button  className="active" data-mode="light">light</button>
-                        <button data-mode="dark">dark</button>
+                        <button className={mode === "dark" ? "" : "active"} data-mode="light">light</button>
+                        <button className={mode === "dark" ? "active" : ""} data-mode="dark">dark</button>
                     </div>
                 </div>
             </div>

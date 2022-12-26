@@ -105,7 +105,7 @@ export default function Home7() {
                                         <li>
                                             <ul>
                                                 <li><Link href="/">Digital Maketing</Link></li>
-                                                <li><Link href="/home/routes/index-dark">Digital Maketing dark</Link></li>
+                                                <li><Link href="/index-dark">Digital Maketing dark</Link></li>
                                                 <li><Link href="/index-2">Design Studio </Link></li>
                                                 <li><Link href="/index-2-dark">Design Studio dark</Link></li>
                                                 <li><Link href="/index-3">Digital Agency</Link></li>
@@ -134,7 +134,7 @@ export default function Home7() {
                                             <a>Home</a>
                                             <ul>
                                                 <li><Link href="/">Digital Maketing</Link></li>
-                                                <li><Link href="/home/routes/index-dark">Digital Maketing Dark</Link></li>
+                                                <li><Link href="/index-dark">Digital Maketing Dark</Link></li>
                                                 <li><Link href="/index-2">Design Studio </Link></li>
                                                 <li><Link href="/index-2-dark">Design Studio Dark</Link></li>
                                                 <li><Link href="/index-3">Digital Agency</Link></li>
@@ -305,7 +305,7 @@ export default function Home7() {
                                         <li><a>home</a>
                                             <ul>
                                                 <li><Link href="/">Digital Maketing</Link></li>
-                                                <li><Link href="/home/routes/index-dark">Digital Maketing dark</Link></li>
+                                                <li><Link href="/index-dark">Digital Maketing dark</Link></li>
                                                 <li><Link href="/index-2">Design Studio </Link></li>
                                                 <li><Link href="/index-2-dark">Design Studio dark</Link></li>
                                                 <li><Link href="/index-3">Digital Agency</Link></li>
@@ -346,7 +346,7 @@ export default function Home7() {
                                                     <a>Home</a>
                                                     <ul>
                                                         <li><Link href="/">Digital Maketing</Link></li>
-                                                        <li><Link href="/home/routes/index-dark">Digital Maketing dark</Link></li>
+                                                        <li><Link href="/index-dark">Digital Maketing dark</Link></li>
                                                         <li><Link href="/index-2">Design Studio </Link></li>
                                                         <li><Link href="/index-2-dark">Design Studio dark</Link></li>
                                                         <li><Link href="/index-3">Digital Agency</Link></li>

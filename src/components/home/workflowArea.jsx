@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HomeCtaArea from "../common/homeCtaArea";
 
 export default function WorkflowArea() {
     return (
@@ -108,6 +109,9 @@ export default function WorkflowArea() {
                         </div>
                     </div>
                 </div>
+                {/* CTA area start */}
+                <HomeCtaArea />
+                {/* CTA area end */}
             </div>
         </section>
     )

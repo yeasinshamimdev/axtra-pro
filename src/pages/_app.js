@@ -4,14 +4,13 @@ import '../../public/assets/css/bootstrap.min.css'
 import '../../public/assets/css/locomotive-scroll.min.css'
 import '../../public/assets/css/master.css'
 import '../../public/assets/css/meanmenu.min.css'
-import '../../public/assets/css/progressbar.css'
 import '../../public/assets/css/swiper-bundle.min.css'
 
 function MyApp({ Component, pageProps }) {
 
-  return <div>
+  return <>
     <Component {...pageProps} />
-  </div>
+  </>
 }
 
 export default MyApp

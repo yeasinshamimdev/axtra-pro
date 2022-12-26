@@ -77,7 +77,7 @@ const CareerDark = () => {
         <header className="header__area">
           <div className="header__inner">
             <div className="header__logo">
-              <Link href="/home/routes/index-dark">
+              <Link href="/index-dark">
                 <img className="logo-primary" src="assets/imgs/logo/site-logo-white.png" alt="Site Logo" />
                 <img className="logo-secondary" src="assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo" />
               </Link>

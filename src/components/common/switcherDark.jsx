@@ -1,4 +1,4 @@
-export default function SwitcherArea({ setBgMode }) {
+export default function SwitcherDark({ setBgMode }) {
     return (
         <div class="switcher__area">
             <div class="switcher__icon">
@@ -24,8 +24,8 @@ export default function SwitcherArea({ setBgMode }) {
                         <h2 class="switcher__title">mode</h2>
                     </div>
                     <div class="switcher__btn mode-type wc-col-2">
-                        <button onClick={() => { setBgMode("") }} class="active" data-mode="light">light</button>
-                        <button onClick={() => { setBgMode("dark") }} data-mode="dark">dark</button>
+                        <button onClick={() => { setBgMode("") }} data-mode="light">light</button>
+                        <button onClick={() => { setBgMode("dark") }} class="active" data-mode="dark">dark</button>
                     </div>
                 </div>
             </div>

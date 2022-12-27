@@ -1,4 +1,4 @@
-export default function SwitcherAreaDark({handleDark}) {
+export default function SwitcherAreaDark({ handleDark }) {
     return (
         <>
             <div class="switcher__area">

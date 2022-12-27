@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import HomeFooter from "../../../components/home/indexFooter";
 import HeroArea from "../../../components/home/heroArea";
 import BrandArea from "../../../components/home/brandArea";
@@ -17,9 +16,12 @@ import ScrollSmoother from "../../../components/common/scrollSmoother";
 import IndexHeader from "../../../components/home/indexHeader";
 import Placeholder from "../../../components/common/placeholder";
 import CursorAnimation from "../../../components/common/cursorAnimation";
-import Script from "next/script";
+import SwitcherDark from "../../../components/common/switcherDark";
+import { useEffect, useState } from "react";
 
 export default function Index1({ mode }) {
+
+    const [bgMode, setBgMode] = useState(mode)
 
     return (
         <div>
@@ -31,8 +33,45 @@ export default function Index1({ mode }) {
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
                 <title>Home - Digital Marketing</title>
+                {
+                    bgMode === "dark" ?
+                        <>
+                            <script src="assets/js/jquery-3.6.0.min.js" async />
+                            <script src="assets/js/bootstrap.bundle.min.js" async />
+                            <script src="assets/js/swiper-bundle.min.js" async />
+                            <script src="assets/js/counter.js" async />
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" async />
+                            <script type="text/javascript" src="assets/js/gsap.min.js" async />
+                            <script src="assets/js/ScrollTrigger.min.js" async />
+                            <script src="assets/js/ScrollToPlugin.min.js" async />
+                            <script src="assets/js/ScrollSmoother.min.js" async />
+                            <script src="assets/js/SplitText.min.js" async />
+                            <script src="assets/js/chroma.min.js" async />
+                            <script src="assets/js/jquery.meanmenu.min.js" async />
+                            <script src="assets/js/main.js" async />
+                            <script src="assets/js/progressbar.js" async />
+                            <script src="assets/js/TweenMax.min.js" async />
+                        </> :
+                        <>
+                            <script src="assets/js/jquery-3.6.0.min.js" async />
+                            <script src="assets/js/bootstrap.bundle.min.js" async />
+                            <script src="assets/js/swiper-bundle.min.js" async />
+                            <script src="assets/js/counter.js" async />
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" async />
+                            <script type="text/javascript" src="assets/js/gsap.min.js" async />
+                            <script src="assets/js/ScrollTrigger.min.js" async />
+                            <script src="assets/js/ScrollToPlugin.min.js" async />
+                            <script src="assets/js/ScrollSmoother.min.js" async />
+                            <script src="assets/js/SplitText.min.js" async />
+                            <script src="assets/js/chroma.min.js" async />
+                            <script src="assets/js/jquery.meanmenu.min.js" async />
+                            <script src="assets/js/main.js" async />
+                            <script src="assets/js/progressbar.js" async />
+                            <script src="assets/js/TweenMax.min.js" async />
+                        </>
+                }
             </Head>
-            <main className={mode === "dark" ? "dark" : ""}>
+            <main className={bgMode === "dark" ? "dark" : ""}>
                 {/* Cursor Animation */}
                 <CursorAnimation />
 
@@ -40,7 +79,9 @@ export default function Index1({ mode }) {
                 <Placeholder />
 
                 {/* Switcher Area Start */}
-                <SwitcherArea mode={mode} />
+                {
+                    mode === "dark" ? <SwitcherDark setBgMode={setBgMode} /> : <SwitcherArea setBgMode={setBgMode} />
+                }
                 {/* Switcher Area End */}
 
                 {/* Scroll Smoother */}
@@ -102,36 +143,7 @@ export default function Index1({ mode }) {
                 </div>
             </main >
 
-            <>
-                <Script src="assets/js/jquery-3.6.0.min.js" strategy='afterInteractive' />
-                {/* <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"  ></script> */}
 
-                <Script src="assets/js/bootstrap.bundle.min.js" strategy='afterInteractive' />
-                {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"  ></script> */}
-
-                <Script src="assets/js/swiper-bundle.min.js" strategy='afterInteractive' />
-                {/* < src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"  ></script> */}
-
-                <Script src="assets/js/counter.js" strategy='afterInteractive' />
-
-                <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" />
-                {/* <script type="text/javascript" src="assets/js/gsap.min.js"  /> */}
-
-                {/* <Script src="assets/js/ScrollTrigger.min.js" strategy='afterInteractive' /> */}
-                <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" strategy="afterInteractive" />
-
-                {/* <Script src="assets/js/ScrollToPlugin.min.js" strategy='afterInteractive' /> */}
-                <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js" strategy="afterInteractive" />
-
-                <Script src="assets/js/ScrollSmoother.min.js" strategy='afterInteractive' />
-                <Script src="assets/js/SplitText.min.js" strategy='afterInteractive' />
-                <Script src="assets/js/chroma.min.js" strategy='afterInteractive' />
-                <Script src="assets/js/jquery.meanmenu.min.js" strategy='afterInteractive' />
-                <Script src="assets/js/main.js" strategy='afterInteractive' />
-                <Script src="assets/js/progressbar.js" strategy='afterInteractive' />
-                <Script src="assets/js/TweenMax.min.js" strategy='afterInteractive' />
-
-            </>
         </div >
     )
 }

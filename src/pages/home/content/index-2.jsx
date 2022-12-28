@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import CursorAnimation from "../../../components/common/cursorAnimation";
 import GoTopButton from "../../../components/common/goTopButton";
 import HomeCtaArea from "../../../components/common/homeCtaArea";
@@ -23,7 +23,7 @@ export default function Index2({ mode }) {
     const [bgMode, setBgMode] = useState(mode);
 
     return (
-        <div>
+        <Fragment>
             <Head>
                 <meta charset="UTF-8" />
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -143,6 +143,6 @@ export default function Index2({ mode }) {
                     </div>
                 </div>
             </main >
-        </div >
+        </Fragment>
     )
 }

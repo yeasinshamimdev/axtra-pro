@@ -2,32 +2,32 @@ import Head from "next/head";
 import { Fragment, useState } from "react";
 import CursorAnimation from "../../../components/common/cursorAnimation";
 import GoTopButton from "../../../components/common/goTopButton";
-import HomeCtaArea from "../../../components/home/cta/homeCtaArea";
 import Offcanvas from "../../../components/common/offcanvas";
 import Placeholder from "../../../components/common/placeholder";
 import ScrollSmoother from "../../../components/common/scrollSmoother";
 import SwitcherArea from "../../../components/common/switcherArea";
-import AwardArea from "../../../components/home/award/awardArea";
-import FeatureArea from "../../../components/home/feature/featureArea";
-import HeaderArea2 from "../../../components/home/head/headerArea2";
-import HeroArea2 from "../../../components/home/hero/heroArea2";
-import HomeAboutArea2 from "../../../components/home/about/homeAboutArea2";
-import HomeBlogArea2 from "../../../components/home/blog/homeBlogArea2";
-import HomePortfolioArea2 from "../../../components/home/portfolio/homePortfolioArea2";
-import HomeServiceArea2 from "../../../components/home/service/homeServiceArea2";
+import HomeAboutArea7 from "../../../components/home/about/homeAboutArea7";
+import AwardArea7 from "../../../components/home/award/awardArea7";
+import HomeBlog7 from "../../../components/home/blog/homeBlog7";
+import BrandArea from "../../../components/home/brand/brandArea";
+import HomeCtaArea7 from "../../../components/home/cta/homeCtaArea7";
 import HomeFooter2 from "../../../components/home/footer/indexFooter2";
-import RollArea2 from "../../../components/home/roll/rollArea2";
-import RollArea3 from "../../../components/home/roll/rollArea3";
+import HeaderArea7 from "../../../components/home/head/headerArea7";
+import HeroArea7 from "../../../components/home/hero/heroArea7";
+import HomePortfolio7 from "../../../components/home/portfolio/homePortfolio7";
+import HomeServiceArea7 from "../../../components/home/service/homeServiceArea7";
+import TeamArea7 from "../../../components/home/teamArea";
 
-export default function Index2({ mode }) {
+export default function Index7({ mode }) {
     const [bgMode, setBgMode] = useState(mode);
 
     return (
         <Fragment>
             <Head>
-                {/* Fav Icon  */}
+                {/* Fav Icon */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                <title>Home - Design Studio</title>
+                <title>Home - Startup Agency</title>
+
                 {
                     bgMode === "dark" ?
                         <>
@@ -84,7 +84,7 @@ export default function Index2({ mode }) {
                 <GoTopButton />
 
                 {/* Header area start */}
-                <HeaderArea2 />
+                <HeaderArea7 />
                 {/* Header area end */}
 
                 {/* Offcanvas area start */}
@@ -94,46 +94,45 @@ export default function Index2({ mode }) {
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
-                            {/* Hero area start */}
-                            <HeroArea2 />
-                            {/* Hero area start */}
+                            {/* Hero area start  */}
+                            <HeroArea7 />
+                            {/* Hero area end */}
 
-                            {/* Features area start */}
-                            <FeatureArea />
-                            {/* Features area end */}
+                            <div className="video__area about__img-2">
+                                <img src="assets/imgs/home-7/video.jpg" alt="Video Image" data-speed="0.2" />
+                            </div>
 
-                            {/* Roll area start */}
-                            <RollArea2 />
-                            {/* Roll area end */}
+                            {/* About area start  */}
+                            <HomeAboutArea7 />
+                            {/* About area end  */}
 
-                            {/* Roll area start */}
-                            <RollArea3 />
-                            {/* Roll area end */}
+                            {/* Service area start  */}
+                            <HomeServiceArea7 />
+                            {/* Service area end  */}
 
-                            {/* Portfolio area start */}
-                            <HomePortfolioArea2 />
-                            {/* Portfolio area end */}
+                            {/* Award area start  */}
+                            <AwardArea7 />
+                            {/* Award area end  */}
 
-                            {/* About area start */}
-                            <HomeAboutArea2 />
-                            {/* About area end */}
+                            {/* Portfolio  area start  */}
+                            <HomePortfolio7 />
+                            {/* Portfolio area end  */}
 
-                            {/* Service area start */}
-                            <HomeServiceArea2 />
-                            {/* Service area end */}
+                            {/* Team area start  */}
+                            <TeamArea7 />
+                            {/* Team area end  */}
 
-                            {/* Award area start */}
-                            <AwardArea />
-                            {/* Award area end */}
+                            {/* Brand area start  */}
+                            <BrandArea />
+                            {/* Brand area end  */}
 
-                            {/* CTA area start */}
-                            <HomeCtaArea />
-                            {/* CTA area end */}
+                            {/* Blog area start  */}
+                            <HomeBlog7 />
+                            {/* Blog area end  */}
 
-                            {/* Blog area start */}
-                            <HomeBlogArea2 />
-                            {/* Blog area end */}
-
+                            {/* CTA area start  */}
+                            <HomeCtaArea7 />
+                            {/* CTA area end  */}
                         </main>
                         <HomeFooter2 />
                     </div>

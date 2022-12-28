@@ -9,17 +9,17 @@ import Offcanvas from "../../../components/common/offcanvas";
 import Placeholder from "../../../components/common/placeholder";
 import ScrollSmoother from "../../../components/common/scrollSmoother";
 import SwitcherArea from "../../../components/common/switcherArea";
-import BrandArea1 from "../../../components/home/brandArea1";
+import BrandArea1 from "../../../components/home/brand/brandArea1";
 import CounterArea from "../../../components/home/counterArea";
-import HeroArea1 from "../../../components/home/heroArea1";
-import HomeAboutArea1 from "../../../components/home/homeAboutArea1";
-import HomeBlog1 from "../../../components/home/homeBlog1";
+import HeroArea1 from "../../../components/home/hero/heroArea1";
+import HomeAboutArea1 from "../../../components/home/about/homeAboutArea1";
+import HomeBlog1 from "../../../components/home/blog/homeBlog1";
 import HomeModal from "../../../components/home/homeModal";
-import HomePortfolioArea1 from "../../../components/home/homePortfolioArea1";
-import HomeServiceArea1 from "../../../components/home/homeServiceArea1";
-import HomeTestimonialArea1 from "../../../components/home/homeTestimonialArea1";
-import RollArea from "../../../components/home/rollArea";
-import WorkflowArea1 from "../../../components/home/workflowArea1";
+import HomePortfolioArea1 from "../../../components/home/portfolio/homePortfolioArea1";
+import HomeServiceArea1 from "../../../components/home/service/homeServiceArea1";
+import HomeTestimonialArea1 from "../../../components/home/testimonial/homeTestimonialArea1";
+import RollArea from "../../../components/home/roll/rollArea";
+import WorkflowArea1 from "../../../components/home/workflow/workflowArea1";
 
 export default function Index3({ mode }) {
     const [bgMode, setBgMode] = useState(mode);
@@ -27,13 +27,9 @@ export default function Index3({ mode }) {
     return (
         <Fragment>
             <Head>
-                <meta charset="UTF-8" />
-                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name="description" content="Axtra HTML5 Template" />
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                <title>Home - Digital Marketing</title>
+                <title>Home - Digital Agency</title>
                 {
                     bgMode === "dark" ?
                         <>

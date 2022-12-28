@@ -77,9 +77,7 @@ export default function Index1({ mode }) {
                 <Placeholder />
 
                 {/* Switcher Area Start */}
-
                 <SwitcherArea setBgMode={setBgMode} bgMode={bgMode} />
-
                 {/* Switcher Area End */}
 
                 {/* Scroll Smoother */}

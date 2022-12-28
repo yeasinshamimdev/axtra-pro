@@ -16,12 +16,10 @@ import ScrollSmoother from "../../../components/common/scrollSmoother";
 import IndexHeader from "../../../components/home/indexHeader";
 import Placeholder from "../../../components/common/placeholder";
 import CursorAnimation from "../../../components/common/cursorAnimation";
-import SwitcherDark from "../../../components/common/switcherDark";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Index1({ mode }) {
-
-    const [bgMode, setBgMode] = useState(mode)
+    const [bgMode, setBgMode] = useState(mode);
 
     return (
         <div>
@@ -79,9 +77,9 @@ export default function Index1({ mode }) {
                 <Placeholder />
 
                 {/* Switcher Area Start */}
-                {
-                    mode === "dark" ? <SwitcherDark setBgMode={setBgMode} /> : <SwitcherArea setBgMode={setBgMode} />
-                }
+
+                <SwitcherArea setBgMode={setBgMode} bgMode={bgMode} />
+
                 {/* Switcher Area End */}
 
                 {/* Scroll Smoother */}
@@ -142,8 +140,6 @@ export default function Index1({ mode }) {
                     </div>
                 </div>
             </main >
-
-
         </div >
     )
 }

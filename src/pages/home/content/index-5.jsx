@@ -2,32 +2,26 @@ import Head from "next/head";
 import { Fragment, useState } from "react";
 import CursorAnimation from "../../../components/common/cursorAnimation";
 import GoTopButton from "../../../components/common/goTopButton";
-import HomeCtaArea from "../../../components/home/cta/homeCtaArea";
 import Offcanvas from "../../../components/common/offcanvas";
 import Placeholder from "../../../components/common/placeholder";
 import ScrollSmoother from "../../../components/common/scrollSmoother";
 import SwitcherArea from "../../../components/common/switcherArea";
-import AwardArea from "../../../components/home/award/awardArea";
-import FeatureArea from "../../../components/home/feature/featureArea";
-import HeaderArea2 from "../../../components/home/head/headerArea2";
-import HeroArea2 from "../../../components/home/hero/heroArea2";
-import HomeAboutArea2 from "../../../components/home/about/homeAboutArea2";
-import HomeBlogArea2 from "../../../components/home/blog/homeBlogArea2";
-import HomePortfolioArea2 from "../../../components/home/portfolio/homePortfolioArea2";
-import HomeServiceArea2 from "../../../components/home/service/homeServiceArea2";
-import HomeFooter2 from "../../../components/home/footer/indexFooter2";
-import RollArea2 from "../../../components/home/roll/rollArea2";
-import RollArea3 from "../../../components/home/roll/rollArea3";
+import HomeCtaArea5 from "../../../components/home/cta/homeCtaArea5";
+import IndexFooter5 from "../../../components/home/footer/indexFooter5";
+import HeaderArea5 from "../../../components/home/head/headerArea5";
+import HeroArea5 from "../../../components/home/hero/heroArea5";
+import HomePortfolio5 from "../../../components/home/portfolio/homePortfolio5";
 
-export default function Index2({ mode }) {
+export default function Index5({ mode }) {
     const [bgMode, setBgMode] = useState(mode);
 
     return (
         <Fragment>
             <Head>
-                {/* Fav Icon  */}
+                {/* Fav Icon */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                <title>Home - Design Studio</title>
+                <title>Agency Portfolio</title>
+
                 {
                     bgMode === "dark" ?
                         <>
@@ -83,8 +77,11 @@ export default function Index2({ mode }) {
                 {/* Go Top Button */}
                 <GoTopButton />
 
+                {/* Featured Work  */}
+                <div className="cursor" id="portfolio4_cursor">View</div>
+
                 {/* Header area start */}
-                <HeaderArea2 />
+                <HeaderArea5 />
                 {/* Header area end */}
 
                 {/* Offcanvas area start */}
@@ -94,48 +91,21 @@ export default function Index2({ mode }) {
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
-                            {/* Hero area start */}
-                            <HeroArea2 />
-                            {/* Hero area start */}
+                            <div className="home-wrapper-5">
+                                {/* Hero area start  */}
+                                <HeroArea5 />
+                                {/* Hero area end */}
 
-                            {/* Features area start */}
-                            <FeatureArea />
-                            {/* Features area end */}
+                                {/* Portfolio area start  */}
+                                <HomePortfolio5 />
+                                {/* Portfolio area end  */}
 
-                            {/* Roll area start */}
-                            <RollArea2 />
-                            {/* Roll area end */}
-
-                            {/* Roll area start */}
-                            <RollArea3 />
-                            {/* Roll area end */}
-
-                            {/* Portfolio area start */}
-                            <HomePortfolioArea2 />
-                            {/* Portfolio area end */}
-
-                            {/* About area start */}
-                            <HomeAboutArea2 />
-                            {/* About area end */}
-
-                            {/* Service area start */}
-                            <HomeServiceArea2 />
-                            {/* Service area end */}
-
-                            {/* Award area start */}
-                            <AwardArea />
-                            {/* Award area end */}
-
-                            {/* CTA area start */}
-                            <HomeCtaArea />
-                            {/* CTA area end */}
-
-                            {/* Blog area start */}
-                            <HomeBlogArea2 />
-                            {/* Blog area end */}
-
+                                {/* CTA area start  */}
+                                <HomeCtaArea5 />
+                                {/* CTA area end  */}
+                            </div>
                         </main>
-                        <HomeFooter2 />
+                        <IndexFooter5 />
                     </div>
                 </div>
             </main >

@@ -1,25 +1,15 @@
-import Head from "next/head";
 import { Fragment, useState } from "react";
+import Head from "next/head";
 import CursorAnimation from "../../../components/common/cursorAnimation";
-import GoTopButton from "../../../components/common/goTopButton";
-import HomeCtaArea from "../../../components/home/cta/homeCtaArea";
-import Offcanvas from "../../../components/common/offcanvas";
 import Placeholder from "../../../components/common/placeholder";
-import ScrollSmoother from "../../../components/common/scrollSmoother";
 import SwitcherArea from "../../../components/common/switcherArea";
-import AwardArea from "../../../components/home/award/awardArea";
-import FeatureArea from "../../../components/home/feature/featureArea";
-import HeaderArea2 from "../../../components/home/head/headerArea2";
-import HeroArea2 from "../../../components/home/hero/heroArea2";
-import HomeAboutArea2 from "../../../components/home/about/homeAboutArea2";
-import HomeBlogArea2 from "../../../components/home/blog/homeBlogArea2";
-import HomePortfolioArea2 from "../../../components/home/portfolio/homePortfolioArea2";
-import HomeServiceArea2 from "../../../components/home/service/homeServiceArea2";
-import HomeFooter2 from "../../../components/home/footer/indexFooter2";
-import RollArea2 from "../../../components/home/roll/rollArea2";
-import RollArea3 from "../../../components/home/roll/rollArea3";
+import GoTopButton from "../../../components/common/goTopButton";
+import ScrollSmoother from "../../../components/common/scrollSmoother";
+import HeaderArea4 from "../../../components/home/head/headerArea4";
+import Offcanvas from "../../../components/common/offcanvas";
+import HomePortfolioArea4 from "../../../components/home/portfolio/homePortfolio4";
 
-export default function Index2({ mode }) {
+export default function Index4({ mode }) {
     const [bgMode, setBgMode] = useState(mode);
 
     return (
@@ -27,7 +17,7 @@ export default function Index2({ mode }) {
             <Head>
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                <title>Home - Design Studio</title>
+                <title>Portfolio 2</title>
                 {
                     bgMode === "dark" ?
                         <>
@@ -84,7 +74,7 @@ export default function Index2({ mode }) {
                 <GoTopButton />
 
                 {/* Header area start */}
-                <HeaderArea2 />
+                <HeaderArea4 />
                 {/* Header area end */}
 
                 {/* Offcanvas area start */}
@@ -94,48 +84,8 @@ export default function Index2({ mode }) {
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
-                            {/* Hero area start */}
-                            <HeroArea2 />
-                            {/* Hero area start */}
-
-                            {/* Features area start */}
-                            <FeatureArea />
-                            {/* Features area end */}
-
-                            {/* Roll area start */}
-                            <RollArea2 />
-                            {/* Roll area end */}
-
-                            {/* Roll area start */}
-                            <RollArea3 />
-                            {/* Roll area end */}
-
-                            {/* Portfolio area start */}
-                            <HomePortfolioArea2 />
-                            {/* Portfolio area end */}
-
-                            {/* About area start */}
-                            <HomeAboutArea2 />
-                            {/* About area end */}
-
-                            {/* Service area start */}
-                            <HomeServiceArea2 />
-                            {/* Service area end */}
-
-                            {/* Award area start */}
-                            <AwardArea />
-                            {/* Award area end */}
-
-                            {/* CTA area start */}
-                            <HomeCtaArea />
-                            {/* CTA area end */}
-
-                            {/* Blog area start */}
-                            <HomeBlogArea2 />
-                            {/* Blog area end */}
-
+                            <HomePortfolioArea4 />
                         </main>
-                        <HomeFooter2 />
                     </div>
                 </div>
             </main >

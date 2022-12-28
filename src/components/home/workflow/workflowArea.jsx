@@ -1,5 +1,5 @@
 import Link from "next/link";
-import HomeCtaArea from "../common/homeCtaArea";
+import HomeCtaArea from "../cta/homeCtaArea";
 
 export default function WorkflowArea() {
     return (

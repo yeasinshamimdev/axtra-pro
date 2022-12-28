@@ -1,37 +1,34 @@
 import Head from 'next/head';
 import React, { useState } from 'react';
-import CtaArea from '../../common/ctaArea';
-import CursorAnimation from '../../common/cursorAnimation';
-import Footer from '../../common/footer';
-import GoTopButton from '../../common/goTopButton';
-import Offcanvas from '../../common/offcanvas';
-import Placeholder from '../../common/placeholder';
-import ScrollSmoother from '../../common/scrollSmoother';
-import SwitcherArea from '../../common/switcherArea';
-import SwitcherAreaDark from '../../common/switcherAreaDark';
-import PortfolioHead from '../portfolioHead';
-import PortfolioTwoArea from './PortfolioTwoArea';
-import PortfolioTwoHero from './portfolioTwoHero';
+import CursorAnimation from '../../../components/common/cursorAnimation';
+import GoTopButton from '../../../components/common/goTopButton';
+import Offcanvas from '../../../components/common/offcanvas';
+import Placeholder from '../../../components/common/placeholder';
+import ScrollSmoother from '../../../components/common/scrollSmoother';
+import SwitcherArea from '../../../components/common/switcherArea';
+import SwitcherAreaDark from '../../../components/common/switcherAreaDark';
+import PortfolioHead from '../../../components/portfolio/portfolioHead';
+import Footer from '../../../components/common/footer';
+import PortfolioDetailsArea from '../../../components/portfolio/portfolioDetailsArea';
 
-const PortfolioTwo = ({dark}) => {
-    // const [stayDark, setStayDark] = useState(true)
-    // const handleDark = (prop) => {
-    //     setStayDark(prop)
-    // } 
+const PortfolioDetailsPage = ({ dark }) => {
+    const [stayDark, setStayDark] = useState(true)
+    const handleDark = (prop) => {
+        setStayDark(prop)
+    }
     return (
-        <>
+        <div>
             <Head>
                 <meta charset="UTF-8" />
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description" content="Axtra HTML5 Template" />
 
-                <title>Portfolio V.2 - Axtra</title>
+                <title>Portfolio Details - Axtra</title>
 
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
 
-                {/* Scripts */}
                 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
                 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
                 <script type="text/javascript" src="assets/js/swiper-bundle.min.js" async />
@@ -45,14 +42,15 @@ const PortfolioTwo = ({dark}) => {
                 <script type="text/javascript" src="assets/js/jquery.meanmenu.min.js" async />
                 <script type="text/javascript" src="assets/js/main.js" async />
             </Head>
-            <main className={dark && "dark"}>
+            <main className={dark && stayDark && "dark"}>
                 {/* Cursor Animation  */}
                 <CursorAnimation />
+
                 {/* Preloader  */}
                 <Placeholder />
 
                 {/* Switcher Area Start  */}
-                 <SwitcherArea />
+                {dark ? <SwitcherAreaDark handleDark={handleDark} /> : <SwitcherArea />}
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother  */}
@@ -60,7 +58,6 @@ const PortfolioTwo = ({dark}) => {
 
                 {/* Go Top Button  */}
                 <GoTopButton />
-
                 {/* Header area start  */}
                 <PortfolioHead />
                 {/* Header area end  */}
@@ -72,28 +69,21 @@ const PortfolioTwo = ({dark}) => {
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
-                            {/* Portfolio two hero start */}
-                            <PortfolioTwoHero />
-                            {/* Portfolio two hero end */}
 
-                            {/* Portfolio area start  */}
-                            <PortfolioTwoArea />
-                            {/* Portfolio area end  */}
-
-                            {/* CTA area start   */}
-                            <CtaArea />
-                            {/* CTA area end   */}
+                            {/* Portfolio area start   */}
+                            <PortfolioDetailsArea />
+                            {/* Portfolio area end   */}
 
                         </main>
                         {/* Footer area start   */}
                         <Footer />
-                        {/* Footer area end   */}
+                        {/* Footer area end  */}
+
                     </div>
                 </div>
             </main>
-
-        </>
+        </div>
     );
 };
 
-export default PortfolioTwo;
+export default PortfolioDetailsPage;

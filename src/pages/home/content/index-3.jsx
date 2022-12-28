@@ -1,29 +1,36 @@
 import Head from "next/head";
-import HomeFooter from "../../../components/home/indexFooter";
-import HeroArea from "../../../components/home/heroArea";
-import BrandArea from "../../../components/home/brandArea";
-import HomeAboutArea from "../../../components/home/homeAboutArea";
-import HomeServiceArea from "../../../components/home/homeServiceArea";
-import HomePortfolioArea from "../../../components/home/homePortfolioArea";
-import HomeTestimonialArea from "../../../components/home/homeTestimonialArea";
-import PriceArea from "../../../components/home/priceArea";
-import WorkflowArea from "../../../components/home/workflowArea";
-import HomeBlog from "../../../components/home/homeBlog";
-import SwitcherArea from "../../../components/common/switcherArea";
-import Offcanvas from "../../../components/common/offcanvas";
-import GoTopButton from "../../../components/common/goTopButton";
-import ScrollSmoother from "../../../components/common/scrollSmoother";
-import IndexHeader from "../../../components/home/indexHeader";
-import Placeholder from "../../../components/common/placeholder";
-import CursorAnimation from "../../../components/common/cursorAnimation";
 import { Fragment, useState } from "react";
+import CtaArea from "../../../components/common/ctaArea";
+import CursorAnimation from "../../../components/common/cursorAnimation";
+import Footer from "../../../components/common/footer";
+import GoTopButton from "../../../components/common/goTopButton";
+import HeaderArea from "../../../components/common/headerArea";
+import Offcanvas from "../../../components/common/offcanvas";
+import Placeholder from "../../../components/common/placeholder";
+import ScrollSmoother from "../../../components/common/scrollSmoother";
+import SwitcherArea from "../../../components/common/switcherArea";
+import BrandArea1 from "../../../components/home/brandArea1";
+import CounterArea from "../../../components/home/counterArea";
+import HeroArea1 from "../../../components/home/heroArea1";
+import HomeAboutArea1 from "../../../components/home/homeAboutArea1";
+import HomeBlog1 from "../../../components/home/homeBlog1";
+import HomeModal from "../../../components/home/homeModal";
+import HomePortfolioArea1 from "../../../components/home/homePortfolioArea1";
+import HomeServiceArea1 from "../../../components/home/homeServiceArea1";
+import HomeTestimonialArea1 from "../../../components/home/homeTestimonialArea1";
+import RollArea from "../../../components/home/rollArea";
+import WorkflowArea1 from "../../../components/home/workflowArea1";
 
-export default function Index1({ mode }) {
+export default function Index3({ mode }) {
     const [bgMode, setBgMode] = useState(mode);
 
     return (
         <Fragment>
             <Head>
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="description" content="Axtra HTML5 Template" />
                 {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
                 <title>Home - Digital Marketing</title>
@@ -69,6 +76,9 @@ export default function Index1({ mode }) {
                 {/* Cursor Animation */}
                 <CursorAnimation />
 
+                {/* Testimonial Play Cursor  */}
+                <div className="cursor" id="client_cursor">Play</div>
+
                 {/* Preloader */}
                 <Placeholder />
 
@@ -83,7 +93,7 @@ export default function Index1({ mode }) {
                 <GoTopButton />
 
                 {/* Header area start */}
-                <IndexHeader />
+                <HeaderArea />
                 {/* Header area end */}
 
                 {/* Offcanvas area start */}
@@ -94,46 +104,54 @@ export default function Index1({ mode }) {
                     <div id="smooth-content">
                         <main>
                             {/* Hero area start */}
-                            <HeroArea />
+                            <HeroArea1 />
                             {/* Hero area start */}
 
-                            {/* Brand area start */}
-                            <BrandArea />
-                            {/* Brand area end */}
+                            {/* Roll area start */}
+                            <RollArea />
+                            {/* Roll area end */}
 
                             {/* About area start */}
-                            <HomeAboutArea />
+                            <HomeAboutArea1 />
                             {/* About area end */}
 
                             {/* Service area start */}
-                            <HomeServiceArea />
+                            <HomeServiceArea1 />
                             {/* Service area end */}
 
-                            {/* Portfolio area start */}
-                            <HomePortfolioArea />
-                            {/* Portfolio area end */}
-
-                            {/* Testimonial area start */}
-                            <HomeTestimonialArea />
-                            {/* Testimonial area end */}
+                            {/* Counter area start */}
+                            <CounterArea />
+                            {/* Counter area end */}
 
                             {/* Workflow area start */}
-                            <WorkflowArea />
+                            <WorkflowArea1 />
                             {/* Workflow area end */}
 
-                            {/* Price area start */}
-                            <PriceArea />
-                            {/* Price area end */}
+                            {/* Portfolio area start */}
+                            <HomePortfolioArea1 />
+                            {/* Portfolio area end */}
+
+                            {/* Brand area start */}
+                            <BrandArea1 />
+                            {/* Brand area end */}
+
+                            {/* Testimonial area start */}
+                            <HomeTestimonialArea1 />
+                            {/* Testimonial area end */}
 
                             {/* Blog area start */}
-                            <HomeBlog />
+                            <HomeBlog1 />
                             {/* Blog area end */}
 
+                            {/* Cta area start */}
+                            <CtaArea />
+                            {/* Cta area end */}
                         </main>
-                        <HomeFooter />
+                        <Footer />
                     </div>
                 </div>
+                <HomeModal />
             </main >
-        </Fragment>
+        </Fragment >
     )
 }

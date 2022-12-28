@@ -27,7 +27,7 @@ const PortfolioFourArea = () => {
                                     portfolioFourContent.map((pFour, i) =>
                                         <div className="swiper-slide" key={i}>
                                             <div className="portfolio__slide-3">
-                                                <Link href="service-details">
+                                                <Link href="/service-details">
                                                     <h3 className="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
                                                     <img src={pFour.imageUrl} alt="Portfolio Image" />
                                                 </Link>

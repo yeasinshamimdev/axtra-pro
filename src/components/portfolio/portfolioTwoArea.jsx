@@ -23,7 +23,7 @@ const PortfolioTwoArea = () => {
               {
                 portfolioTwoContent.map((pTwo, i) =>
                   <div class="portfolio__item" key={i}>
-                    <Link href="portfolio-details"><img class="mover" src={pTwo.imageUrl}
+                    <Link href="/portfolio-details"><img class="mover" src={pTwo.imageUrl}
                       alt="Portfolio Image" /></Link>
                     <div class="portfolio__info">
                       <h3 class="portfolio__title">{pTwo.title}</h3>
@@ -38,7 +38,7 @@ const PortfolioTwoArea = () => {
           <div class="row row_bottom">
             <div class="col-xxl-12">
               <div class="portfolio__btn" id="btn_wrapper" data-speed="1" data-lag="0.2">
-                <a class="wc-btn-secondary btn-hover btn-item" href="portfolio.html"><span></span>Load More</a>
+                <Link class="wc-btn-secondary btn-hover btn-item" href="/portfolio"><span></span>Load More</Link>
               </div>
             </div>
           </div>

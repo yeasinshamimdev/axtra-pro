@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { portfolioThreeContent } from '../constants/constants';
 
@@ -24,17 +25,17 @@ const PortfolioThreeArea = () => {
               <div class="swiper-slide" key={i}>
                 <div class="portfolio__slide-2">
                   <div class="slide-img">
-                    <a href="portfolio-details.html"><img src={pThree.imageUrl} alt="Portfolio Image" /></a>
+                    <Link href="/portfolio-details"><img src={pThree.imageUrl} alt="Portfolio Image" /></Link>
                   </div>
                   <div class="slide-content text-anim">
-                    <h2 class="sec-title title-anim"> <a href="portfolio-details.html">{pThree.titleFirst} <span>{pThree.titleSecond}</span></a>
+                    <h2 class="sec-title title-anim"> <Link href="portfolio-details ">{pThree.titleFirst} <span>{pThree.titleSecond}</span></Link>
                     </h2>
                     <p>We are passionate designers, developers and digital marketeers. We produce best projects that
                       both
                       ourselves</p>
                     <div class="btn-common-wrap">
-                      <a href="portfolio-details.html" class="btn-common">View details <i
-                        class="fa-solid fa-arrow-right"></i></a>
+                      <Link href="portfolio-details " class="btn-common">View details <i
+                        class="fa-solid fa-arrow-right"></i></Link>
                     </div>
                   </div>
                 </div>

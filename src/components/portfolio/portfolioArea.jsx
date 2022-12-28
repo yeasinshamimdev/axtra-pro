@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { portfolioContent } from '../constants'; 
+import { portfolioContent } from '../constants/constants'; 
 
 const PortfolioArea = () => { 
     return (

@@ -1,5 +1,5 @@
  
-import PortfolioForAll from './home/content/portfolioForAll';
+import PortfolioForAll from "./portfolio/portfolioForAll";
 
 const PortfolioFour = () => {
     return (

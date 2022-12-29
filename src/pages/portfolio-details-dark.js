@@ -1,6 +1,6 @@
- 
-import PortfolioDetailsPage from './home/content/portfolio-details';
+import PortfolioDetailsPage from "./portfolio/portfolio";
 
+ 
 const PortfolioDetailsDark = () => {
     return (
         <>

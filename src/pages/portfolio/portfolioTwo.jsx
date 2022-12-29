@@ -1,16 +1,16 @@
 import Head from 'next/head';
 import React, { useState } from 'react';
-import CtaArea from '../../../components/common/ctaArea';
-import CursorAnimation from '../../../components/common/cursorAnimation';
-import Footer from '../../../components/common/footer';
-import GoTopButton from '../../../components/common/goTopButton';
-import Offcanvas from '../../../components/common/offcanvas';
-import Placeholder from '../../../components/common/placeholder';
-import ScrollSmoother from '../../../components/common/scrollSmoother';
-import SwitcherArea from '../../../components/common/switcherArea';
-import SwitcherAreaDark from '../../../components/common/switcherAreaDark';
-import PortfolioHead from '../../../components/portfolio/portfolioHead';
-import PortfolioTwoArea from '../../../components/portfolio/portfolioTwoArea'; 
+import CtaArea from '../../components/common/ctaArea';
+import CursorAnimation from '../../components/common/cursorAnimation';
+import Footer from '../../components/common/footer';
+import GoTopButton from '../../components/common/goTopButton';
+import Offcanvas from '../../components/common/offcanvas';
+import Placeholder from '../../components/common/placeholder';
+import ScrollSmoother from '../../components/common/scrollSmoother';
+import SwitcherArea from '../../components/common/switcherArea';
+import SwitcherAreaDark from '../../components/common/switcherAreaDark';
+import PortfolioHead from '../../components/portfolio/portfolioHead';
+import PortfolioTwoArea from '../../components/portfolio/portfolioTwoArea'; 
 
 const PortfolioTwo = ({ dark }) => {
     const [stayDark, setStayDark] = useState(true)
@@ -97,7 +97,7 @@ const PortfolioTwo = ({ dark }) => {
                             {/* Portfolio area end   */}
 
                             {/* CTA area start   */}
-                            <CtaArea />
+                            <CtaArea pt130={true}/>
                             {/* CTA area end   */}
 
                         </main>

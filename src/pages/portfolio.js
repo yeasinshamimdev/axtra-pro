@@ -1,4 +1,4 @@
-import Portfolio from "./home/content/portfolio";
+import Portfolio from "./portfolio/portfolio";
 
 const portfolio = () => {
     return (

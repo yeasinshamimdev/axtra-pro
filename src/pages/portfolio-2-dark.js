@@ -1,5 +1,6 @@
-import PortfolioTwo from "./home/content/portfolio-2";
+import PortfolioTwo from "./portfolio/portfolioTwo";
 
+ 
 const PortfolioSecondDark = () => {
     return (
         <>

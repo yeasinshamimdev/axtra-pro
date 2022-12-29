@@ -1,6 +1,6 @@
-import PortfolioForAll from './home/content/portfolioForAll';
+import PortfolioForAll from "./portfolio/portfolioForAll";
 
-const portfolioThree = () => {
+const PortfolioThree = () => {
     return (
         <>
             <PortfolioForAll dark={false} number={3}/>
@@ -8,4 +8,4 @@ const portfolioThree = () => {
     );
 };
 
-export default portfolioThree;
+export default PortfolioThree;

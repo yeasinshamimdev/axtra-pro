@@ -1,25 +1,25 @@
 import Head from 'next/head';
 import React, { useState } from 'react';
-import CtaArea from '../../../components/common/ctaArea';
-import CursorAnimation from '../../../components/common/cursorAnimation';
-import Footer from '../../../components/common/footer';
-import GoTopButton from '../../../components/common/goTopButton';
-import Offcanvas from '../../../components/common/offcanvas';
-import Placeholder from '../../../components/common/placeholder';
-import ScrollSmoother from '../../../components/common/scrollSmoother';
-import SwitcherArea from '../../../components/common/switcherArea';
-import SwitcherAreaDark from '../../../components/common/switcherAreaDark';
-import PortfolioFiveArea from '../../../components/portfolio/portfolioFiveArea';
-import PortfolioFourArea from '../../../components/portfolio/PortfolioFourArea';
-import PortfolioHead from '../../../components/portfolio/portfolioHead';
-import PortfolioThreeArea from '../../../components/portfolio/portfolioThreeArea';
+import CtaArea from '../../components/common/ctaArea';
+import CursorAnimation from '../../components/common/cursorAnimation';
+import Footer from '../../components/common/footer';
+import GoTopButton from '../../components/common/goTopButton';
+import HeaderArea from '../../components/common/headerArea';
+import Offcanvas from '../../components/common/offcanvas';
+import Placeholder from '../../components/common/placeholder';
+import ScrollSmoother from '../../components/common/scrollSmoother';
+import SwitcherArea from '../../components/common/switcherArea';
+import SwitcherAreaDark from '../../components/common/switcherAreaDark';
+import ServiceDetailsArea from '../../components/service/serviceDetailsArea';
+import ServiceDevelopmentArea from '../../components/service/serviceDevelopmentArea';
+import ServiceFaq from '../../components/service/serviceFaq';
+import ServiceWorkflowArea from '../../components/service/serviceWorkflowArea';
 
-const PortfolioForAll = ({ dark, number }) => {
+const ServiceDetails = ({dark}) => {
     const [stayDark, setStayDark] = useState(true)
     const handleDark = (prop) => {
         setStayDark(prop)
     }
-
     return (
         <div>
             <Head>
@@ -27,11 +27,10 @@ const PortfolioForAll = ({ dark, number }) => {
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description" content="Axtra HTML5 Template" />
-                {/* Fav Icon  */}
-                <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                {number === 3 && <title>Portfolio V.3 - Axtra</title>}
-                {number === 4 && <title>Portfolio V.4 - Axtra</title>} 
-                {number === 5 && <title>Portfolio V.5 - Axtra</title>} 
+                 <title>Service Details - Axtra</title> 
+
+                {/* Fav Icon */}
+                <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png"></link>
                 {
                     dark ?
                         <>
@@ -70,9 +69,10 @@ const PortfolioForAll = ({ dark, number }) => {
                         </>
                 }
             </Head>
-            <body className={dark && stayDark && "dark"}>
-               {/* Cursor Animation  */}
-               <CursorAnimation />
+            <main className={dark && stayDark && "dark"}>
+                {/* Cursor Animation  */}
+                <CursorAnimation />
+
                 {/* Preloader  */}
                 <Placeholder />
 
@@ -85,45 +85,48 @@ const PortfolioForAll = ({ dark, number }) => {
 
                 {/* Go Top Button  */}
                 <GoTopButton />
-                  {/* Porfolio Cursor   */}
-                <div class="cursor" id="portf_cursor_6">View <br/>Project</div>
+                {/* Header area start */}
+                <HeaderArea />
+                {/* Header area end */}
 
-                  {/* Header area start   */}
-                 <PortfolioHead/>
-                  {/* Header area end   */}
-
-
-                {/* Offcanvas area start   */}
+                {/* Offcanvas area start */}
                 <Offcanvas />
-                {/* Offcanvas area end  */}
-
-
+                {/* Offcanvas area end */}
 
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
 
-                            {/* Portfolio area start   */}
-                          {number === 3 &&  <PortfolioThreeArea />}
-                          {number === 4 &&  <PortfolioFourArea />}
-                          {number === 5 &&  <PortfolioFiveArea />}
-                            {/* Portfolio area end   */}
+                            {/* Development area start */}
+                            <ServiceDevelopmentArea/>
+                            {/* Development area end */}
 
-                            {/* CTA area start  */}
+                            {/* Workflow area start */}
+                            <ServiceWorkflowArea/>
+                            {/* Workflow area end */}
+
+                            {/* Service detail area start */}
+                            <ServiceDetailsArea/>
+                            {/* Service detail area end */}
+
+
+                            {/* FAQ area start */}
+                           <ServiceFaq/>
+                            {/* FAQ area end */}
+
+                            {/* CTA area start */}
                             <CtaArea />
-                            {/* CTA area end  */}
-
+                            {/* CTA area end */}
                         </main>
 
-                        {/* Footer area start   */}
+                        {/* Footer area start */}
                         <Footer />
-                        {/* Footer area end   */}
-
+                        {/* Footer area end */}
                     </div>
                 </div>
-            </body>
+            </main>
         </div>
     );
 };
 
-export default PortfolioForAll;
+export default ServiceDetails;

@@ -101,7 +101,7 @@ const BlogSecondDark = () => {
                     <div id="smooth-content">
                         <main>
 
-                            Blog area start
+                            {/* Blog area start */}
                             <section className="blog__area-3 blog-v3 blog__animation">
                                 <div className="container line">
                                     <div className="line-3"></div>

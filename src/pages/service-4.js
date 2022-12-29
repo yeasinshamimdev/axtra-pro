@@ -128,7 +128,7 @@ export default function Service4() {
                                                         </div>
                                                     </div>
 
-                                                    <div className="service__hover-3" style="background-image: url(assets/imgs/service/3/1.jpg);"></div>
+                                                    <div className="service__hover-3" style={{ backgroundImage: "url(assets/imgs/service/3/1.jpg)" }}></div>
                                                 </div>
 
                                                 <div className="service__item-3 service_animation">
@@ -149,7 +149,7 @@ export default function Service4() {
                                                         </div>
                                                     </div>
 
-                                                    <div className="service__hover-3" style="background-image: url(assets/imgs/service/3/2.png);"></div>
+                                                    <div className="service__hover-3" style={{ backgroundImage: "url(assets/imgs/service/3/2.png)" }}></div>
                                                 </div>
 
                                                 <div className="service__item-3 service_animation">
@@ -171,7 +171,7 @@ export default function Service4() {
                                                         </div>
                                                     </div>
 
-                                                    <div className="service__hover-3" style="background-image: url(assets/imgs/service/3/3.png);"></div>
+                                                    <div className="service__hover-3" style={{ backgroundImage: "url(assets/imgs/service/3/3.png)" }}></div>
                                                 </div>
 
                                                 <div className="service__item-3 service_animation">
@@ -193,7 +193,7 @@ export default function Service4() {
                                                         </div>
                                                     </div>
 
-                                                    <div className="service__hover-3" style="background-image: url(assets/imgs/service/3/4.png);"></div>
+                                                    <div className="service__hover-3" style={{ backgroundImage: "url(assets/imgs/service/3/4.png)" }}></div>
                                                 </div>
 
                                                 <div className="service3__img-wrap">

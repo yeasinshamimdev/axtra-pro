@@ -13,10 +13,7 @@ export default function HeroArea7() {
                             </div>
                             <div className="service__hero-right-2 hero7__thum-anim">
                                 <h1 className="title creative">Creative <span className="solution">Solution</span> </h1>
-                                <p className="animate_content"> We take a similar approach to design commercial we do impactfully
-                                    approches over the flowchart
-                                    of
-                                    user friendly wireframe.</p>
+                                <p className="animate_content"> We take a similar approach to design commercial we do impactfully approches over the flowchart of user friendly wireframe.</p>
                                 <img src="assets/imgs/home-7/scroll.png" alt="scroll Image" className="scroll" />
                             </div>
                         </div>

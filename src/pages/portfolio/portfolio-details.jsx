@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import React, { useState } from 'react';
-import CursorAnimation from '../../../components/common/cursorAnimation';
-import GoTopButton from '../../../components/common/goTopButton';
-import Offcanvas from '../../../components/common/offcanvas';
-import Placeholder from '../../../components/common/placeholder';
-import ScrollSmoother from '../../../components/common/scrollSmoother';
-import SwitcherArea from '../../../components/common/switcherArea';
-import SwitcherAreaDark from '../../../components/common/switcherAreaDark';
-import PortfolioHead from '../../../components/portfolio/portfolioHead';
-import Footer from '../../../components/common/footer';
-import PortfolioDetailsArea from '../../../components/portfolio/portfolioDetailsArea';
+import CursorAnimation from '../../components/common/cursorAnimation';
+import GoTopButton from '../../components/common/goTopButton';
+import Offcanvas from '../../components/common/offcanvas';
+import Placeholder from '../../components/common/placeholder';
+import ScrollSmoother from '../../components/common/scrollSmoother';
+import SwitcherArea from '../../components/common/switcherArea';
+import SwitcherAreaDark from '../../components/common/switcherAreaDark';
+import PortfolioHead from '../../components/portfolio/portfolioHead';
+import Footer from '../../components/common/footer';
+import PortfolioDetailsArea from '../../components/portfolio/portfolioDetailsArea';
 
 const PortfolioDetailsPage = ({ dark }) => {
     const [stayDark, setStayDark] = useState(true)

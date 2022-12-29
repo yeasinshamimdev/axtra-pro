@@ -1,18 +1,18 @@
 import Head from 'next/head';
 import React, { useState } from 'react';
-import CtaArea from '../../../components/common/ctaArea';
-import CursorAnimation from '../../../components/common/cursorAnimation';
-import Footer from '../../../components/common/footer';
-import GoTopButton from '../../../components/common/goTopButton';
-import Offcanvas from '../../../components/common/offcanvas';
-import Placeholder from '../../../components/common/placeholder';
-import ScrollSmoother from '../../../components/common/scrollSmoother';
-import SwitcherArea from '../../../components/common/switcherArea';
-import SwitcherAreaDark from '../../../components/common/switcherAreaDark';
-import PortfolioArea from '../../../components/portfolio/portfolioArea';
-import PortfolioHead from '../../../components/portfolio/portfolioHead';
+import CtaArea from '../../components/common/ctaArea';
+import CursorAnimation from '../../components/common/cursorAnimation';
+import Footer from '../../components/common/footer';
+import GoTopButton from '../../components/common/goTopButton';
+import HeaderArea from '../../components/common/headerArea';
+import Offcanvas from '../../components/common/offcanvas';
+import Placeholder from '../../components/common/placeholder';
+import ScrollSmoother from '../../components/common/scrollSmoother';
+import SwitcherArea from '../../components/common/switcherArea';
+import SwitcherAreaDark from '../../components/common/switcherAreaDark';
+import TeamArea from '../../components/team/teamDetailsArea';
 
-const Portfolio = ({dark}) => {
+const TeamDetails = ({ dark }) => {
     const [stayDark, setStayDark] = useState(true)
     const handleDark = (prop) => {
         setStayDark(prop)
@@ -24,9 +24,10 @@ const Portfolio = ({dark}) => {
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description" content="Axtra HTML5 Template" />
-                {/* Fav Icon  */}
-                <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                <title>Portfolio - Axtra</title>
+                <title>Service Details - Axtra</title>
+
+                {/* Fav Icon */}
+                <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png"></link>
                 {
                     dark ?
                         <>
@@ -68,6 +69,7 @@ const Portfolio = ({dark}) => {
             <main className={dark && stayDark && "dark"}>
                 {/* Cursor Animation  */}
                 <CursorAnimation />
+
                 {/* Preloader  */}
                 <Placeholder />
 
@@ -75,35 +77,47 @@ const Portfolio = ({dark}) => {
                 {dark ? <SwitcherAreaDark handleDark={handleDark} /> : <SwitcherArea />}
                 {/* Switcher Area End  */}
 
-                {/* Scroll Smoother  */}
+                {/* Scroll Smoother   */}
                 <ScrollSmoother />
 
-                {/* Go Top Button  */}
+
+                {/* Go Top Button   */}
                 <GoTopButton />
 
-                {/* Header area start  */}
-                <PortfolioHead />
-                {/* Header area end  */}
+                {/* Header area start   */}
+                <HeaderArea />
+                {/* Header area end   */}
 
-                {/* Offcanvas area start */}
+
+                {/* Offcanvas area start   */}
                 <Offcanvas />
-                {/* Offcanvas area end */}
+                {/* Offcanvas area end   */}
+
 
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
-                        <div>
-                            {/* Portfolio area start  */}
-                            <PortfolioArea />
-                            {/* Portfolio area end  */}
+                        <main>
+                            <div className="team__detail-page">
+                                <span className="line-1"></span>
+                                <span className="line-2"></span>
+                                <span className="line-3"></span>
 
-                            {/* CTA area start   */}
-                            <CtaArea />
-                            {/* CTA area end   */}
 
-                        </div>
+                                {/* Team area start   */}
+                                <TeamArea />
+                                {/* Team area end   */}
+
+                                {/* CTA area start   */}
+                                <CtaArea pt130={true}/>
+                                {/* CTA area end   */}
+
+                            </div>
+                        </main>
+
                         {/* Footer area start   */}
                         <Footer />
-                        {/* Footer area end   */}
+                        {/* Footer area end    */}
+
                     </div>
                 </div>
             </main>
@@ -111,4 +125,4 @@ const Portfolio = ({dark}) => {
     );
 };
 
-export default Portfolio;
+export default TeamDetails;

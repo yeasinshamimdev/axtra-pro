@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function CtaArea() {
+export default function CtaArea({pt130}) {
     return (
         <section className="cta__area">
-            <div className="container line pb-110">
+            <div className={pt130 ? "pt-130 container line pb-110":"container line pb-110"}>
                 <div className="line-3"></div>
                 <div className="row">
                     <div className="col-xxl-12">

@@ -1,7 +1,5 @@
 import Head from "next/head";
 import { Fragment, useState } from "react";
-import Blog2 from "../../components/blog/blog-2";
-import CtaArea from "../../components/common/ctaArea";
 import CursorAnimation from "../../components/common/cursorAnimation";
 import Footer from "../../components/common/footer";
 import GoTopButton from "../../components/common/goTopButton";
@@ -10,16 +8,19 @@ import Offcanvas from "../../components/common/offcanvas";
 import Placeholder from "../../components/common/placeholder";
 import ScrollSmoother from "../../components/common/scrollSmoother";
 import SwitcherArea from "../../components/common/switcherArea";
+import JobDetailsArea from "../../components/jobDetails/jobDetailsArea";
+import JobDetailsModal1 from "../../components/jobDetails/jobDetailsModal1";
+import JobDetailsModal2 from "../../components/jobDetails/jobDetailsModal2";
 
-export default function BlogTwo({ mode }) {
+export default function JobDetailsPage({ mode }) {
     const [bgMode, setBgMode] = useState(mode);
 
     return (
         <Fragment>
             <Head>
-                <title>Blog V.2 - Axtra</title>
-                {/* Fav Icon */}
+                {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
+                <title>Job Details - Axtra</title>
                 {
                     bgMode === "dark" ?
                         <>
@@ -86,17 +87,29 @@ export default function BlogTwo({ mode }) {
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
-                            {/* Blog area start */}
-                            <Blog2 />
-                            {/* Blog area end */}
 
-                            {/* CTA area end */}
-                            <CtaArea />
-                            {/* CTA area end */}
+                            {/* Job details top start  */}
+                            <section className="job__detail-top">
+                                <img src="assets/imgs/career/6.jpg" alt="Image" data-speed="auto" />
+                            </section>
+                            {/* Job details top end   */}
+
+                            {/* Job details area start */}
+                            <JobDetailsArea />
+                            {/* Job details area start */}
                         </main>
+                        {/* Footer area start      */}
                         <Footer />
+                        {/* Footer area end      */}
                     </div>
                 </div>
+                {/* Job details Modal 1 start */}
+                <JobDetailsModal1 />
+                {/* Job details Modal 1 end */}
+
+                {/* Job details Modal  start */}
+                <JobDetailsModal2 />
+                {/* Job details Modal 2 end */}
             </main >
         </Fragment>
     )

@@ -25,7 +25,7 @@ export default function TeamArea7() {
                                     </div>
                                     <h4 className="tm-role">Web <br /> Developer</h4>
                                     <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
-                                    <div className="team__hover-7" style="background-image: url(assets/imgs/team/1.jpg);"></div>
+                                    <div className="team__hover-7" style={{ backgroundImage: "url(assets/imgs/team/1.jpg)" }}></div>
                                 </div>
                             </Link>
 
@@ -38,7 +38,7 @@ export default function TeamArea7() {
                                     </div>
                                     <h4 className="tm-role">Founder <br /> CEO</h4>
                                     <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
-                                    <div className="team__hover-7" style="background-image: url(assets/imgs/team/2.jpg);"></div>
+                                    <div className="team__hover-7" style={{ backgroundImage: "url(assets/imgs/team/2.jpg" }} ></div>
                                 </div>
                             </Link>
 
@@ -50,7 +50,7 @@ export default function TeamArea7() {
                                     </div>
                                     <h4 className="tm-role">Creative <br /> Content Writer </h4>
                                     <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
-                                    <div className="team__hover-7" style="background-image: url(assets/imgs/team/3.jpg);"></div>
+                                    <div className="team__hover-7" style={{ backgroundImage: "url(assets/imgs/team/3.jpg)" }}></div>
                                 </div>
                             </Link>
                             <Link href="/team-details">
@@ -61,7 +61,7 @@ export default function TeamArea7() {
                                     </div>
                                     <h4 className="tm-role">Head of <br /> Researcher</h4>
                                     <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
-                                    <div className="team__hover-7" style="background-image: url(assets/imgs/team/4.jpg);"></div>
+                                    <div className="team__hover-7" style={{ backgroundImage: "url(assets/imgs/team/4.jpg)" }}></div>
                                 </div>
                             </Link>
                             <Link href="/team-details">
@@ -72,7 +72,7 @@ export default function TeamArea7() {
                                     </div>
                                     <h4 className="tm-role">Digital <br /> Marketer</h4>
                                     <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
-                                    <div className="team__hover-7" style="background-image: url(assets/imgs/team/5.jpg);"></div>
+                                    <div className="team__hover-7" style={{ backgroundImage: "url(assets/imgs/team/5.jpg)" }}></div>
                                 </div>
                             </Link>
                             <Link href="/team-details">
@@ -83,7 +83,7 @@ export default function TeamArea7() {
                                     </div>
                                     <h4 className="tm-role">Creative <br /> Designer</h4>
                                     <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
-                                    <div className="team__hover-7" style="background-image: url(assets/imgs/team/6.jpg);"></div>
+                                    <div className="team__hover-7" style={{ backgroundImage: "url(assets/imgs/team/6.jpg)" }}></div>
                                 </div>
                             </Link>
                             <Link href="/team-details">
@@ -94,7 +94,7 @@ export default function TeamArea7() {
                                     </div>
                                     <h4 className="tm-role">Backend <br /> Developer</h4>
                                     <div className="tm-link"><i className="fa-solid fa-arrow-right"></i></div>
-                                    <div className="team__hover-7" style="background-image: url(assets/imgs/team/7.jpg);"></div>
+                                    <div className="team__hover-7" style={{ backgroundImage: "url(assets/imgs/team/7.jpg)" }}></div>
                                 </div>
                             </Link>
                             <div className="team7__img-wrap">

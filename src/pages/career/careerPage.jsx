@@ -1,7 +1,9 @@
 import Head from "next/head";
 import { Fragment, useState } from "react";
-import Blog2 from "../../components/blog/blog-2";
-import CtaArea from "../../components/common/ctaArea";
+import CareerArea from "../../components/career/careerArea";
+import CareerBenefit from "../../components/career/careerBenefit";
+import CareerGallery from "../../components/career/careerGallery";
+import CareerHero from "../../components/career/careerHero";
 import CursorAnimation from "../../components/common/cursorAnimation";
 import Footer from "../../components/common/footer";
 import GoTopButton from "../../components/common/goTopButton";
@@ -11,15 +13,15 @@ import Placeholder from "../../components/common/placeholder";
 import ScrollSmoother from "../../components/common/scrollSmoother";
 import SwitcherArea from "../../components/common/switcherArea";
 
-export default function BlogTwo({ mode }) {
+export default function CareerPage({ mode }) {
     const [bgMode, setBgMode] = useState(mode);
 
     return (
         <Fragment>
             <Head>
-                <title>Blog V.2 - Axtra</title>
-                {/* Fav Icon */}
+                {/* Fav Icon  */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
+                <title>Career -Axtra</title>
                 {
                     bgMode === "dark" ?
                         <>
@@ -86,15 +88,25 @@ export default function BlogTwo({ mode }) {
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
-                            {/* Blog area start */}
-                            <Blog2 />
-                            {/* Blog area end */}
+                            {/* Hero area start */}
+                            <CareerHero />
+                            {/* Hero area start */}
 
-                            {/* CTA area end */}
-                            <CtaArea />
-                            {/* CTA area end */}
+                            {/* Career Gallery area start */}
+                            <CareerGallery />
+                            {/* Career Gallery area end */}
+
+                            {/* Career area start */}
+                            <CareerArea />
+                            {/* Career area end */}
+
+                            {/* Career Benefit area start */}
+                            <CareerBenefit />
+                            {/* Career Benefit area end */}
                         </main>
+                        {/* Footer area start   */}
                         <Footer />
+                        {/* Footer area end    */}
                     </div>
                 </div>
             </main >

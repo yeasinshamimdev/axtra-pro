@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const ServiceHead = () => {
@@ -5,171 +6,171 @@ const ServiceHead = () => {
         <header class="header__area-7">
     <div class="header__inner-2">
       <div class="header__logo-2">
-        <a href="index.html" class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo"/></a>
-        <a href="index.html" class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo"/></a>
+        <Link href="/index " class="logo-dark"><img src="assets/imgs/logo/logo-black.png" alt="Site Logo"/></Link>
+        <Link href="/index " class="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo"/></Link>
       </div>
       <div class="header__nav-2">
         <ul class="main-menu-4 menu-anim">
-          <li><a href="#">home</a>
+          <li><Link href="/">home</Link>
             <ul class="mega-menu-2">
               <li>
                 <ul>
-                  <li><a href="index.html">Digital Maketing</a></li>
-                  <li><a href="index-dark.html">Digital Maketing dark</a></li>
-                  <li><a href="index-2.html">Design Studio </a></li>
-                  <li><a href="index-2-dark.html">Design Studio dark</a></li>
-                  <li><a href="index-3.html">Digital Agency</a></li>
-                  <li><a href="index-3-dark.html">Digital Agency dark</a></li>
-                  <li><a href="index-4.html">personal Portfolio</a></li>
+                  <li><Link href="/index ">Digital Maketing</Link></li>
+                  <li><Link href="/index-dark ">Digital Maketing dark</Link></li>
+                  <li><Link href="/index-2 ">Design Studio </Link></li>
+                  <li><Link href="/index-2-dark ">Design Studio dark</Link></li>
+                  <li><Link href="/index-3 ">Digital Agency</Link></li>
+                  <li><Link href="/index-3-dark ">Digital Agency dark</Link></li>
+                  <li><Link href="/index-4 ">personal Portfolio</Link></li>
                 </ul>
               </li>
               <li>
                 <ul>
 
-                  <li><a href="index-4-dark.html">personal Portfolio dark</a></li>
-                  <li><a href="index-5.html">portfolio showcase</a></li>
-                  <li><a href="index-5-dark.html">portfolio showcase dark</a></li>
-                  <li><a href="index-6.html">Startup Agency</a></li>
-                  <li><a href="index-6-dark.html">Startup Agency dark</a></li>
-                  <li><a href="index-7.html">creative Agency</a></li>
-                  <li><a href="index-7-dark.html">creative Agency dark</a></li>
+                  <li><Link href="/index-4-dark ">personal Portfolio dark</Link></li>
+                  <li><Link href="/index-5 ">portfolio showcase</Link></li>
+                  <li><Link href="/index-5-dark ">portfolio showcase dark</Link></li>
+                  <li><Link href="/index-6 ">Startup Agency</Link></li>
+                  <li><Link href="/index-6-dark ">Startup Agency dark</Link></li>
+                  <li><Link href="/index-7 ">creative Agency</Link></li>
+                  <li><Link href="/index-7-dark ">creative Agency dark</Link></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a href="about.html">About</a></li>
-          <li class="has-megamenu"><a href="about.html">Pages</a>
+          <li><Link href="/about ">About</Link></li>
+          <li class="has-megamenu"><Link href="/about ">Pages</Link>
             <ul class="mega-menu">
               <li>
-                <a>Home</a>
+                <Link>Home</Link>
                 <ul>
-                  <li><a href="index.html">Digital Maketing</a></li>
-                  <li><a href="index-dark.html">Digital Maketing dark</a></li>
-                  <li><a href="index-2.html">Design Studio </a></li>
-                  <li><a href="index-2-dark.html">Design Studio dark</a></li>
-                  <li><a href="index-3.html">Digital Agency</a></li>
-                  <li><a href="index-3-dark.html">Digital Agency dark</a></li>
-                  <li><a href="index-4.html">personal Portfolio</a></li>
-                  <li><a href="index-4-dark.html">personal Portfolio dark</a></li>
-                  <li><a href="index-5.html">portfolio showcase</a></li>
-                  <li><a href="index-5-dark.html">portfolio showcase dark</a></li>
-                  <li><a href="index-6.html">Startup Agency</a></li>
-                  <li><a href="index-6-dark.html">Startup Agency dark</a></li>
-                  <li><a href="index-7.html">creative Agency</a></li>
-                  <li><a href="index-7-dark.html">creative Agency dark</a></li>
+                  <li><Link href="/index ">Digital Maketing</Link></li>
+                  <li><Link href="/index-dark ">Digital Maketing dark</Link></li>
+                  <li><Link href="/index-2 ">Design Studio </Link></li>
+                  <li><Link href="/index-2-dark ">Design Studio dark</Link></li>
+                  <li><Link href="/index-3 ">Digital Agency</Link></li>
+                  <li><Link href="/index-3-dark ">Digital Agency dark</Link></li>
+                  <li><Link href="/index-4 ">personal Portfolio</Link></li>
+                  <li><Link href="/index-4-dark ">personal Portfolio dark</Link></li>
+                  <li><Link href="/index-5 ">portfolio showcase</Link></li>
+                  <li><Link href="/index-5-dark ">portfolio showcase dark</Link></li>
+                  <li><Link href="/index-6 ">Startup Agency</Link></li>
+                  <li><Link href="/index-6-dark ">Startup Agency dark</Link></li>
+                  <li><Link href="/index-7 ">creative Agency</Link></li>
+                  <li><Link href="/index-7-dark ">creative Agency dark</Link></li>
                 </ul>
               </li>
               <li>
-                <a>Service</a>
+                <Link>Service</Link>
                 <ul>
-                  <li><a href="service.html">service</a></li>
-                  <li><a href="service-dark.html">service dark</a></li>
-                  <li><a href="service-2.html">service V.2</a></li>
-                  <li><a href="service-2-dark.html">service V.2 dark</a></li>
-                  <li><a href="service-3.html">service V.3</a></li>
-                  <li><a href="service-3-dark.html">service V.3 dark</a></li>
-                  <li><a href="service-4.html">service V.4</a></li>
-                  <li><a href="service-4-dark.html">service V.4 dark</a></li>
-                  <li><a href="service-5.html">service V.5</a></li>
-                  <li><a href="service-5-dark.html">service V.5 dark</a></li>
-                  <li><a href="service-6.html">service V.6</a></li>
-                  <li><a href="service-6-dark.html">service V.6 dark</a></li>
-                  <li><a href="service-details.html">service details</a></li>
-                  <li><a href="service-details-dark.html">service details dark</a></li>
+                  <li><Link href="/service ">service</Link></li>
+                  <li><Link href="/service-dark ">service dark</Link></li>
+                  <li><Link href="/service-2 ">service V.2</Link></li>
+                  <li><Link href="/service-2-dark ">service V.2 dark</Link></li>
+                  <li><Link href="/service-3 ">service V.3</Link></li>
+                  <li><Link href="/service-3-dark ">service V.3 dark</Link></li>
+                  <li><Link href="/service-4 ">service V.4</Link></li>
+                  <li><Link href="/service-4-dark ">service V.4 dark</Link></li>
+                  <li><Link href="/service-5 ">service V.5</Link></li>
+                  <li><Link href="/service-5-dark ">service V.5 dark</Link></li>
+                  <li><Link href="/service-6 ">service V.6</Link></li>
+                  <li><Link href="/service-6-dark ">service V.6 dark</Link></li>
+                  <li><Link href="/service-details ">service details</Link></li>
+                  <li><Link href="/service-details-dark ">service details dark</Link></li>
                 </ul>
               </li>
               <li>
-                <a>portfolio</a>
+                <Link>portfolio</Link>
                 <ul>
-                  <li><a href="portfolio.html">portfolio</a></li>
-                  <li><a href="portfolio-dark.html">portfolio dark</a></li>
-                  <li><a href="portfolio-2.html">portfolio v.2</a></li>
-                  <li><a href="portfolio-2-dark.html">portfolio v.2 dark</a></li>
-                  <li><a href="portfolio-3.html">portfolio v.3</a></li>
-                  <li><a href="portfolio-3-dark.html">portfolio v.3 dark</a></li>
-                  <li><a href="portfolio-4.html">portfolio v.4</a></li>
-                  <li><a href="portfolio-4-dark.html">portfolio v.4 dark</a></li>
-                  <li><a href="portfolio-5.html">portfolio v.5</a></li>
-                  <li><a href="portfolio-5-dark.html">portfolio v.5 dark</a></li>
-                  <li><a href="portfolio-details.html">portfolio details</a></li>
-                  <li><a href="portfolio-details-dark.html">portfolio details dark</a></li>
+                  <li><Link href="/portfolio ">portfolio</Link></li>
+                  <li><Link href="/portfolio-dark ">portfolio dark</Link></li>
+                  <li><Link href="/portfolio-2 ">portfolio v.2</Link></li>
+                  <li><Link href="/portfolio-2-dark ">portfolio v.2 dark</Link></li>
+                  <li><Link href="/portfolio-3 ">portfolio v.3</Link></li>
+                  <li><Link href="/portfolio-3-dark ">portfolio v.3 dark</Link></li>
+                  <li><Link href="/portfolio-4 ">portfolio v.4</Link></li>
+                  <li><Link href="/portfolio-4-dark ">portfolio v.4 dark</Link></li>
+                  <li><Link href="/portfolio-5 ">portfolio v.5</Link></li>
+                  <li><Link href="/portfolio-5-dark ">portfolio v.5 dark</Link></li>
+                  <li><Link href="/portfolio-details ">portfolio details</Link></li>
+                  <li><Link href="/portfolio-details-dark ">portfolio details dark</Link></li>
                 </ul>
               </li>
               <li>
-                <a>team</a>
+                <Link>team</Link>
                 <ul>
-                  <li><a href="team.html">Team</a></li>
-                  <li><a href="team-dark.html">Team dark</a></li>
-                  <li><a href="team-details.html">Team Details</a></li>
-                  <li><a href="team-details-dark.html">Team Details dark</a></li>
-                  <li><a href="career.html">career</a></li>
-                  <li><a href="career-dark.html">career dark</a></li>
-                  <li><a href="job-details.html">job details</a></li>
-                  <li><a href="job-details-dark.html">job details dark</a></li>
+                  <li><Link href="/team ">Team</Link></li>
+                  <li><Link href="/team-dark ">Team dark</Link></li>
+                  <li><Link href="/team-details ">Team Details</Link></li>
+                  <li><Link href="/team-details-dark ">Team Details dark</Link></li>
+                  <li><Link href="/career ">career</Link></li>
+                  <li><Link href="/career-dark ">career dark</Link></li>
+                  <li><Link href="/job-details ">job details</Link></li>
+                  <li><Link href="/job-details-dark ">job details dark</Link></li>
                 </ul>
               </li>
               <li>
-                <a>blog</a>
+                <Link>blog</Link>
                 <ul>
-                  <li><a href="blog.html">blog</a></li>
-                  <li><a href="blog-dark.html">blog dark</a></li>
-                  <li><a href="blog-2.html">blog v.2</a></li>
-                  <li><a href="blog-2-dark.html">blog v.2 dark</a></li>
-                  <li><a href="category.html">category</a></li>
-                  <li><a href="category-dark.html">category dark</a></li>
-                  <li><a href="blog-details.html">blog details</a></li>
-                  <li><a href="blog-details-dark.html">blog details dark</a></li>
+                  <li><Link href="/blog ">blog</Link></li>
+                  <li><Link href="/blog-dark ">blog dark</Link></li>
+                  <li><Link href="/blog-2 ">blog v.2</Link></li>
+                  <li><Link href="/blog-2-dark ">blog v.2 dark</Link></li>
+                  <li><Link href="/category ">category</Link></li>
+                  <li><Link href="/category-dark ">category dark</Link></li>
+                  <li><Link href="/blog-details ">blog details</Link></li>
+                  <li><Link href="/blog-details-dark ">blog details dark</Link></li>
                 </ul>
               </li>
               <li>
-                <a>Others</a>
+                <Link>Others</Link>
                 <ul>
-                  <li><a href="faq.html">FAQs</a></li>
-                  <li><a href="faq-dark.html">FAQs dark</a></li>
-                  <li><a href="contact.html">contact</a></li>
-                  <li><a href="contact-dark.html">contact dark</a></li>
-                  <li><a href="404.html">404</a></li>
-                  <li><a href="404-dark.html">404 dark</a></li>
+                  <li><Link href="/faq ">FAQs</Link></li>
+                  <li><Link href="/faq-dark ">FAQs dark</Link></li>
+                  <li><Link href="/contact ">contact</Link></li>
+                  <li><Link href="/contact-dark ">contact dark</Link></li>
+                  <li><Link href="/404 ">404</Link></li>
+                  <li><Link href="/404-dark ">404 dark</Link></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a href="portfolio.html">services</a>
+          <li><Link href="/portfolio ">services</Link>
             <ul class="main-dropdown">
-              <li><a href="service.html">service</a>
+              <li><Link href="/service ">service</Link>
                 <ul class="sub-dropdown">
-                  <li><a href="service-dark.html">service dark</a></li>
-                  <li><a href="service-2-dark.html">service V.2 dark</a></li>
-                  <li><a href="service-3-dark.html">service V.3 dark</a></li>
-                  <li><a href="service-4-dark.html">service V.4 dark</a></li>
-                  <li><a href="service-5-dark.html">service V.5 dark</a></li>
-                  <li><a href="service-6-dark.html">service V.6 dark</a></li>
-                  <li><a href="service-details-dark.html">service details dark</a></li>
+                  <li><Link href="/service-dark ">service dark</Link></li>
+                  <li><Link href="/service-2-dark ">service V.2 dark</Link></li>
+                  <li><Link href="/service-3-dark ">service V.3 dark</Link></li>
+                  <li><Link href="/service-4-dark ">service V.4 dark</Link></li>
+                  <li><Link href="/service-5-dark ">service V.5 dark</Link></li>
+                  <li><Link href="/service-6-dark ">service V.6 dark</Link></li>
+                  <li><Link href="/service-details-dark ">service details dark</Link></li>
                 </ul>
               </li>
-              <li><a href="service-2.html">service V.2</a></li>
-              <li><a href="service-3.html">service V.3</a></li>
-              <li><a href="service-4.html">service V.4</a></li>
-              <li><a href="service-5.html">service V.5</a></li>
-              <li><a href="service-6.html">service V.6</a></li>
-              <li><a href="service-details.html">service details</a></li>
+              <li><Link href="/service-2 ">service V.2</Link></li>
+              <li><Link href="/service-3 ">service V.3</Link></li>
+              <li><Link href="/service-4 ">service V.4</Link></li>
+              <li><Link href="/service-5 ">service V.5</Link></li>
+              <li><Link href="/service-6 ">service V.6</Link></li>
+              <li><Link href="/service-details ">service details</Link></li>
             </ul>
           </li>
-          <li><a href="team.html">team</a>
+          <li><Link href="/team ">team</Link>
             <ul class="main-dropdown">
-              <li><a href="team.html">team</a></li>
-              <li><a href="team-details.html">team details</a></li>
+              <li><Link href="/team ">team</Link></li>
+              <li><Link href="/team-details ">team details</Link></li>
             </ul>
           </li>
-          <li><a href="blog.html">Blog</a>
+          <li><Link href="/blog ">Blog</Link>
             <ul class="main-dropdown">
-              <li><a href="blog.html">blog</a></li>
-              <li><a href="blog-2.html">blog v.2</a></li>
-              <li><a href="category.html">category</a></li>
-              <li><a href="blog-details.html">blog details</a></li>
+              <li><Link href="/blog ">blog</Link></li>
+              <li><Link href="/blog-2 ">blog v.2</Link></li>
+              <li><Link href="/category ">category</Link></li>
+              <li><Link href="/blog-details ">blog details</Link></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><Link href="/contact ">Contact</Link></li>
         </ul>
       </div>
       <div class="header__nav-icon-7">

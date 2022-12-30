@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React, { useState } from 'react';
-import CtaArea from '../../components/common/ctaArea';
+ import CtaArea from '../../components/common/ctaArea';
 import CursorAnimation from '../../components/common/cursorAnimation';
 import Footer from '../../components/common/footer';
 import GoTopButton from '../../components/common/goTopButton';
@@ -8,8 +8,7 @@ import HeaderArea from '../../components/common/headerArea';
 import Offcanvas from '../../components/common/offcanvas';
 import Placeholder from '../../components/common/placeholder';
 import ScrollSmoother from '../../components/common/scrollSmoother';
-import SwitcherArea from '../../components/common/switcherArea';
-import SwitcherAreaDark from '../../components/common/switcherAreaDark';
+ import SwitcherAreaDark from '../../components/common/switcherAreaDark';
 import BrandArea from '../../components/service/brandArea';
 import ServiceFiveMain from '../../components/service/serviceFiveMain';
 import ServiceFourMain from '../../components/service/serviceFourMain';
@@ -22,6 +21,7 @@ const ServiceForAll = ({ dark, number }) => {
     const handleDark = (prop) => {
         setStayDark(prop)
     }
+ 
     return (
         <div>
             <Head>

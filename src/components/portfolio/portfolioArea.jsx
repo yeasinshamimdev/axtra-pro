@@ -4,7 +4,7 @@ import React from 'react';
 import { portfolioContent } from '../constants/constants'; 
 
 const PortfolioArea = () => { 
-    return (
+    return ( 
         <section className="portfolio__area-6">
             <div className="container line pt-100 pb-140">
                 <span className="line-3"></span>

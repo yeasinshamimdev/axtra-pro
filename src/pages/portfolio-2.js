@@ -1,10 +1,11 @@
-import PortfolioTwo from "./portfolio/portfolioTwo";
-
+ import PortfolioForAll from "./portfolio/portfolioForAll";
+ 
  
 const PortfolioSecond = () => {
+ 
     return (
         <>
-            <PortfolioTwo dark={false} />
+            <PortfolioForAll dark={false} number={2}/>
         </>
     );
 };

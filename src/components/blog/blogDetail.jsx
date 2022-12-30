@@ -62,8 +62,8 @@ export default function BlogDetail() {
                             <img src="assets/imgs/blog/detail/3.jpg" alt="Code" />
                         </div>
                         <div className="blog__detail-tags">
-                            <p className="sub-title-anim">tags: <Link href="tag.html">design</Link>, <Link href="tag.html">figma</Link>,
-                                <Link href="tag.html">update</Link>
+                            <p className="sub-title-anim">tags: <Link href="/tag">design</Link>, <Link href="/tag">figma</Link>,
+                                <Link href="/tag">update</Link>
                             </p>
                         </div>
                     </div>

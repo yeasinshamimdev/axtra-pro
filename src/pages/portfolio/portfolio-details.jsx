@@ -50,7 +50,7 @@ const PortfolioDetailsPage = ({ dark }) => {
                 <Placeholder />
 
                 {/* Switcher Area Start  */}
-                {dark ? <SwitcherAreaDark handleDark={handleDark} /> : <SwitcherArea />}
+                <SwitcherAreaDark handleDark={handleDark} dark={dark} />  
                 {/* Switcher Area End  */}
 
                 {/* Scroll Smoother  */}

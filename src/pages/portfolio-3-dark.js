@@ -2,6 +2,7 @@
 import PortfolioForAll from "./portfolio/portfolioForAll";
 
 const PortfolioThirdDark = () => {
+    
     return (
         <>
             <PortfolioForAll dark={true} number={3}/>

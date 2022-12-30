@@ -1,5 +1,6 @@
-import PortfolioDetailsPage from "./portfolio/portfolio";
+import PortfolioDetailsPage from "./portfolio/portfolio-details";
 
+ 
   
 const PortfolioDetails = () => {
   return (

@@ -5,17 +5,33 @@ import GoTopButton from '../../components/common/goTopButton';
 import Offcanvas from '../../components/common/offcanvas';
 import Placeholder from '../../components/common/placeholder';
 import ScrollSmoother from '../../components/common/scrollSmoother';
-import SwitcherArea from '../../components/common/switcherArea';
-import SwitcherAreaDark from '../../components/common/switcherAreaDark';
+ import SwitcherAreaDark from '../../components/common/switcherAreaDark';
 import PortfolioHead from '../../components/portfolio/portfolioHead';
 import Footer from '../../components/common/footer';
 import PortfolioDetailsArea from '../../components/portfolio/portfolioDetailsArea';
+import useScript from '../../../scripts/useScript';
 
 const PortfolioDetailsPage = ({ dark }) => {
     const [stayDark, setStayDark] = useState(true)
     const handleDark = (prop) => {
         setStayDark(prop)
     }
+    useScript("assets/js/jquery-3.6.0.min.js")
+    useScript("assets/js/bootstrap.bundle.min.js")
+    useScript("assets/js/swiper-bundle.min.js")
+    useScript("assets/js/counter.js")
+    useScript("assets/js/gsap.min.js")
+    useScript("assets/js/ScrollTrigger.min.js")
+    useScript("assets/js/ScrollToPlugin.min.js")
+    useScript("assets/js/ScrollSmoother.min.js")
+    useScript("assets/js/SplitText.min.js")
+    useScript("assets/js/chroma.min.js")
+    useScript("assets/js/jquery.meanmenu.min.js")
+    useScript("assets/js/main.js")
+    useScript("assets/js/progressbar.js")
+    useScript("assets/js/TweenMax.min.js")
+    useScript("https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js")
+
     return (
         <div>
             <Head>
@@ -28,19 +44,7 @@ const PortfolioDetailsPage = ({ dark }) => {
 
                 {/* Fav Icon   */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-
-                <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" async />
-                <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" async />
-                <script type="text/javascript" src="assets/js/swiper-bundle.min.js" async />
-                <script type="text/javascript" src="assets/js/counter.js" async />
-                <script type="text/javascript" src="assets/js/gsap.min.js" async />
-                <script type="text/javascript" src="assets/js/ScrollTrigger.min.js" async />
-                <script type="text/javascript" src="assets/js/ScrollToPlugin.min.js" async />
-                <script type="text/javascript" src="assets/js/ScrollSmoother.min.js" async />
-                <script type="text/javascript" src="assets/js/SplitText.min.js" async />
-                <script type="text/javascript" src="assets/js/chroma.min.js" async />
-                <script type="text/javascript" src="assets/js/jquery.meanmenu.min.js" async />
-                <script type="text/javascript" src="assets/js/main.js" async />
+ 
             </Head>
             <main className={dark && stayDark && "dark"}>
                 {/* Cursor Animation  */}

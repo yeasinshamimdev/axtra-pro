@@ -16,6 +16,7 @@ const PortfolioDetailsPage = ({ dark }) => {
     const handleDark = (prop) => {
         setStayDark(prop)
     }
+    //Script hooks
     useScript("assets/js/jquery-3.6.0.min.js")
     useScript("assets/js/bootstrap.bundle.min.js")
     useScript("assets/js/swiper-bundle.min.js")
